@@ -1,0 +1,36 @@
+---
+label: Highlights
+hide_body: true
+fields:
+- name: highlights
+  type: field_group_list
+  fields:
+  - name: highlight_headline_bold
+    type: text
+    config:
+      required: false
+    label: Headline Bold
+  - name: highlight_headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: highlight_subhead
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Subhead
+  - name: highlight_icon
+    type: file
+    config:
+      maxSize: 1
+    label: Icon
+  config:
+    min: 
+    max: 3
+    labelField: 
+  label: Highlights

@@ -1,0 +1,43 @@
+{% if page.news.size > 0 %}
+<section id="news" class="bg-white py-5">
+  <div class="container text-center pb-5">
+    <div class="d-inline-block">
+      <h3 class="text-center d-inline-block">News</h3>
+      <div class="bg-danger pt-1 w-50 mx-auto"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% assign items = page.news %} {% for item in items %}
+      <div class="col-md-6 mb-3 text-center">
+        <div
+          class="bg-white shadow p-3 h-100 d-flex flex-column align-items-center"
+        >
+          {% if item.news_headline != '' and item.news_headline != nil %}
+          <h4>{{item.news_headline}}</h4>
+          {% endif %} {% if item.news_featured_image != '' and
+          item.news_featured_image != nil %}
+          <img
+            src="{{item.news_featured_image}}"
+            class="mb-3"
+            style="max-width: 200px;"
+            alt="{{item.news_subhead}}"
+          />
+          {% endif %} {% if item.news_subhead != '' and item.news_subhead != nil
+          %}
+          <h5>{{item.news_subhead}}</h5>
+          {% endif %} {{item.news_body|markdownify}} {% if item.news_url != ''
+          and item.news_url != nil %}
+          <div class="text-center mt-auto">
+            <a href="{{item.news_url}}" class="btn btn-danger btn-lg"
+              >Learn More</a
+            >
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

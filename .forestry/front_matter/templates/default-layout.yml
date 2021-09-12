@@ -1,0 +1,48 @@
+---
+label: Default Layout
+hide_body: false
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
+  description: Used for Search Engines
+- name: permalink
+  type: include
+  config: {}
+  template: permalink
+  label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+  description: Used for Search Engines
+- name: meta_tags
+  type: include
+  config: {}
+  template: key-words
+  label: Key Words
+pages:
+- contact/ask-us-a-question.md
+- contact/request-support.md
+- contact/schedule-a-demo.md
+- contact/server-recommendations.md
+- hardware/data-collection-examples.md
+- hardware/machine-connection-examples.md
+- hardware/smi-2-machine-interface.md
+- hardware/smi-2-machine-monitoring-interface.md
+- our-solution/shopfloorconnect-report-filters.md
+- reseller-resources.md
+- resources/downtime-tracking-software-savings-calculator.md
+- resources/fabricator-realizes-huge-cost-savings.md
+- resources/manufacturer-trades-labor-for-machine-uptime.md
+- resources/shopfloorconnect-documentation.md
+- thank-you-for-signing-up-for-our-mailing-list.md
+- thank-you-for-your-inquiry.md

@@ -1,0 +1,36 @@
+// color overrides 
+// #bd403e
+$red:           #bd403e;
+$pink:          #ef5350;
+$blue:          #3399ff;
+$yellow:        #ffca28;
+$green:         #66cc66;
+$purple:        #b236bc;
+$gray-700:      #334754;
+$gray-900:      #252525;
+
+// theme overrides
+$primary:           $gray-700;
+$info:              $blue;
+
+// text color
+$body-color:        $gray-900;
+$headings-color:    $gray-700;
+
+// links
+$link-color: $red;
+
+// nav overrides
+$navbar-light-color: #464646;
+
+// dropdown overrides
+$dropdown-link-active-bg:  $red;
+
+// breadcrumb override
+$breadcrumb-bg: transparent;
+$breadcrumb-divider: quote(">");
+$breadcrumb-active-color: $primary;
+$breadcrumb-divider-color: $primary;
+
+// fonts
+$font-family-sans-serif: 'Asap', sans-serif;

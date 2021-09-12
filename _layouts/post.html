@@ -1,0 +1,17 @@
+{% include shared/header.html %}
+<article class="clearfix">
+  {% if page.featured_image != '' and page.featured_image != nil %}
+  <img
+    src="{{ page.featured_image | relative_url }}"
+    class="mb-3 mr-3 float-left"
+    style="max-width: 320px;"
+  />
+  {% endif %}
+  <div>
+    {{ page.content | mardownify }} {% if page.external_link != '' and
+    page.external_link != nil %}
+    <a href="{{ page.external_link }}" target="_blank">Read More</a>
+    {% endif %}
+  </div>
+</article>
+{% include shared/footer.html %}

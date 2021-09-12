@@ -1,0 +1,16 @@
+li.nav-item.dropdown.show > a {
+  background-color: $red;
+  @extend .text-white;
+  @extend .rounded;
+}
+
+li.nav-item.dropdown > a:hover,
+li.nav-item.dropdown > a:active,
+li.nav-item.dropdown > a:focus {
+  background-color: $red;
+  @extend .text-white;
+  @extend .rounded;
+}
+.navbar-nav > .nav-item:last-of-type .dropdown-menu {
+  @extend .dropdown-menu-right;
+}

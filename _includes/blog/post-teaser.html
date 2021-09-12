@@ -1,0 +1,35 @@
+<article class="shadow-sm p-3 mb-5 rounded-sm d-sm-flex align-items-start">
+  {% if post.featured_image != '' and post.featured_image != nil %}
+  <div class="text-center text-md-left mb-3 mb-sm-0 mr-sm-3">
+    <img
+      src="{{ post.featured_image | relative_url }}"
+      class="w-100"
+      style="max-width: 320px;"
+    />
+  </div>
+  {% endif %}
+  {% if post.featured_image != '' and post.featured_image != nil %}
+  <div class="flex-1">
+  {% else %}
+  <div class="w-100">
+  {% endif %}
+  <div class="flex-1">
+    <h3 class="mt-0">
+      {% if post.external_link != '' and post.external_link != nil %}
+      <a href="{{ post.external_link }}" target="_blank">{{post.title}}</a>
+      {% else %}
+      <a href="{{ post.url | relative_url }}">{{post.title}}</a>
+      {% endif %}
+    </h3>
+    <p class="text-muted">
+      <small>{{post.date | date_to_string: "ordinal", "US" }}</small>
+    </p>
+    {% if post.external_link != '' and post.external_link != nil %} {{
+    post.content | mardownify }} {% else %} {{ post.excerpt | mardownify }} {%
+    endif %} {% if post.external_link != '' and post.external_link != nil %}
+    <a href="{{ post.external_link }}" target="_blank">Read More</a>
+    {% else %}
+    <a href="{{ post.url | relative_url }}">Read More</a>
+    {% endif %}
+  </div>
+</article>

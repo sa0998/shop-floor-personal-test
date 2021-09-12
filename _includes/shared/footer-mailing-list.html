@@ -1,0 +1,11 @@
+{% if site.data.mailing_list.url != '' and site.data.mailing_list.url != nil %}
+<p class="text-white font-weight-light text-uppercase h6">
+  Sign Up For Our Mailing List
+</p>
+<a
+  href="{{site.data.mailing_list.url}}"
+  target="_blank"
+  class="btn btn-danger btn-lg text-uppercase rounded-pill"
+  >Sign Up</a
+>
+{% endif %}

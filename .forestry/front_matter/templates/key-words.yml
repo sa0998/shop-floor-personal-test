@@ -1,0 +1,8 @@
+---
+label: Key Words
+hide_body: true
+fields:
+- name: key_words
+  type: tag_list
+  default: []
+  label: Key Words

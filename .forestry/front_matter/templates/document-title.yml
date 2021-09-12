@@ -1,0 +1,9 @@
+---
+label: Document Title
+hide_body: true
+fields:
+- name: document_title
+  type: text
+  config:
+    required: false
+  label: Document Title

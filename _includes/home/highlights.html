@@ -1,0 +1,35 @@
+{% if page.highlights.size > 0 %}
+<section id="highlights" class="py-5 bg-white">
+  <div class="container">
+    <div class="row">
+      {% assign items = page.highlights %} {% for item in items %}
+      <div class="col-md-4">
+        <div class="d-flex align-items-start">
+          {% if item.highlight_icon != '' and item.highlight_icon != nil %}
+          <div
+            class="rounded-circle bg-danger class highlight"
+            style="background-image: url('{{ item.highlight_icon | relative_url }}');"
+          ></div>
+          {% else %}
+          <div class="rounded-circle bg-danger class highlight"></div>
+          {% endif %}
+          <div class="pl-3">
+            {% if item.highlight_headline != '' and item.highlight_headline !=
+            nil%}
+            <h2 class="font-weight-normal h4">
+              {% if item.highlight_headline_bold != '' and
+              item.highlight_headline_bold != nil%}
+              <span class="font-weight-bold"
+                >{{item.highlight_headline_bold}}</span
+              >
+              {% endif %} {{item.highlight_headline}}
+            </h2>
+            {% endif %} {{item.highlight_subhead | markdownify }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

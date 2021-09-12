@@ -1,0 +1,30 @@
+---
+- headline: Running
+  body: Running time is logged as 'Uptime', and means the machine is operating and
+    making parts. The Running time becomes the basis for the Availability portion
+    of the OEE calculation.
+  icon: "/uploads/2020/04/15/running.gif"
+- headline: Idle
+  body: The Idle state indicates that the machine has stopped, but ShopFloorConnect
+    does not (yet) know why. Idle time is converted to downtime or changeover when
+    the machine operator selects a downtime reason. When OEE is calculated, any unconverted
+    Idle time it treated as Unplanned Down
+  icon: "/uploads/2020/04/15/idle.gif"
+- headline: Unplanned Downtime
+  body: The machine is stopped, the reason for the stoppage has been reported to ShopFloorConnect,
+    and the reason had been previously assigned to the Unplanned downtime state. Unplanned
+    downtime causes the OEE software to reduce the “Availability” percentage.
+  icon: "/uploads/2020/04/15/stopped.gif"
+- headline: Planned Downtime
+  body: The machine is stopped, the reason for the stoppage has been reported to ShopFloorConnect,
+    and the reason had been previously assigned to the Planned Downtime state. Planned
+    downtime logged by the OEE system DOES NOT affect the “Availability” calculation.
+  icon: "/uploads/2020/04/15/planned.gif"
+- headline: Changeover
+  body: The machine is stopped, the reason for the stoppage has been reported to ShopFloorConnect,
+    and the reason had been previously assigned to the Changeover (Setup)state. The
+    ShopFloorConnect OEE software allows the user to decide whether Changeover is
+    logged as planned or unplanned downtime. When logged as unplanned downtime, the
+    OEE software will reduce the availability percentage for any Changeover time logged
+    by the system.
+  icon: "/uploads/2020/04/15/change.gif"

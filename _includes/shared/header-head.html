@@ -1,0 +1,75 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+{% if page.document_title %}
+<title>{{page.document_title}}</title>
+{% else %}
+<title>{{site.name}}</title>
+{% endif %} {% if page.description != '' and page.description != nil %}
+<meta name="description" content="{{page.description}}" />
+{% else %}
+<meta name="description" content="{{site.data.seo.description}}" />
+{% endif %} {% if page.key_words.size > 0 %}
+<meta
+  name="keywords"
+  content="{{page.key_words | array_to_sentence_string:''}}"
+/>
+{% endif %}
+<link
+  href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,700"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}" />
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"
+></script>
+{% if jekyll.environment == "production" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38950988-1"></script>
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-38950988-1');
+
+</script>
+{% endif %}
+<script src="{{ 'assets/js/vendor/bootstrap.min.js' | relative_url }}"></script>
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{'apple-touch-icon.png' | relative_url }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="{{'favicon-32x32.png' | relative_url }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="{{'favicon-16x16.png' | relative_url }}"
+/>
+<link rel="manifest" href="{{'site.webmanifest' | relative_url }}" />
+<link
+  rel="mask-icon"
+  href="{{'safari-pinned-tab.svg' | relative_url }}"
+  color="#334754"
+/>
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="theme-color" content="#ffffff" />

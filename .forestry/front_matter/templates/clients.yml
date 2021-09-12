@@ -1,0 +1,24 @@
+---
+label: Clients
+hide_body: true
+fields:
+- name: clients
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: logo
+    type: file
+    config:
+      maxSize: 1
+    label: Logo
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Clients
+pages:
+- _data/clients.yml

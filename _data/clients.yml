@@ -1,0 +1,110 @@
+---
+clients:
+  - logo: "/uploads/2020/04/15/001.gif"
+    name: GE
+  - logo: "/uploads/2020/04/15/002.gif"
+    name: Alcoa
+  - logo: "/uploads/2020/04/15/003.gif"
+    name: Electrolux
+  - logo: "/uploads/2020/04/15/004.gif"
+    name: SnapOn
+  - logo: "/uploads/2020/04/15/005.gif"
+    name: InSinkErator
+  - logo: "/uploads/2020/04/15/006.gif"
+    name: Magna
+  - logo: "/uploads/2020/04/15/007.gif"
+    name: ThyssenKrupp
+  - logo: "/uploads/2020/04/15/008.gif"
+    name: Raybestos
+  - logo: "/uploads/2020/04/15/009.gif"
+    name: ARaymond
+  - logo: "/uploads/2020/04/15/010.gif"
+    name: American Water Heaters
+  - logo: "/uploads/2020/04/15/011.gif"
+    name: Chamber
+  - logo: "/uploads/2020/04/15/012.gif"
+    name: Freudenberg
+  - logo: "/uploads/2020/04/15/013.gif"
+    name: Alliance Laundry Systems
+  - logo: "/uploads/2020/04/15/014.gif"
+    name: Impulse
+  - logo: "/uploads/2020/04/15/015.gif"
+    name: Kapco
+  - logo: "/uploads/2020/04/15/016.gif"
+    name: Kars
+  - logo: "/uploads/2020/04/15/017.gif"
+    name: Kenmode
+  - logo: "/uploads/2020/04/15/018.gif"
+    name: CCC
+  - logo: "/uploads/2020/04/15/019.gif"
+    name: Brunk
+  - logo: "/uploads/2020/04/15/020.gif"
+    name: Badger Plus
+  - logo: "/uploads/2020/04/15/021.gif"
+    name: WW
+  - logo: "/uploads/2020/04/15/022.gif"
+    name: Larsen And Shaw
+  - logo: "/uploads/2020/04/15/023.gif"
+    name: Hobson Motzer
+  - logo: "/uploads/2020/04/15/024.gif"
+    name: J&G Foods
+  - logo: "/uploads/2020/04/15/025.gif"
+    name: ITD Precesion
+  - logo: "/uploads/2020/04/15/026.gif"
+    name: MNP
+  - logo: "/uploads/2020/04/15/027.gif"
+    name: Husqvarna
+  - logo: "/uploads/2020/04/15/028.gif"
+    name: Transmatic
+  - logo: "/uploads/2020/04/15/029.gif"
+    name: Geocom
+  - logo: "/uploads/2020/04/15/030.gif"
+    name: ODM
+  - logo: "/uploads/2020/04/15/031.gif"
+    name: PKUSA
+  - logo: "/uploads/2020/04/15/032.gif"
+    name: Ramcel
+  - logo: "/uploads/2020/04/15/033.gif"
+    name: SkoDie
+  - logo: "/uploads/2020/04/15/034.gif"
+    name: StemCo
+  - logo: "/uploads/2020/04/15/035.gif"
+    name: nth Works
+  - logo: "/uploads/2020/04/15/036.gif"
+    name: MCSI
+  - logo: "/uploads/2020/04/15/037.gif"
+    name: Presco
+  - logo: "/uploads/2020/04/15/038.gif"
+    name: Waukesha
+  - logo: "/uploads/2020/04/15/039.gif"
+    name: STS
+  - logo: "/uploads/2020/04/15/040.gif"
+    name: Dalsin
+  - logo: "/uploads/2020/04/15/041.gif"
+    name: Jtekt
+  - logo: "/uploads/2020/04/15/042.gif"
+    name: Goodman
+  - logo: "/uploads/2020/04/15/043.gif"
+    name: Ilco
+  - logo: "/uploads/2020/04/15/044.gif"
+    name: F&P
+  - logo: "/uploads/2020/04/15/045.gif"
+    name: Procesos Controlados
+  - logo: "/uploads/2020/04/15/046.gif"
+    name: barr
+  - logo: "/uploads/2020/04/15/047.gif"
+    name: Eurospec
+  - logo: "/uploads/2020/04/15/048.gif"
+    name: LaZboy
+  - logo: "/uploads/2020/04/15/049.gif"
+    name: Ranger Die
+  - logo: "/uploads/2020/04/15/050.gif"
+    name: Tenneco
+  - logo: "/uploads/2020/04/15/051.gif"
+    name: Twizzlers
+  - logo: "/uploads/2020/04/15/052.gif"
+    name: Clamason
+  - logo: "/uploads/2020/04/15/053.gif"
+    name: Dennon Steel Corp.
+  - logo: "/uploads/2020/04/15/054.gif"
+    name: Schindler

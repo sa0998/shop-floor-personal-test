@@ -1,0 +1,22 @@
+{% if site.data.clients.clients.size > 0 %}
+<section id="clients" class="bg-white py-5">
+  <div class="container text-center">
+    <div class="d-inline-block">
+      <h3 class="text-center d-inline-block">Our Clients</h3>
+      <div class="bg-danger pt-1 w-50 mx-auto"></div>
+    </div>
+    <div class="flexslider carousel">
+      <ul class="slides">
+        {% for client in site.data.clients.clients %}
+        <li>
+          <img
+            src="{{client.logo | relative_url}}"
+            alt="{{client.name}} Logo"
+          />
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endif %}

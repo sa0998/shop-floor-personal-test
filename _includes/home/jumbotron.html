@@ -1,0 +1,47 @@
+{% if page.jumbotron_background != '' and page.jumbotron_background != nil %}
+<section
+  id="hero"
+  class="py-5"
+  style="background: url('{{ page.jumbotron_background | relative_url }}') center center / cover no-repeat; "
+>
+  {% else %}
+  <section id="hero" class="py-5 hero">
+    {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          {% if page.jumbotron_headline != '' and page.jumbotron_headline != nil
+          %}
+          <h1 class="text-uppercase font-weight-normal">
+            {% if page.jumbotron_headline_highlight != '' and
+            page.jumbotron_headline_highlight != nil %}
+            <span class="text-danger"
+              >{{page.jumbotron_headline_highlight}}</span
+            >
+            {% endif %} {{page.jumbotron_headline}}
+          </h1>
+          {% endif %} {{page.jumbotron_text | markdownify}} {% assign buttons =
+          page.jumbotron_buttons %} {% for button in buttons %} {% assign item =
+          site.pages | where:"path", button.page[0] | first %}
+          <a
+            href="{{item.url}}"
+            class="btn btn-lg {% cycle 'btn-danger', 'btn-primary' %}"
+          >
+            {% if button.text != '' and button.text != nil %} {{ button.text }}
+            {% else %} Click Here {% endif %}
+          </a>
+          {% endfor %}
+        </div>
+        <div class="col-md-6">
+          {% if page.jumbotron_image != '' and page.jumbotron_image != nil %}
+          <img
+            src="{{ page.jumbotron_image | relative_url }}"
+            class="w-100"
+            alt="Shopfloor Interface"
+          />
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

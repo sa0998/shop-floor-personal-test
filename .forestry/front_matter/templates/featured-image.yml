@@ -1,0 +1,9 @@
+---
+label: Featured Image
+hide_body: true
+fields:
+- name: featured_image
+  type: file
+  config:
+    maxSize: 1
+  label: Featured Image

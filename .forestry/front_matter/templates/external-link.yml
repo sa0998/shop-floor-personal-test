@@ -1,0 +1,9 @@
+---
+label: External Link
+hide_body: true
+fields:
+- name: external_link
+  type: text
+  config:
+    required: false
+  label: External Link

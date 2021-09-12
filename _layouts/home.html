@@ -1,0 +1,16 @@
+---
+layout: home
+---
+
+{% include shared/header.html %}
+{% include home/jumbotron.html %}
+{% include home/highlights.html %}
+{% if page.content != "" and page.content != nil%}
+    <section class="container">
+        {{ content }}
+    </section>
+{% endif %}
+{% include home/video.html %}
+{% include home/clients.html %}
+{% include home/news.html %}
+{% include shared/footer.html %}

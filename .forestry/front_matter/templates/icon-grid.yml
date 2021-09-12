@@ -1,0 +1,33 @@
+---
+label: Icon Grid
+hide_body: true
+fields:
+- name: icon_grid_items
+  type: field_group_list
+  fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 1
+    label: Icon
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Icon Grid Items
+pages:
+- _data/icon_grid.yml

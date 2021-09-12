@@ -1,0 +1,58 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: Meta Data
+- type: document
+  path: _data/icon_grid.yml
+  label: Icon Grid
+- type: document
+  path: _data/clients.yml
+  label: Clients
+- type: document
+  path: _data/mailing_list.yml
+  label: Mailing List
+- type: document
+  path: _data/footer_sign_off.yml
+  label: Footer Sign Off
+- type: document
+  path: _data/contact_information.yml
+  label: Contact Information
+- type: document
+  path: _data/social_media_accounts.yml
+  label: Social Media Accounts
+- type: document
+  path: _data/seo.yml
+  label: SEO
+- type: heading
+  label: Content
+- type: jekyll-pages
+  label: Pages
+  create: all
+  templates:
+  - blog-layout
+  - default-layout
+  - homepage-layout
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - post-layout
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site

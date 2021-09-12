@@ -1,0 +1,41 @@
+---
+label: News
+hide_body: true
+fields:
+- name: news
+  type: field_group_list
+  fields:
+  - name: news_headline
+    type: text
+    config:
+      required: false
+    label: News Headline
+  - name: news_featured_image
+    type: file
+    config:
+      maxSize: 1
+    label: News Featured Image
+  - name: news_subhead
+    type: text
+    config:
+      required: false
+    label: News Subhead
+  - name: news_body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: News Body
+  - name: news_url
+    type: text
+    config:
+      required: false
+    label: News URL
+  config:
+    min: 
+    max: 2
+    labelField: 
+  label: News

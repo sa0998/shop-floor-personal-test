@@ -1,0 +1,9 @@
+---
+label: Title
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title

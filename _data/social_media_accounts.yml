@@ -1,0 +1,10 @@
+---
+- url: https://www.facebook.com/shopfloorOEE
+  name: Facebook
+  class: fab fa-facebook-square
+- url: https://www.linkedin.com/company/shop-floor-connect/
+  name: LinkedIn
+  class: fab fa-linkedin
+- name: YouTube
+  class: fab fa-youtube
+  url: https://www.youtube.com/user/shopfloorconnect

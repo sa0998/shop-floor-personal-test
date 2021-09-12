@@ -1,0 +1,16 @@
+.highlight {
+    height: 75px;
+    min-width: 75px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+}
+.highlight.highlight--1 {
+    background-image: url('/assets/images/highlight-icon-1.svg');
+}
+.highlight.highlight--2 {
+    background-image: url('/assets/images/highlight-icon-2.svg');
+}
+.highlight.highlight--3 {
+    background-image: url('/assets/images/highlight-icon-3.svg');
+}

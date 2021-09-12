@@ -1,0 +1,10 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb px-0 pb-0">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    {% if page.dir != nil and page.dir != "/" %}
+    <li class="breadcrumb-item text-capitalize">
+      {{page.dir | replace: "/", "" | replace: "-", " " }}
+    </li>
+    {% endif %}
+  </ol>
+</nav>

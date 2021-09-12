@@ -1,0 +1,12 @@
+---
+label: Permalink
+hide_body: true
+fields:
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  description: <a href="https://jekyllrb.com/docs/permalinks/" title="https://jekyllrb.com/docs/permalinks/"
+    target="_blank">https://jekyllrb.com/docs/permalinks/</a>
+  default: ''

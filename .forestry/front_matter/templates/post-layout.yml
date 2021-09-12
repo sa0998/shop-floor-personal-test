@@ -1,0 +1,49 @@
+---
+label: Post Layout
+hide_body: false
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
+  description: Used for Search Engines
+- name: permalink
+  type: include
+  config: {}
+  template: permalink
+  label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+- name: meta_tags
+  type: include
+  config: {}
+  template: key-words
+  label: Key Words
+- name: date
+  type: include
+  config: {}
+  template: date
+  label: Date
+- name: featured_image
+  type: include
+  config: {}
+  template: featured-image
+  label: Featured Image
+- name: external_link
+  type: include
+  config: {}
+  template: external-link
+  label: External Link
+pages:
+- _posts/2014-08-08-shopfloorconnect®-software-now-sends-conditional-text-alerts.md
+- _posts/2021-08-16-production-tracking-software-that-makes-a-difference.md
+- _posts/2021-08-30-what-to-look-for-in-production-tracking-software.md

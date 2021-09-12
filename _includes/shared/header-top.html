@@ -1,0 +1,17 @@
+<div class="bg-danger py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        {% if site.data.contact_information.phone != "" and
+        site.data.contact_information.phone != nil %}
+        <a href="tel:{{site.data.contact_information.phone}}" class="text-white"
+          >{{site.data.contact_information.phone}}</a
+        >
+        {% endif %}
+      </div>
+      <div class="col-6 text-right">
+        {% include shared/social-media-accounts.html %}
+      </div>
+    </div>
+  </div>
+</div>

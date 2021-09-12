@@ -1,0 +1,6 @@
+<h1>{{page.title}}</h1>
+{% if page.date != '' and page.date != nil %}
+<p class="text-muted">
+  <small>{{page.date | date_to_string: "ordinal", "US" }}</small>
+</p>
+{% endif %}

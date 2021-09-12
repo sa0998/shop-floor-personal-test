@@ -1,0 +1,18 @@
+{% if site.data.icon_grid.size > 0 %}
+<div class="row">
+  {% for item in site.data.icon_grid %}
+  <div class="col-md-6">
+    <div class="media mb-5">
+      {% if item.icon != "" and item.icon != nil %}
+      <img src="{{ item.icon | relative_url }}" class="mr-3" alt="" />
+      {% endif %}
+      <div class="media-body">
+        {% if item.headline != "" and item.headline != nil %}
+        <h5 class="mt-0">{{item.headline}}</h5>
+        {% endif %} {{ item.body | markdownify }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

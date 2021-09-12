@@ -1,0 +1,89 @@
+<form action="index.html" method="GET" id="form">
+    <table
+      width="55%"
+      border="0"
+      cellpadding="8"
+      cellspacing="12"
+      style="border-width: 0px; background-color: #ffffff;"
+    >
+    <tbody>
+        <tr>
+          <td><label>Number of Machines:</label><br /></td>
+          <td>
+            <input
+              type="text"
+              name="machines"
+              id="machines"
+              size="4"
+              title="Enter the number of machines you intend to connect to ShopFloorConnect"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Average Machine Billing $$/Hour :</label><br /></td>
+          <td>
+            <input
+              type="text"
+              name="billing"
+              id="billing"
+              size="4"
+              title="Estimate the current average dollar rate at which you bill your machines and enter it here."
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Estimated Current Uptime %:</label><br /></td>
+          <td>
+            <input
+              type="text"
+              name="utilization"
+              id="utilization"
+              title="Estimate your current average machine utilization % and enter it here."
+              size="4"
+            />%
+          </td>
+        </tr>
+        <tr>
+          <td><label>Number of 8-hour Shifts per Day:</label><br /></td>
+          <td>
+            <select
+              name="shifts"
+              id="shifts"
+              title="Select the number of 8-hour shifts you run per day"
+            >
+              <option selected="" disabled="" hidden="" value=""></option>
+              <option value="20.80">1</option>
+              <option value="41.60">2</option>
+              <option value="62.40">3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Anticipated Downtime Reduction Effort:</label><br /></td>
+          <td>
+            <select name="effort" id="effort">
+              <option selected="" disabled="" hidden="" value=""></option>
+              <option value=".05">Minimal</option>
+              <option value=".10">Moderate</option>
+              <option value=".15">Focused</option>
+              <option value=".20">Aggressive</option>
+            </select>
+            &nbsp; &nbsp; <span class="little">(see below)<span></span></span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <br /><br /><input
+              type="button"
+              value="Calculate"
+              onclick="myfunction()"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</form>
+<br/>
+<br/>
+<span id="spanTest"></span>
+<script src="{{ "assets/js/sfcscripts.js" | relative_url }}"></script>

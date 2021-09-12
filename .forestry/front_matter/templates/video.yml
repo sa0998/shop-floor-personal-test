@@ -1,0 +1,23 @@
+---
+label: Video
+hide_body: true
+fields:
+- name: video_youtube_url
+  type: text
+  config:
+    required: false
+  label: YouTube URL
+- name: video_headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: video_textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Textarea

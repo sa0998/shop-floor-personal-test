@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include shared/header-head.html %}
+  </head>
+  <body>
+    <header class="sticky-top border-bottom">
+      <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+      {% include shared/header-top.html %}
+      {% include shared/header-navigation.html %}
+    </header>
+    {% if page.layout != "home" %}
+      {% include shared/header-banner.html %}
+    {% endif %}
+    <main id="content">
+    {% if page.layout != "home" %}
+      <div class="layout--default container py-5">
+    {% endif %}
+

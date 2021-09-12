@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-md navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="/index.html">
+      <img
+        src="{{ '/assets/images/logo.svg' | relative_url }}"
+        alt="ShopFloor Connect Logo"
+        title="click here to navigate back to the homepage"
+        width="200"
+        height="88"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        {% for item in site.menus.main %} {% if item.parent == nil %}
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-center"
+            href="#"
+            id="{{item.identifier | slugify}}"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >{{item.title}}</a
+          >
+          {% assign nav_level_2 = site.menus.main | where: 'parent',
+          item.identifier %} {% if nav_level_2.size > 0 %}
+          <div
+            class="dropdown-menu"
+            aria-labelledby="{{item.identifier | slugify}}"
+          >
+            {% for child in nav_level_2 %}
+            <a class="dropdown-item" href="{{child.url | relative_url }}"
+              >{{child.title}}</a
+            >
+            {% endfor %}
+          </div>
+          {% endif %}
+        </li>
+        {%endif%} {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

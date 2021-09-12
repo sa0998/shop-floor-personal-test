@@ -1,0 +1,9 @@
+<nav>
+  {% assign accounts = site.data.social_media_accounts %} {% for account in
+  accounts %}
+  <a href="{{ account.url }}" class="text-white"
+    ><span class="sr-only">{{ account.name }}</span
+    ><i class="{{ account.class }}"></i
+  ></a>
+  {% endfor %}
+</nav>
