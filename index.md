@@ -12,7 +12,7 @@ jumbotron_buttons:
 - page:
   - contact/ask-us-a-question.md
   text: Ask Us a Question
-jumbotron_headline_highlight: Real-Time
+jumbotron_headline_highlight: Real-Time Test
 jumbotron_text: |-
   ShopfloorConnect's Factory Viewer displays current machine status and production efficiency in real time on any web browser including mobile devices.
 
