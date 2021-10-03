@@ -1,7 +1,7 @@
     {% if page.layout != "home" %}
         </div>
     {% endif %}
-    </main>
+    </div>
     <footer class="bg-primary text-white">
         <div class="container py-5">
             <div class="row">
@@ -25,6 +25,7 @@
             </div>
         </div>
     </footer>
+</div>
     {% if page.layout == "home" %}
         <script src="{{ '/assets/js/vendor/jquery.flexslider-min.js' | relative_url }}"></script>
         <script type="text/javascript">
@@ -38,6 +39,157 @@
                 maxItems: 5
             });
         </script>     
-    {% endif %}    
+    {% endif %}
+<!-- JAVASCRIPT FILES ========================================= -->
+<!-- JAVASCRIPT FILES ========================================= -->
+<script src="{{ '/assets/plugins/wow/wow.js' | relative_url }}"></script><!-- WOW JS -->
+<script src="{{ '/assets/plugins/bootstrap/js/popper.min.js' | relative_url }}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{ '/assets/plugins/bootstrap/js/bootstrap.min.js' | relative_url }}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{ '/assets/plugins/bootstrap-select/bootstrap-select.min.js' | relative_url }}"></script><!-- FORM JS -->
+<script src="{{ '/assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js' | relative_url }}"></script><!-- FORM JS -->
+<script src="{{ '/assets/plugins/magnific-popup/magnific-popup.js' | relative_url }}"></script><!-- MAGNIFIC POPUP JS -->
+<script src="{{ '/assets/plugins/counter/waypoints-min.js' | relative_url }}"></script><!-- WAYPOINTS JS -->
+<script src="{{ '/assets/plugins/counter/counterup.min.js' | relative_url }}"></script><!-- COUNTERUP JS -->
+<script src="{{ '/assets/plugins/imagesloaded/imagesloaded.js' | relative_url }}"></script><!-- IMAGESLOADED -->
+<script src="{{ '/assets/plugins/masonry/masonry-3.1.4.js' | relative_url }}"></script><!-- MASONRY -->
+<script src="{{ '/assets/plugins/masonry/masonry.filter.js' | relative_url }}"></script><!-- MASONRY -->
+<script src="{{ '/assets/plugins/owl-carousel/owl.carousel.js' | relative_url }}"></script><!-- OWL SLIDER -->
+<script src="{{ '/assets/plugins/lightgallery/js/lightgallery-all.min.js' | relative_url }}"></script><!-- Lightgallery -->
+<script src="{{ '/assets/js/custom.js' | relative_url }}"></script><!-- CUSTOM FUCTIONS  -->
+<script src="{{ '/assets/js/dz.carousel.min.js' | relative_url }}"></script><!-- SORTCODE FUCTIONS  -->
+<script src="{{ '/assets/plugins/countdown/jquery.countdown.js' | relative_url }}"></script><!-- COUNTDOWN FUCTIONS  -->
+<script src="{{ '/assets/js/dz.ajax.js' | relative_url }}"></script><!-- CONTACT JS  -->
+<script src="{{ '/assets/plugins/rangeslider/rangeslider.js' | relative_url }}" ></script><!-- Rangeslider -->
+
+<script src="{{ '/assets/js/jquery.lazy.min.js' | relative_url }}"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="{{ '/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js' | relative_url }}"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.jss' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js' | relative_url }}"></script>
+<script  src="{{ '/assets/js/rev.slider.js' | relative_url }}"></script>
+<script>
+jQuery(document).ready(function() {
+    'use strict';
+    dz_rev_slider_1();	
+    $('.lazy').Lazy();
+});	/*ready*/
+</script>
+<script>
+$(document).ready(function() {
+
+    var sync1 = $("#sync1");
+    var sync2 = $("#sync2");
+    var slidesPerPage = 4; //globaly define number of elements per page
+    var syncedSecondary = true;
+
+        sync1.owlCarousel({
+        items : 1,
+        nav: true,
+        autoplaySpeed: 3000,
+        navSpeed: 3000,
+        paginationSpeed: 3000,
+        slideSpeed: 3000,
+        smartSpeed: 3000,
+        autoplay: 3000,
+        dots: false,
+        loop: true,
+        responsiveRefreshRate : 200,
+        navText: ['<i class="la la-angle-left"></i>', '<i class="la la-angle-right"></i>'],
+        }).on('changed.owl.carousel', syncPosition);
+
+        sync2.on('initialized.owl.carousel', function () {
+            sync2.find(".owl-item").eq(0).addClass("current");
+        }).owlCarousel({
+        items : slidesPerPage,
+        dots: false,
+        nav: false,
+        margin:20,
+        autoplaySpeed: 3000,
+        navSpeed: 3000,
+        paginationSpeed: 3000,
+        slideSpeed: 3000,
+        smartSpeed: 3000,
+        autoplay: 3000,
+        slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+        responsiveRefreshRate : 100,
+        responsive:{
+            0:{
+                items:2
+            },
+            480:{
+                items:2
+            },			
+            768:{
+                items:3
+            },
+            1024:{
+                items:4
+            },
+            1400:{
+                items:4
+            }
+        }
+        }).on('changed.owl.carousel', syncPosition2);
+
+    function syncPosition(el) {
+    //if you set loop to false, you have to restore this next line
+    //var current = el.item.index;
+    
+    //if you disable loop you have to comment this block
+    var count = el.item.count-1;
+    var current = Math.round(el.item.index - (el.item.count/2) - .5);
+    
+    if(current < 0) {
+        current = count;
+    }
+    if(current > count) {
+        current = 0;
+    }
+    
+    //end block
+
+    sync2
+        .find(".owl-item")
+        .removeClass("current")
+        .eq(current)
+        .addClass("current");
+    var onscreen = sync2.find('.owl-item.active').length - 1;
+    var start = sync2.find('.owl-item.active').first().index();
+    var end = sync2.find('.owl-item.active').last().index();
+    
+    if (current > end) {
+        sync2.data('owl.carousel').to(current, 100, true);
+    }
+    if (current < start) {
+        sync2.data('owl.carousel').to(current - onscreen, 100, true);
+    }
+    }
+    
+    function syncPosition2(el) {
+    if(syncedSecondary) {
+        var number = el.item.index;
+        sync1.data('owl.carousel').to(number, 100, true);
+    }
+    }
+    
+    sync2.on("click", ".owl-item", function(e){
+        e.preventDefault();
+        var number = $(this).index();
+        //sync1.data('owl.carousel').to(number, 300, true);
+        
+        sync1.data('owl.carousel').to(number, 300, true);
+        
+    });
+
+});
+</script>    
 </body>
 </html>
