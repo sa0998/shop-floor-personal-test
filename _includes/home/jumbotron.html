@@ -1,15 +1,16 @@
-{% if page.jumbotron_background != '' and page.jumbotron_background != nil %}
-<section
-  id="hero"
-  class="py-5"
-  style="background: url('{{ page.jumbotron_background | relative_url }}') center center / cover no-repeat; "
->
-  {% else %}
-  <section id="hero" class="py-5 hero">
+
+<div class="main-slider style-two default-banner" id="home">
+
+  <div class="tp-banner-container">
     {% endif %}
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+    <div class="tp-banner" >
+      <div id="welcome_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="reveal-add-on36" data-source="gallery" style="background:#ffffff;padding:0px;">
+					<!-- START REVOLUTION SLIDER 5.4.7.2 fullscreen mode -->
+					<div id="welcome" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.2">
+          <ul>
+          {% assign items = page.jumbotron_background %} {% for item in items %}
+          <li data-index="rs-100" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+            <img class="main-img-test" src="images/main-slider/dummy.png"  alt=""  data-lazyload="images/main-slider/slide1.jpg" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
           {% if page.jumbotron_headline != '' and page.jumbotron_headline != nil
           %}
           <h1 class="text-uppercase font-weight-normal">
@@ -31,17 +32,11 @@
             {% else %} Click Here {% endif %}
           </a>
           {% endfor %}
-        </div>
-        <div class="col-md-6">
-          {% if page.jumbotron_image != '' and page.jumbotron_image != nil %}
-          <img
-            src="{{ page.jumbotron_image | relative_url }}"
-            class="w-100"
-            alt="Shopfloor Interface"
-          />
-          {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
         </div>
       </div>
     </div>
-  </section>
-</section>
+  </div>
+</div>
