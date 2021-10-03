@@ -1,6 +1,10 @@
 ---
 main:
 - url: "/index"
+  weight: 6
+  parent: item_DsyKHj_
+  title: Test Link
+- url: "/index"
   weight: 5
   title: Test Link
 - url: "#"
