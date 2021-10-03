@@ -15,6 +15,7 @@ menu:
     weight: 5
     parent: item_Bs8WyLo
     title: Integrating SFC with other software
+    identifier: item__HG87is
 
 ---
 There are several ways that ShopFloorConnect can automatically interact with your existing business software.

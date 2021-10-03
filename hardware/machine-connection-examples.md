@@ -10,6 +10,7 @@ menu:
     weight: 2
     parent: item_ArHfxBm
     title: Machine Connection
+    identifier: item_RGjjT97
 
 ---
 ## Below are some examples of Machine Connections with the SMI2
