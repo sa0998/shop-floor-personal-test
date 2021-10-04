@@ -58,6 +58,11 @@ news:
 meta_tags: []
 document_title: ''
 key_words: []
+jumbotrons:
+- jumbotron_head_line1: Test
+  jumbotron_head_line2: New
+  jumbotron_icon: "/uploads/2021/03/29/sfc6-gif.gif"
+  jumbotron_subhead: Again
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
