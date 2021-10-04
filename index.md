@@ -2,15 +2,21 @@
 layout: home
 title: Home
 description: Real time production tracking software
-jumbotrons:
-- jumbotron_head_line1: Real-Time Production
-  jumbotron_head_line2: Tracking Software
-  jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
-  jumbotron_subhead: ShopfloorConnect’s Factory Viewer displays current machine status and production efficiency in real time on any web browser including mobile devices
-- jumbotron_head_line1: Real-Time 
-  jumbotron_head_line2: Display The Stats
-  jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
-  jumbotron_subhead: ShopfloorConnect’s Factory Viewer displays current machine status and production efficiency in real time on any web browser including mobile devices
+jumbotron_headline: Production Tracking Software
+jumbotron_background: "/uploads/2020/04/14/home-hero-bg.jpg"
+jumbotron_image: "/uploads/2020/09/02/hi-res-equipment-summary-screen-shot.png"
+jumbotron_buttons:
+- page:
+  - contact/schedule-a-demo.md
+  text: Schedule a Demo
+- page:
+  - contact/ask-us-a-question.md
+  text: Ask Us a Question
+jumbotron_headline_highlight: Real-Time Test
+jumbotron_text: |-
+  ShopfloorConnect's Factory Viewer displays current machine status and production efficiency in real time on any web browser including mobile devices.
+
+  YOUR CONNECTION TO A SMARTER FACTORY
 highlights:
 - highlight_headline_bold: Real-Time
   highlight_headline: Displays
@@ -52,6 +58,17 @@ news:
 meta_tags: []
 document_title: ''
 key_words: []
+jumbotrons:
+- jumbotron_head_line1: Real-Time Production
+  jumbotron_head_line2: Tracking Software
+  jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
+  jumbotron_subhead: ShopfloorConnect’s Factory Viewer displays current machine status
+    and production efficiency in real time on any web browser including mobile devices
+- jumbotron_head_line1: Real-Time
+  jumbotron_head_line2: Display The Stats
+  jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
+  jumbotron_subhead: ShopfloorConnect’s Factory Viewer displays current machine status
+    and production efficiency in real time on any web browser including mobile devices
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
