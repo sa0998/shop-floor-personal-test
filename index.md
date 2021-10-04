@@ -44,6 +44,10 @@ meta_tags: []
 document_title: ''
 key_words: []
 jumbotrons:
+- jumbotron_head_line1: Redirect
+  jumbotron_head_line2: New
+  jumbotron_icon: "/uploads/2021/10/04/slide1.jpg"
+  jumbotron_subhead: My sub head
 - jumbotron_head_line1: Real-Time Production
   jumbotron_head_line2: Tracking Software
   jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
