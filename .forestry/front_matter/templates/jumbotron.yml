@@ -1,37 +1,52 @@
----
-label: Jumbotrons
-hide_body: true
-fields:
-- name: jumbotrons
+- name: jumbotron_headline_highlight
+  type: text
+  config:
+    required: false
+  label: Headline Highlight
+- name: jumbotron_headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: jumbotron_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+- name: jumbotron_background
+  type: file
+  config:
+    maxSize: 1
+  label: Background
+- name: jumbotron_image
+  type: file
+  config:
+    maxSize: 1
+  label: Image
+- name: jumbotron_buttons
   type: field_group_list
   fields:
-  - name: jumbotron_head_line1
+  - name: page
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: jekyll-pages
+    label: Page
+  - name: text
     type: text
     config:
       required: false
-    label: Headline First Line
-  - name: jumbotron_head_line2
-    type: text
-    config:
-      required: false
-    label: Headline Second Line
-  - name: jumbotron_icon
-    type: file
-    config:
-      maxSize: 1
-    label: Background Image
-  - name: jumbotron_subhead
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Subhead
+    label: Text
   config:
     min: 
-    max: 3
+    max: 2
     labelField: 
-  label: Jumbotrons
-
+  label: Buttons
