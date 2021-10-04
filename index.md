@@ -1,8 +1,9 @@
 ---
 layout: home
 title: Home
+description: Real time production tracking software
 jumbotrons:
-  jumbotron_head_line1: Real-Time Production
+- jumbotron_head_line1: Real-Time Production
   jumbotron_head_line2: Tracking Software
   jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
   jumbotron_subhead: ShopfloorConnect’s Factory Viewer displays current machine status and production efficiency in real time on any web browser including mobile devices
@@ -13,7 +14,7 @@ jumbotrons:
 - page:
   - contact/ask-us-a-question.md
   text: Ask Question
-  jumbotron_head_line1: Real-Time 
+- jumbotron_head_line1: Real-Time 
   jumbotron_head_line2: Display The Stats
   jumbotron_icon: "/uploads/2020/04/14/highlight-icon-1.svg"
   jumbotron_subhead: ShopfloorConnect’s Factory Viewer displays current machine status and production efficiency in real time on any web browser including mobile devices
