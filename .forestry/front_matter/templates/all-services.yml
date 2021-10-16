@@ -1,4 +1,10 @@
 ---
 label: All Services
 hide_body: true
-fields: []
+fields:
+- name: service_icon_class
+  type: field_group
+  config: {}
+  label: Service Icon Class
+  description: Main Icon for all services
+  hidden: true
