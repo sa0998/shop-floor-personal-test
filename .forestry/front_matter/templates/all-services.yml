@@ -1,4 +1,17 @@
 ---
 label: All Services
 hide_body: true
-fields: []
+fields:
+- name: service_details
+  type: field_group_list
+  fields:
+  - name: service_icon_class
+    type: text
+    config:
+      required: false
+    label: Service Icon Class
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Service Details
