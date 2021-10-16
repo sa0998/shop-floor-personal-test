@@ -33,6 +33,11 @@ fields:
   config: {}
   template: jumbotron
   label: Jumbotron
+- name: test_call
+  type: include
+  config: {}
+  template: calltoaction
+  label: Test Call
 - name: highlights
   type: include
   config: {}
