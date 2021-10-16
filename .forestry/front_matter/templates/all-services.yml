@@ -11,6 +11,7 @@ fields:
     config:
       required: false
     label: Test Check
+    description: New Test
   label: Service Icon Class
   description: Main Icon for all services
-  hidden: true
+  hidden: false
