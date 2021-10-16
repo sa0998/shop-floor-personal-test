@@ -13,6 +13,12 @@ fields:
     type: text
     config:
       required: false
+      label: Headline First Line
+  - name: jumbotron_head_line2
+    type: text
+    config:
+      required: false
+    label: Headline Second Line
   - name: jumbotron_button_text_1
     type: text
     config:
@@ -33,11 +39,6 @@ fields:
     config:
       required: false
     label: Button URL 2
-  - name: jumbotron_head_line2
-    type: text
-    config:
-      required: false
-    label: Headline Second Line
   - name: jumbotron_icon
     type: file
     config:
