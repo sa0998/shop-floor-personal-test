@@ -15,3 +15,8 @@ fields:
     max: 
     labelField: 
   label: Service Details
+- name: service_icon_text
+  type: text
+  config:
+    required: false
+  label: Service Icon Text
