@@ -66,9 +66,10 @@ jumbotrons:
   jumbotron_button_url_2: "/ask-question/"
 calltoaction:
 - call_heading: Amazing things happen to your business
-  call_to_action_para: Your business will grow exponentially as you can track everything through the software
+  call_to_action_para: Your business will grow exponentially as you can track everything
+    through the software
   call_to_action_button_text: Buy Now
-  call_to_action_button_url: /buy-now/
+  call_to_action_button_url: "/buy-now/"
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
