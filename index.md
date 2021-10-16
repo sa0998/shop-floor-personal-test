@@ -70,6 +70,7 @@ calltoaction:
     through the software
   call_to_action_button_text: Buy Now Test
   call_to_action_button_url: "/buy-now/"
+service_icon_class: {}
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
