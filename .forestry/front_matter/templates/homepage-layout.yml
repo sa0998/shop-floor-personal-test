@@ -38,6 +38,11 @@ fields:
   config: {}
   template: calltoaction
   label: Test Call
+- name: all_services
+  type: include
+  config: {}
+  template: all-services
+  label: All Services
 - name: highlights
   type: include
   config: {}
