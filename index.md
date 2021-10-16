@@ -71,6 +71,8 @@ calltoaction:
   call_to_action_button_text: Buy Now Test
   call_to_action_button_url: "/buy-now/"
 service_icon_class: {}
+service_details: []
+service_icon_text: ''
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
