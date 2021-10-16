@@ -1,0 +1,21 @@
+<!-- Call To Action End -->
+<!-- contact area -->
+{% if page.calltoaction.size > 0 %}
+<div class="content-block">
+<div class="section-full call-action bg-primary wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+    <div class="container">
+        {% assign items = page.calltoaction %} {% for item in items %}
+        <div class="row">
+            <div class="col-lg-9 text-white">
+                <h2 class="title">{% if item.call_heading != '' and item.call_heading !=nil%}{{item.call_heading}}{% endif %}</h2>
+                <p class="m-b0">{% if item.call_to_action_para != '' and item.call_to_action_para !=nil%}{{item.call_to_action_para}}{% endif %}</p>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <a href="{% if item.call_to_action_button_url != '' and item.call_to_action_button_url !=nil%}{{item.call_to_action_button_url}}{% endif %}" class="site-button white align-self-center outline ml-auto radius-xl outline-2 btnhover16 btnhover16">{% if item.call_to_action_button_text != '' and item.call_to_action_button_text !=nil%}{{item.call_to_action_button_text}}{% endif %} </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+<!-- Call To Action End -->

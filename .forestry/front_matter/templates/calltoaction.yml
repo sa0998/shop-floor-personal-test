@@ -1,0 +1,32 @@
+---
+label: Call To Action
+hide_body: true
+fields:
+- name: calltoaction
+  type: field_group_list
+  fields:
+  - name: call_heading
+    type: text
+    config:
+      required: false
+    label: Call To Action Heading
+  - name: call_to_action_para
+    type: text
+    config:
+      required: false
+    label: Call To Action Paragraph
+  - name: call_to_action_button_text
+    type: text
+    config:
+      required: false
+    label: Call To Button Text
+  - name: call_to_action_button_url
+    type: text
+    config:
+      required: false
+    label: Call To Button Url
+  config:
+    min: 
+    max: 3
+    labelField: 
+  label: Call To Action
