@@ -5,6 +5,10 @@ fields:
 - name: jumbotrons
   type: field_group_list
   fields:
+  - name: jumbotron_id
+    type: number
+    config:
+      required: true
   - name: jumbotron_head_line1
     type: text
     config:

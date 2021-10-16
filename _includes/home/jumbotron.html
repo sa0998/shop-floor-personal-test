@@ -6,13 +6,13 @@
         <div id="welcome" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.2">
           <ul>	
       {% assign items = page.jumbotrons %} {% for item in items %}
-      <li data-index="rs-100" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+      <li data-index="rs-{% if item.jumbotron_id != '' and item.jumbotron_id != nil %}{{ item.jumbotron_id}}{% endif %}" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
         {% if item.jumbotron_icon != '' and item.jumbotron_icon != nil %}
         <img class="main-img-test" src="assets/images/main-slider/dummy.png"  alt=""  data-lazyload="{{ item.jumbotron_icon | relative_url }}" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
         {% endif %}
           <!-- LAYER NR. 1 -->
           <!-- LAYERS -->
-          <div class="tp-caption tp-shape tp-shapewrapper " id="slide-100-layer" 
+          <div class="tp-caption tp-shape tp-shapewrapper " id="slide-{% if item.jumbotron_id != '' and item.jumbotron_id != nil %}{{ item.jumbotron_id}}{% endif %}-layer" 
           data-x="['center','center','center','center']" 
           data-hoffset="['0','0','0','0']" 
           data-y="['middle','middle','middle','middle']" 
@@ -32,7 +32,7 @@
           style="z-index: 2;background-color:rgba(0, 0, 0, 0.1);border-color:rgba(0, 0, 0, 0);border-width:0px; background-image:url(assets/images/overlay/rrdiagonal-line.png)"> </div>
           <!-- LAYER NR. 1 -->
           <div class="tp-caption tp-shape tp-shapewrapper ov-tp " 
-          id="slide-100-layer-1" 
+          id="slide-{% if item.jumbotron_id != '' and item.jumbotron_id != nil %}{{ item.jumbotron_id}}{% endif %}-layer-1" 
           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
           data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
           data-width="full"
@@ -51,7 +51,7 @@
           style="z-index: 5;">
         </div>
         <div class="tp-caption " 
-        id="slide-100-layer-3" 
+        id="slide-{% if item.jumbotron_id != '' and item.jumbotron_id != nil %}{{ item.jumbotron_id}}{% endif %}-layer-3" 
         data-x="['center','center','center','center']" data-hoffset="['-90','-200','0','0']" 
         data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-100','-90']" 
         data-fontsize="['65','40','40','30']"
@@ -82,7 +82,7 @@
       </div>
       <!-- LAYER NR. 3 -->
       <div class="tp-caption" 
-      id="slide-100-layer-4" 
+      id="slide-{% if item.jumbotron_id != '' and item.jumbotron_id != nil %}{{ item.jumbotron_id}}{% endif %}-layer-4" 
       data-x="['center','center','center','center']" data-hoffset="['-265','-165','0','0']" 
       data-y="['middle','middle','middle','middle']" data-voffset="['50','0','-5','00']" 
       data-fontsize="['18','16','14','14']"
@@ -108,7 +108,7 @@
       <!-- LAYER NR. 5 -->
       <a class="tp-caption rev-btn tc-btnshadow bg-primary tp-rs-menulink" 
       href="{{item.url}}" target="_blank"			 
-      id="slide-100-layer-5" 
+      id="slide-{% if item.jumbotron_id != '' and item.jumbotron_id != nil %}{{ item.jumbotron_id}}{% endif %}-layer-5" 
       data-x="['center','center','center','center']" data-hoffset="['-510','-335','-100','-80']" 
       data-y="['middle','middle','middle','middle']" data-voffset="['160','90','80','90']" 
       data-lineheight="['18','18','18','18']"
