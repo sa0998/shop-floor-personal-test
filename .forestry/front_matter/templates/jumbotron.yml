@@ -13,7 +13,26 @@ fields:
     type: text
     config:
       required: false
-    label: Headline First Line
+  - name: jumbotron_button_text_1
+    type: text
+    config:
+      required: false
+      label: Button Text 1
+  - name: jumbotron_button_url_1
+    type: text
+    config:
+      required: false
+    label: Button URL 1
+  - name: jumbotron_button_text_2
+    type: text
+    config:
+      required: false
+    label: Button Text 2
+  - name: jumbotron_button_url_2
+    type: text
+    config:
+      required: false
+    label: Button URL 2
   - name: jumbotron_head_line2
     type: text
     config:
