@@ -1,4 +1,9 @@
 ---
 label: Shop Floor Data Collection
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
