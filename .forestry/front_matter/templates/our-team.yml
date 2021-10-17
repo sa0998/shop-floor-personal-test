@@ -1,4 +1,42 @@
 ---
 label: Our Team
 hide_body: true
-fields: []
+fields:
+- name: our_team_heading
+  type: text
+  config:
+    required: false
+  label: Our Team Heading
+- name: our_team_para
+  type: text
+  config:
+    required: false
+  label: Our Team Para
+- name: our_team
+  type: field_group_list
+  fields:
+  - name: team_member_name
+    type: text
+    config:
+      required: false
+    label: Team Member Name
+  - name: team_member_position
+    type: text
+    config:
+      required: false
+    label: Team Member Position
+  - name: team_fb_url
+    type: text
+    config:
+      required: false
+    label: Team FB URL
+  - name: team_link_url
+    type: text
+    config:
+      required: false
+    label: Team Linkedin URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Our Team
