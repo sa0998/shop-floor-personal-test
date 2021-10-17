@@ -86,6 +86,7 @@ service_details:
   read_more_button_text: Read More
   read_more_button_url: "/about-us/"
   service_image: "/uploads/2021/10/17/pic6.jpg"
+  select_direction: odd
 - service_icon_text: Idle State
   service_icon_class: flaticon-factory-1
   service_sub_top_heading: Idle State
@@ -101,6 +102,7 @@ service_details:
   read_more_button_text: Read More
   read_more_button_url: "/about-us/"
   service_image: "/uploads/2021/10/17/pic7.jpg"
+  select_direction: even
 - service_icon_text: Unplanned Downtime
   service_icon_class: flaticon-fuel-station
   service_sub_top_heading: Planned Downtime
@@ -116,6 +118,7 @@ service_details:
   read_more_button_text: Read More
   service_image: "/uploads/2021/10/17/pic9.jpg"
   read_more_button_url: "/about-us/"
+  select_direction: odd
 service_icon_text: ''
 
 ---
