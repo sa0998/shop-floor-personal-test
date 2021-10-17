@@ -86,6 +86,36 @@ service_details:
   read_more_button_text: Read More
   read_more_button_url: "/about-us/"
   service_image: "/uploads/2021/10/17/pic6.jpg"
+- service_icon_text: Idle State
+  service_icon_class: flaticon-factory-1
+  service_sub_top_heading: Idle State
+  service_main_heading_black: 'Trusted Factory '
+  service_sub_top_heading_second_line: 'Solutions '
+  service_heading_italic: since 1955
+  service_para_bold: Our goal with ShopFloorConnect OEE software is to enable you
+    to monitor machine efficiency
+  service_para: The Idle state indicates that the machine has stopped, but ShopFloorConnect
+    does not (yet) know why. Idle time is converted to downtime or changeover when
+    the machine operator selects a downtime reason. When OEE is calculated, any unconverted
+    Idle time it treated as Unplanned Down
+  read_more_button_text: Read More
+  read_more_button_url: "/about-us/"
+  service_image: "/uploads/2021/10/17/pic7.jpg"
+- service_icon_text: Unplanned Downtime
+  service_icon_class: flaticon-fuel-station
+  service_sub_top_heading: Planned Downtime
+  service_main_heading_black: 'Your Trusted Building  '
+  service_sub_top_heading_second_line: 'and '
+  service_heading_italic: 'Restorations '
+  service_para_bold: ShopFloorConnect monitors the amount of time each machine spends
+    in the various machine states
+  service_para: The machine is stopped, the reason for the stoppage has been reported
+    to ShopFloorConnect, and the reason had been previously assigned to the Planned
+    Downtime state. Planned downtime logged by the OEE system DOES NOT affect the
+    “Availability” calculation.
+  read_more_button_text: Read More
+  service_image: "/uploads/2021/10/17/pic9.jpg"
+  read_more_button_url: "/about-us/"
 service_icon_text: ''
 
 ---
