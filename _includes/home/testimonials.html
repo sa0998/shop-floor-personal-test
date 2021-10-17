@@ -1,0 +1,29 @@
+<!-- Testimonials -->
+<div class="section-full content-inner-2 bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+    <div class="container">
+        <div class="section-head text-black text-center">
+            <h2 class="title">{% if page.testimonials_heading != '' and page.testimonials_heading!= nil %}{{page.testimonials_heading}}{% endif %}</h2>
+            <p>{% if page.testimonial_para != '' and page.testimonial_para!= nil %}{{page.testimonial_para}}{% endif %}</p>
+        </div>	
+        <div class="testimonial-box-carousel owl-carousel m-b5 owl-btn-center-lr owl-btn-2 radius-no owl-btn-md owl-theme primary owl-dots-none">
+            {% if page.testimonials.size > 0 %}
+            {% assign items = page.testimonials %} {% for item in items %}
+            <div class="item">
+                <div class="testimonial-11 testimonial-box">
+                    <div class="testimonial-pic">
+                        <img src="{% if item.testimonial_client != '' and item.testimonial_client!= nil %}{{item.testimonial_client}}{% endif %}" alt="">
+                    </div>
+                    <div class="testimonial-detail quote-left quote-right">
+                        <div class="testimonial-text">
+                            <p>{% if item.testimonial_details != '' and item.testimonial_details!= nil %}{{item.testimonial_details}}{% endif %}</p>
+                        </div>
+                        <h5 class="testimonial-name text-primary m-t0 m-b5">{% if item.testimonial_person_name != '' and item.testimonial_person_name!= nil %}{{item.testimonial_person_name}}{% endif %}</h5> <span class="testimonial-position">{% if item.testimonial_person_designation != '' and item.testimonial_person_designation!= nil %}{{item.testimonial_person_designation}}{% endif %}</span> 
+                    </div>
+                </div>
+            </div>
+            {% endfor %}	
+            {% endif %}
+        </div>
+    </div>
+</div>
+<!-- Testimonials End -->
