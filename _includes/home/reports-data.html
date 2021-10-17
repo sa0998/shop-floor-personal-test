@@ -22,7 +22,7 @@
                 <ul id="masonry" class="dlab-gallery-listing gallery mfp-gallery text-center">
                     {% if page.report_inner_data.size > 0 %}
                     {% assign items = page.report_inner_data %} {% for item in items %}
-                    <li class="card-container col-lg-4 col-md-6 col-sm-6 {% assign items2 = page.categories_to_add_the_report %} {% for item2 in items2 %}{% if item2.category_name_to_add_the_report_inside!= '' and item2.category_name_to_add_the_report_inside!= nil %}{% assign item =site.pages | where:'path', item2.category_name_to_add_the_report_inside[item2] | first %}{% endif %} {% endfor %}">
+                    <li class="card-container col-lg-4 col-md-6 col-sm-6 {% assign items = page.categories_to_add_the_report %} {% for item in items %}{% if item.category_name_to_add_the_report_inside!= '' and item.category_name_to_add_the_report_inside!= nil %}{{item.category_name_to_add_the_report_inside[0]}}{% endif %}{% endfor %}">
                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect portbox3">
                             <img src="{% if item.report_detail_image != '' and item.report_detail_image!= nil %}{{item.report_detail_image}}{% endif %}" alt=""/>
                             <div class="overlay-bx">
