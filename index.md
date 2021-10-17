@@ -157,12 +157,16 @@ service_icon_text: ''
 software_features:
 - feature_name: Real-Time Displays
   feature_icon_class: flaticon-worker
+  feature_url: "/services/"
 - feature_icon_class: flaticon-factory
   feature_name: Powerful & Usefull Reports
+  feature_url: "/services/"
 - feature_icon_class: flaticon-settings
   feature_name: Programmable Alerts
+  feature_url: "/services/"
 - feature_name: Instant Connection
   feature_icon_class: flaticon-engineer-1
+  feature_url: "/services/"
 feature_heading: Software Features
 feature_para: The ShopFloorConnect Machine Interface (SMI 2) automatically detects
   when your machines are running, when they are stopped, and the number of parts they
