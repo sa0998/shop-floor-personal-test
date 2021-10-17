@@ -72,6 +72,34 @@ fields:
       maxSize: 64
     label: What Section Image
   label: What is ShopFloor Connect
+- name: you_cant_improve_section
+  type: field_group_list
+  fields:
+  - name: improve_sub_section_heading
+    type: text
+    config:
+      required: false
+    label: Improve Sub Section Heading
+  - name: improve_sub_section_para
+    type: text
+    config:
+      required: false
+    label: Improve Sub Section Para
+  - name: improve_sub_section_icon_class
+    type: text
+    config:
+      required: false
+    label: Improve Sub Section Icon Class
+  config:
+    min: 1
+    max: 3
+    labelField: 
+  label: You Can’t Improve Section
+- name: improve_sub_section_image
+  type: file
+  config:
+    maxSize: 64
+  label: Improve Sub Section Image
 - name: key_words
   type: include
   config: {}
