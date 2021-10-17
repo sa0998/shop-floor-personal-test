@@ -5,31 +5,31 @@ fields:
 - name: service_details
   type: field_group_list
   fields:
-  - name: service_icon_class
-    type: text
-    config:
-      required: false
-    label: Service Icon Class
   - name: service_icon_text
     type: text
     config:
       required: false
     label: Service Icon Text
+  - name: service_icon_class
+    type: text
+    config:
+      required: false
+    label: Service Icon Class
   - name: service_sub_top_heading
     type: text
     config:
       required: false
     label: Service Sub Top Heading
-  - name: service_sub_top_heading_second_line
-    type: text
-    config:
-      required: false
-    label: Service Sub Top Heading Second Line
   - name: service_main_heading_black
     type: text
     config:
       required: false
     label: Service Main Heading Black
+  - name: service_sub_top_heading_second_line
+    type: text
+    config:
+      required: false
+    label: Service Sub Top Heading Second Line
   - name: service_heading_italic
     type: text
     config:
