@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/contact_information_first.yml
+  label: Company Description
+  match: "**/*"
 - type: heading
   label: Meta Data
 - type: document
