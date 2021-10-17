@@ -17,6 +17,61 @@ fields:
   config: {}
   template: permalink
   label: Permalink
+- name: banner_bg_image
+  type: file
+  config:
+    maxSize: 64
+  label: Banner Bg Image
+- name: what_is_shopfloor
+  type: field_group
+  config: {}
+  fields:
+  - name: top_heading_red
+    type: text
+    config:
+      required: false
+    label: Top Heading(Red)
+  - name: main_heading_first_line
+    type: text
+    config:
+      required: false
+    label: Main Heading First Line
+  - name: main_heading_second_line
+    type: text
+    config:
+      required: false
+    label: Main Heading Second Line
+  - name: main_heading_italic
+    type: text
+    config:
+      required: false
+    label: Main Heading Italic
+  - name: details_para_bold
+    type: text
+    config:
+      required: false
+    label: Details Para Bold
+  - name: details_para_normal
+    type: text
+    config:
+      required: false
+    label: Details Para Normal
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Button Text
+  - name: button_url
+    type: text
+    config:
+      required: false
+    label: Button URL
+  - name: what_section_image
+    type: file
+    config:
+      maxSize: 64
+    label: What Section Image
+  label: What is ShopFloor Connect
 - name: key_words
   type: include
   config: {}
