@@ -1,12 +1,10 @@
-{% if page.software_features.size > 0 %}
 <div class="section-full content-inner bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
     <div class="container">
         <div class="section-head text-black text-center">
-            {% assign items = page.software_features %} {% for item in items %}
             <h2 class="title">{% if item.feature_heading != '' and item.feature_heading!= nil %}{{item.feature_heading}}{% endif %}</h2>
             <p>{% if item.feature_para != '' and item.feature_para!= nil %}{{item.feature_para}}{% endif %}</p>
-            {% endfor %}
         </div>
+        {% if page.software_features.size > 0 %}
         <div class="row">
             <div class="col-lg-12">
                 <div class="img-carousel-dots owl-theme owl-dots-none owl-carousel owl-btn-center-lr owl-btn-3">
@@ -23,6 +21,6 @@
                 </div>
             </div>
         </div>
+        {% endif %}
     </div>
 </div>
-{% endif %}
