@@ -254,10 +254,12 @@ our_team:
   team_member_position: CEO
   team_fb_url: "/test/"
   team_link_url: "/test/"
+  team_member_image: "/uploads/2021/10/17/pic1-1.jpg"
 - team_member_name: Konne Backfield
   team_member_position: CFO
   team_fb_url: "/test/"
   team_link_url: "/test/"
+  team_member_image: "/uploads/2021/10/17/pic1-1.jpg"
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
