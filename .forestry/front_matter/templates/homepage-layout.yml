@@ -58,6 +58,11 @@ fields:
   config: {}
   template: testimonials
   label: Testimonial Data
+- name: our_team
+  type: include
+  config: {}
+  template: our-team
+  label: Our Team
 - name: highlights
   type: include
   config: {}
