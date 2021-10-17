@@ -25,6 +25,11 @@ fields:
     config:
       required: false
     label: Feature Icon Class
+  - name: feature_url
+    type: text
+    config:
+      required: false
+    label: Feature URL
   config:
     min: 
     max: 
