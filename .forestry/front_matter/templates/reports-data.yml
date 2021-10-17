@@ -1,4 +1,62 @@
 ---
 label: Reports Data
 hide_body: true
-fields: []
+fields:
+- name: report_heading
+  type: text
+  config:
+    required: false
+  label: Report Heading
+- name: report_para
+  type: text
+  config:
+    required: false
+  label: Report Para
+- name: report_inner_data
+  type: field_group_list
+  fields:
+  - name: report_name
+    type: text
+    config:
+      required: false
+    label: Report Name
+  - name: report_name_icon_class
+    type: text
+    config:
+      required: false
+    label: Report Name Icon Class
+  - name: report_popup_category_text_red_heading
+    type: text
+    config:
+      required: false
+    label: Report Popup Category Text(Red Heading)
+  - name: report_main_heading
+    type: text
+    config:
+      required: false
+    label: Report Main Heading
+  - name: report_detail_button_text
+    type: text
+    config:
+      required: false
+    label: Report Detail Button Text
+  - name: report_detail_button_url
+    type: text
+    config:
+      required: false
+    label: Report Detail Button URL
+  - name: report_detail_image
+    type: file
+    config:
+      maxSize: 64
+    label: Report Detail Image
+  - name: report_data_filter_text
+    type: text
+    config:
+      required: true
+    label: Report Data Filter Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Report Inner Data
