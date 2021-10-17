@@ -105,7 +105,23 @@ service_details:
   select_direction: even
 - service_icon_text: Unplanned Downtime
   service_icon_class: flaticon-fuel-station
-  service_sub_top_heading: Planned Downtime
+  service_sub_top_heading: Unplanned Downtime
+  service_main_heading_black: We Help You to Turn
+  service_sub_top_heading_second_line: " Vision Into "
+  service_heading_italic: Reality
+  service_para_bold: ShopFloorConnect allows you to create a list of downtime reasons
+    specific to each machine
+  service_para: The machine is stopped, the reason for the stoppage has been reported
+    to ShopFloorConnect, and the reason had been previously assigned to the Unplanned
+    downtime state. Unplanned downtime causes the OEE software to reduce the “Availability”
+    percentage.
+  read_more_button_text: Read More
+  service_image: "/uploads/2021/10/17/pic8.jpg"
+  read_more_button_url: "/about-us/"
+  select_direction: odd
+- service_icon_text: "Planned Downtime\t"
+  select_direction: even
+  service_sub_top_heading: "Planned Downtime\t"
   service_main_heading_black: 'Your Trusted Building  '
   service_sub_top_heading_second_line: 'and '
   service_heading_italic: 'Restorations '
@@ -116,9 +132,27 @@ service_details:
     Downtime state. Planned downtime logged by the OEE system DOES NOT affect the
     “Availability” calculation.
   read_more_button_text: Read More
-  service_image: "/uploads/2021/10/17/pic9.jpg"
   read_more_button_url: "/about-us/"
+  service_image: "/uploads/2021/10/17/pic9.jpg"
+  service_icon_class: flaticon-engineer-1
+- service_icon_text: Changeover
   select_direction: odd
+  service_icon_class: flaticon-conveyor-1
+  service_sub_top_heading: Changeover
+  service_main_heading_black: We Help You to Turn
+  service_sub_top_heading_second_line: 'Vision Into '
+  service_heading_italic: Reality
+  service_para_bold: ShopFloorConnect to allow you to include offline and or changeover
+    time as either planned or unplanned machine downtime
+  service_para: The machine is stopped, the reason for the stoppage has been reported
+    to ShopFloorConnect, and the reason had been previously assigned to the Changeover
+    (Setup)state. The ShopFloorConnect OEE software allows the user to decide whether
+    Changeover is logged as planned or unplanned downtime. When logged as unplanned
+    downtime, the OEE software will reduce the availability percentage for any Changeover
+    time logged by the system.
+  read_more_button_text: Read More
+  read_more_button_url: "/about-us/"
+  service_image: "/uploads/2021/10/17/pic10.jpg"
 service_icon_text: ''
 
 ---
