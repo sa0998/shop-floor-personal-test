@@ -1,6 +1,6 @@
 ---
 label: Homepage Layout
-hide_body: false
+hide_body: true
 fields:
 - name: title
   type: include
@@ -43,6 +43,11 @@ fields:
   config: {}
   template: all-services
   label: All Services
+- name: software_features
+  type: include
+  config: {}
+  template: software-features
+  label: Software Features
 - name: highlights
   type: include
   config: {}
