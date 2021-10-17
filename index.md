@@ -239,10 +239,12 @@ testimonials:
     since the when an printer took a galley of type and scrambled it to make.
   testimonial_person_name: David Matin
   testimonial_person_designation: Student
+  testimonial_client: "/uploads/2021/10/17/pic1.jpg"
 - testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
     since the when an printer took a galley of type and scrambled it to make.
   testimonial_person_name: David Matin
   testimonial_person_designation: Student
+  testimonial_client: "/uploads/2021/10/17/pic1.jpg"
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
