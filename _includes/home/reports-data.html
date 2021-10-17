@@ -10,7 +10,7 @@
                     <ul class="filters" data-toggle="buttons">
                         {% if page.report_data_main_category.size > 0 %}
                         {% assign items = page.report_data_main_category %} {% for item in items %}
-                        <li data-filter="{% if item.report_filter_text != '' and item.report_filter_text!= nil %}{{item.report_filter_text}}{% endif %}" class="btn active"><input type="radio"><a href="#"><i class="{% if item.report_icon_class != '' and item.report_icon_class!= nil %}{{item.report_icon_class}}{% endif %}"></i><span>{% if item.report_name != '' and item.report_name!= nil %}{{item.report_name}}{% endif %}</span></a></li>
+                        <li data-filter="{% if item.report_filter_text != '' and item.report_filter_text!= nil %}{{item.report_filter_text}}{% endif %}" class="btn {% if item.report_menu_active_status != '' and item.report_menu_active_status!= nil %}{{item.report_menu_active_status}}{% endif %}"><input type="radio"><a href="#"><i class="{% if item.report_icon_class != '' and item.report_icon_class!= nil %}{{item.report_icon_class}}{% endif %}"></i><span>{% if item.report_name != '' and item.report_name!= nil %}{{item.report_name}}{% endif %}</span></a></li>
                         {% endfor %}	
                         {% endif %}
                     </ul>
