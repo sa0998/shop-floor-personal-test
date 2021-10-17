@@ -30,6 +30,11 @@ fields:
     config:
       required: true
     label: Report Filter Text
+  - name: report_menu_active_status
+    type: text
+    config:
+      required: false
+    label: Report Menu Active Status
   config:
     min: 
     max: 
