@@ -230,6 +230,19 @@ report_data_main_category:
   report_icon_class: flaticon-optimization
   report_filter_text: oeemachine
   report_menu_active_status: ''
+testimonials_heading: Testimonials
+testimonial_para: Lorem Ipsum is simply dummy text of the printing and typesetting
+  industry has been the industry's standard dummy text ever since the been when an
+  unknown printer.
+testimonials:
+- testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
+    since the when an printer took a galley of type and scrambled it to make.
+  testimonial_person_name: David Matin
+  testimonial_person_designation: Student
+- testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
+    since the when an printer took a galley of type and scrambled it to make.
+  testimonial_person_name: David Matin
+  testimonial_person_designation: Student
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
