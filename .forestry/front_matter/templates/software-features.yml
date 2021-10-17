@@ -1,4 +1,32 @@
 ---
 label: Software Features
 hide_body: true
-fields: []
+fields:
+- name: feature_heading
+  type: text
+  config:
+    required: false
+  label: Feature Heading
+- name: feature_para
+  type: text
+  config:
+    required: false
+  label: Feature Para
+- name: software_features
+  type: field_group_list
+  fields:
+  - name: feature_name
+    type: text
+    config:
+      required: false
+    label: Feature Name
+  - name: feature_icon_class
+    type: text
+    config:
+      required: false
+    label: Feature Icon Class
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Software Features
