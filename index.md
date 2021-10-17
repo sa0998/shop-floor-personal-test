@@ -71,7 +71,21 @@ calltoaction:
   call_to_action_button_text: Buy Now Test
   call_to_action_button_url: "/buy-now/"
 service_icon_class: {}
-service_details: []
+service_details:
+- service_icon_class: flaticon-robot-arm
+  service_icon_text: Running Time
+  service_sub_top_heading: Running Time
+  service_sub_top_heading_second_line: factory
+  service_main_heading_black: We are Industrial
+  service_heading_italic: solutions
+  service_para_bold: ShopFloorConnect, offers real-time reports on machine downtime
+    and production inefficiencies
+  service_para: Running time is logged as ‘Uptime’, and means the machine is operating
+    and making parts. The Running time becomes the basis for the Availability portion
+    of the OEE calculation.
+  read_more_button_text: Read More
+  read_more_button_url: "/about-us/"
+  service_image: "/uploads/2021/10/17/pic6.jpg"
 service_icon_text: ''
 
 ---
