@@ -30,6 +30,11 @@ fields:
     config:
       required: false
     label: 'Testimonial Person Designation '
+  - name: testimonial_client
+    type: file
+    config:
+      maxSize: 64
+    label: Testimonial Client
   config:
     min: 
     max: 
