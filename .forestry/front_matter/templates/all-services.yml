@@ -10,6 +10,46 @@ fields:
     config:
       required: false
     label: Service Icon Class
+  - name: service_icon_text
+    type: text
+    config:
+      required: false
+    label: Service Icon Text
+  - name: service_sub_top_heading
+    type: text
+    config:
+      required: false
+    label: Service Sub Top Heading
+  - name: service_main_heading_black
+    type: text
+    config:
+      required: false
+    label: Service Main Heading Black
+  - name: service_heading_italic
+    type: text
+    config:
+      required: false
+    label: Service Heading Italic
+  - name: service_para_bold
+    type: text
+    config:
+      required: false
+    label: Service Para Bold
+  - name: service_para
+    type: text
+    config:
+      required: false
+    label: Service Para
+  - name: read_more_button_text
+    type: text
+    config:
+      required: false
+    label: Read More Button Text
+  - name: read_more_button_url
+    type: text
+    config:
+      required: false
+    label: Read More Button URL
   config:
     min: 
     max: 
