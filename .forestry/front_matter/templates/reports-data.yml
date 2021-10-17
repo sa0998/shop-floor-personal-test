@@ -25,6 +25,11 @@ fields:
     config:
       required: false
     label: Report Icon Class
+  - name: report_filter_text
+    type: text
+    config:
+      required: true
+    label: Report Filter Text
   config:
     min: 
     max: 
@@ -58,11 +63,6 @@ fields:
     config:
       maxSize: 64
     label: Report Detail Image
-  - name: report_data_filter_text
-    type: text
-    config:
-      required: true
-    label: Report Data Filter Text
   config:
     min: 
     max: 
