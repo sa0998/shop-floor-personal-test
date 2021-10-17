@@ -180,12 +180,16 @@ report_inner_data: []
 report_data_main_category:
 - report_name: Time Reports
   report_icon_class: flaticon-worker
+  report_filter_text: timereports
 - report_name: Uptime Efficiency
   report_icon_class: flaticon-crane
+  report_filter_text: uptimeefficiency
 - report_name: Production Summary
   report_icon_class: flaticon-analytics
+  report_filter_text: productionsummary
 - report_name: OEE By Machine (Form)
   report_icon_class: flaticon-optimization
+  report_filter_text: oeemachine
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
