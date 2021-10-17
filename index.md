@@ -245,6 +245,19 @@ testimonials:
   testimonial_person_name: David Matin
   testimonial_person_designation: Student
   testimonial_client: "/uploads/2021/10/17/pic1.jpg"
+our_team_heading: Meet Our Team
+our_team_para: Lorem Ipsum is simply dummy text of the printing and typesetting industry
+  has been the industry's standard dummy text ever since the been when an unknown
+  printer.
+our_team:
+- team_member_name: Nashid Martines
+  team_member_position: CEO
+  team_fb_url: "/test/"
+  team_link_url: "/test/"
+- team_member_name: Konne Backfield
+  team_member_position: CFO
+  team_fb_url: "/test/"
+  team_link_url: "/test/"
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
