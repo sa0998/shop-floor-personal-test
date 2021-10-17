@@ -20,6 +20,11 @@ fields:
     config:
       required: false
     label: Service Sub Top Heading
+  - name: service_sub_top_heading_second_line
+    type: text
+    config:
+      required: false
+    label: Service Sub Top Heading Second Line
   - name: service_main_heading_black
     type: text
     config:
