@@ -1,4 +1,37 @@
 ---
 label: Testimonials
 hide_body: true
-fields: []
+fields:
+- name: testimonials_heading
+  type: text
+  config:
+    required: false
+  label: Testimonials Heading
+- name: testimonial_para
+  type: text
+  config:
+    required: false
+  label: Testimonial Para
+- name: testimonials
+  type: field_group_list
+  fields:
+  - name: testimonial_details
+    type: text
+    config:
+      required: false
+    label: Testimonial Details
+  - name: testimonial_person_name
+    type: text
+    config:
+      required: false
+    label: Testimonial Person Name
+  - name: testimonial_person_designation
+    type: text
+    config:
+      required: false
+    label: 'Testimonial Person Designation '
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Testimonials
