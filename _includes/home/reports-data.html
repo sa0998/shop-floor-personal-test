@@ -1,0 +1,48 @@
+<div class="section-full bg-white content-inner-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+    <div class="container">
+        <div class="section-head style2 text-center">
+            <h2 class="title m-b10">{% if page.report_heading != '' and page.report_heading!= nil %}{{page.report_heading}}{% endif %}</h2>
+            <p>{% if page.report_para != '' and page.report_para!= nil %}{{page.report_para}}{% endif %}</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="site-filters m-b20 filters2">
+                    <ul class="filters" data-toggle="buttons">
+                        {% if page.report_data_main_category.size > 0 %}
+                        {% assign items = page.report_data_main_category %} {% for item in items %}
+                        <li data-filter="{% if item.report_filter_text != '' and item.report_filter_text!= nil %}{{item.report_filter_text}}{% endif %}" class="btn active"><input type="radio"><a href="#"><i class="{% if item.report_icon_class != '' and item.report_icon_class!= nil %}{{item.report_icon_class}}{% endif %}"></i><span>{% if item.report_name != '' and item.report_name!= nil %}{{item.report_name}}{% endif %}</span></a></li>
+                        {% endfor %}	
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row p-l0 sp10">
+            <div class="col-lg-12">
+                <ul id="masonry" class="dlab-gallery-listing gallery mfp-gallery text-center">
+                    {% if page.report_inner_data.size > 0 %}
+                    {% assign items = page.report_inner_data %} {% for item in items %}
+                    <li class="card-container col-lg-4 col-md-6 col-sm-6 {% assign items = page.report_data_main_category %} {% for item in items %}{% if item.report_filter_text!= '' and item.report_filter_text!= nil %}{{item.report_filter_text}}{% endif %}{% endfor %}">
+                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect portbox3">
+                            <img src="{% if item.report_detail_image != '' and item.report_detail_image!= nil %}{{item.report_detail_image}}{% endif %}" alt=""/>
+                            <div class="overlay-bx">
+                                <div class="portinner">
+                                    <div class="port-up">
+                                        <span class="text-primary">{% if item.report_popup_category_text_red_heading != '' and item.report_popup_category_text_red_heading!= nil %}{{item.report_popup_category_text_red_heading}}{% endif %}</span>
+                                        <h3 class="port-title"><a href="{% if item.report_detail_button_url != '' and item.report_detail_button_url!= nil %}{{item.report_detail_button_url}}{% endif %}">{% if item.report_main_heading != '' and item.report_main_heading!= nil %}{{item.report_main_heading}}{% endif %}</a></h3>
+                                    </div>
+                                    <div class="port-down">
+                                        <a href="{% if item.report_detail_button_url != '' and item.report_detail_button_url!= nil %}{{item.report_detail_button_url}}{% endif %}" class="btn-link">{% if item.report_detail_button_texte != '' and item.report_detail_button_text!= nil %}{{item.report_detail_button_text}}{% endif %} <i class="la la-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}	
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Latest Projects End -->
