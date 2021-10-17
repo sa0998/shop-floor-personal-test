@@ -2,8 +2,10 @@
 <div class="section-full content-inner bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
     <div class="container">
         <div class="section-head text-black text-center">
+            {% assign items = page.software_features %} {% for item in items %}
             <h2 class="title">{% if item.feature_heading != '' and item.feature_heading!= nil %}{{item.feature_heading}}{% endif %}</h2>
             <p>{% if item.feature_para != '' and item.feature_para!= nil %}{{item.feature_para}}{% endif %}</p>
+            {% endfor %}
         </div>
         <div class="row">
             <div class="col-lg-12">
@@ -12,7 +14,7 @@
                     <div class="item">
                         <div class="service-box style1">
                             <div class="icon-xl m-b20 text-primary radius"> 
-                                <a href="{% if item.feature_url != '' and item.feature_url!= nil %}{{item.feature_url}}{% endif %}" class="icon-cell"><i class="{% if item.feature_para != '' and item.feature_para!= nil %}{{item.feature_para}}{% endif %}"></i></a> 
+                                <a href="{% if item.feature_url != '' and item.feature_url!= nil %}{{item.feature_url}}{% endif %}" class="icon-cell"><i class="{% if item.feature_icon_class != '' and item.feature_icon_class!= nil %}{{item.feature_icon_class}}{% endif %}"></i></a> 
                             </div>
                             <h3 class="title">{% if item.feature_name != '' and item.feature_name!= nil %}{{item.feature_name}}{% endif %}</h3>
                         </div>
