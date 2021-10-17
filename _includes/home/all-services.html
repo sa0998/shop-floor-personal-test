@@ -15,7 +15,7 @@
             </div>
             <div id="sync1" class="owl-carousel owl-theme owl-btn-center-lr m-b5 owl-dots-none owl-btn-3 primary">
                 {% assign items = page.service_details %} {% for item in items %}
-                {% if item.select_direction != 'odd'}
+                {% if item.select_direction === 'odd'}
                 <div class="item">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6 m-b30">
@@ -32,6 +32,7 @@
                         </div>
                     </div>
                 </div>
+                {% endif %}
                 {% else %}
                 <div class="item">
                     <div class="row align-items-center">
@@ -49,7 +50,6 @@
                         </div>
                     </div>
                 </div>
-                {% endif %}
                 {% endfor %}
             </div>
         </div>
