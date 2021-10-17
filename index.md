@@ -182,48 +182,37 @@ report_inner_data:
   report_detail_button_text: View Detail
   report_detail_button_url: "/view-details/"
   report_detail_image: "/uploads/2021/10/17/image_2.jpg"
-  categories_to_add_the_report:
-  - category_name_to_add_the_report_inside: uptimeefficiency
-  - category_name_to_add_the_report_inside: timereports
+  categories_to_add_the_report: timereports uptimeefficiency
 - report_popup_category_text_red_heading: Reason Report
   report_main_heading: Downtime By Reason Report
   report_detail_button_text: View Detail
   report_detail_button_url: "/view-details/"
   report_detail_image: "/uploads/2021/10/17/image_1.jpg"
-  categories_to_add_the_report:
-  - category_name_to_add_the_report_inside: oeemachine
-  - category_name_to_add_the_report_inside: productionsummary
+  categories_to_add_the_report: productionsummary oeemachine
 - report_popup_category_text_red_heading: Log
   report_main_heading: Event Log Report
   report_detail_button_text: View Detail
   report_detail_image: "/uploads/2021/10/17/image_3.jpg"
   report_detail_button_url: "/view-detail/"
-  categories_to_add_the_report:
-  - category_name_to_add_the_report_inside: timereports
-  - category_name_to_add_the_report_inside: productionsummary
+  categories_to_add_the_report: uptimeefficiency timereports
 - report_popup_category_text_red_heading: OEE
   report_main_heading: OEE By Machine (Form)
   report_detail_button_text: View Detail
   report_detail_button_url: "/view-detail/"
   report_detail_image: "/uploads/2021/10/17/image_4.jpg"
-  categories_to_add_the_report:
-  - category_name_to_add_the_report_inside: oeemachine
-  - category_name_to_add_the_report_inside: uptimeefficiency
+  categories_to_add_the_report: oeemachine productionsummary
 - report_popup_category_text_red_heading: Graph
   report_main_heading: OEE By Machine (Graph)
   report_detail_button_text: View Detail
   report_detail_button_url: "/view-detail/"
   report_detail_image: "/uploads/2021/10/17/image_5.jpg"
-  categories_to_add_the_report:
-  - category_name_to_add_the_report_inside: timereports
-  - category_name_to_add_the_report_inside: productionsummary
+  categories_to_add_the_report: timereports uptimeefficiency
 - report_popup_category_text_red_heading: Tabular Data
   report_main_heading: OEE By Machine (Tabular)
   report_detail_button_text: View Detail
   report_detail_button_url: "/view-detail/"
   report_detail_image: "/uploads/2021/10/17/image_6.jpg"
-  categories_to_add_the_report:
-  - category_name_to_add_the_report_inside: oeemachine
+  categories_to_add_the_report: uptimeefficiency
 report_data_main_category:
 - report_name: Time Reports
   report_icon_class: flaticon-worker
