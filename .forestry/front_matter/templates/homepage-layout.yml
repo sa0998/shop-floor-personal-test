@@ -63,16 +63,6 @@ fields:
   config: {}
   template: our-team
   label: Our Team
-- name: highlights
-  type: include
-  config: {}
-  template: highlights
-  label: Highlights
-- name: video
-  type: include
-  config: {}
-  template: video
-  label: Video
 - name: news
   type: include
   config: {}
