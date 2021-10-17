@@ -52,7 +52,7 @@
                                 <li><i class="ti-mobile"></i><strong>phone</strong>  {% if site.data.contact_information.phone != '' and
                                     site.data.contact_information.phone != nil%}  <a href="tel:{{ site.data.contact_information.phone }}" class="text-white"
                                     >{{ site.data.contact_information.phone }}</a
-                                  ></li>
+                                  >{% endif %} </li>
                                 <li><i class="ti-email"></i><strong>email</strong>info@example.com</li>
                             </ul>
                         </div>
