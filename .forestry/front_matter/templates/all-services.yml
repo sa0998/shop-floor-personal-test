@@ -55,6 +55,11 @@ fields:
     config:
       required: false
     label: Read More Button URL
+  - name: service_image
+    type: file
+    config:
+      maxSize: 64
+    label: Service Image
   config:
     min: 
     max: 
