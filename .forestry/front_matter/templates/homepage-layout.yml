@@ -48,6 +48,11 @@ fields:
   config: {}
   template: software-features
   label: Software Features
+- name: report_detail_section
+  type: include
+  config: {}
+  template: reports-data
+  label: Report Detail Section
 - name: highlights
   type: include
   config: {}
