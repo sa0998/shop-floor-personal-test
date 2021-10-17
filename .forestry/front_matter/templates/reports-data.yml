@@ -12,7 +12,7 @@ fields:
   config:
     required: false
   label: Report Para
-- name: report_inner_data
+- name: report_data_main_category
   type: field_group_list
   fields:
   - name: report_name
@@ -20,11 +20,19 @@ fields:
     config:
       required: false
     label: Report Name
-  - name: report_name_icon_class
+  - name: report_icon_class
     type: text
     config:
       required: false
-    label: Report Name Icon Class
+    label: Report Icon Class
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Report Data Main Category
+- name: report_inner_data
+  type: field_group_list
+  fields:
   - name: report_popup_category_text_red_heading
     type: text
     config:
