@@ -1,8 +1,8 @@
 <div class="section-full content-inner bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
     <div class="container">
         <div class="section-head text-black text-center">
-            <h2 class="title">{% if item.feature_heading != '' and item.feature_heading!= nil %}{{item.feature_heading}}{% endif %}</h2>
-            <p>{% if item.feature_para != '' and item.feature_para!= nil %}{{item.feature_para}}{% endif %}</p>
+            <h2 class="title">{% if page.feature_heading != '' and page.feature_heading!= nil %}{{page.feature_heading}}{% endif %}</h2>
+            <p>{% if page.feature_para != '' and page.feature_para!= nil %}{{page.feature_para}}{% endif %}</p>
         </div>
         {% if page.software_features.size > 0 %}
         <div class="row">
