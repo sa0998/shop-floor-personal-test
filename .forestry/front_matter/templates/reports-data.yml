@@ -64,17 +64,9 @@ fields:
       maxSize: 64
     label: Report Detail Image
   - name: categories_to_add_the_report
-    type: field_group_list
-    fields:
-    - name: category_name_to_add_the_report_inside
-      type: text
-      config:
-        required: false
-      label: Category Name To Add The Report Inside
+    type: text
     config:
-      min: 
-      max: 
-      labelField: 
+      required: false
     label: Categories To Add The Report
   config:
     min: 
