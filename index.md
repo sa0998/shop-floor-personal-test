@@ -177,6 +177,15 @@ report_para: ShopFloorConnect production monitoring software has a powerful brow
   reporting feature that allows you to configure and generate reports on demand, or
   to set up schedules to automatically deliver pre-configured reports.
 report_inner_data: []
+report_data_main_category:
+- report_name: Time Reports
+  report_icon_class: flaticon-worker
+- report_name: Uptime Efficiency
+  report_icon_class: flaticon-crane
+- report_name: Production Summary
+  report_icon_class: flaticon-analytics
+- report_name: OEE By Machine (Form)
+  report_icon_class: flaticon-optimization
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
