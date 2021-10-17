@@ -1,0 +1,42 @@
+{% if page.service_details.size > 0 %}
+			<!-- About Us -->
+<div class="section-full content-inner bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+    <div class="container">
+        <div class="on-show-slider "> 
+            <div id="sync2" class="owl-carousel owl-theme owl-none owl-dots-none project-list">
+                {% assign items = page.service_details %} {% for item in items %}
+                <div class="item">
+                    <div class="project-owbx">
+                        <i class="{% if item.service_icon_class != '' and item.service_icon_class!= nil %}{{item.service_icon_class}}{% endif %}"></i>
+                        <h4 class="title">{% if item.service_icon_text != '' and item.service_icon_text!= nil %}{{item.service_icon_text}}{% endif %}</h4>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div id="sync1" class="owl-carousel owl-theme owl-btn-center-lr m-b5 owl-dots-none owl-btn-3 primary">
+                {% assign items = page.service_details %} {% for item in items %}
+                <div class="item">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 m-b30">
+                            <div class="our-story">
+                                <span>{% if item.service_sub_top_heading != '' and item.service_sub_top_heading!= nil %}{{item.service_sub_top_heading}}{% endif %}</span>
+                                <h2 class="title">{% if item.service_main_heading_black != '' and item.service_main_heading_black!= nil %}{{item.service_main_heading_black}}{% endif %}  <br/>{% if item.service_sub_top_heading_second_line != '' and item.service_sub_top_heading_second_line!= nil %}{{item.service_sub_top_heading_second_line}}{% endif %} <span class="text-primary">{% if item.service_heading_italic != '' and item.service_heading_italic!= nil %}{{item.service_heading_italic}}{% endif %}</span></h2>
+                                <h4 class="title">{% if item.service_para_bold != '' and item.service_para_bold!= nil %}{{item.service_para_bold}}{% endif %}</h4>
+                                <p>{% if item.service_para != '' and item.service_para!= nil %}{{item.service_para}}{% endif %}</p>
+                                <a href="{% if item.read_more_button_url != '' and item.read_more_button_url!= nil %}{{item.read_more_button_url}}{% endif %}" class="site-button btnhover16">{% if item.read_more_button_text != '' and item.read_more_button_text!= nil %}{{item.read_more_button_text}}{% endif %}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 m-b30">
+                            <img src="{% if item.service_image != '' and item.service_image!= nil %}{{item.service_image}}{% endif %}" class="radius-sm" alt="">
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- About Us End -->
+
+{% endif %}
