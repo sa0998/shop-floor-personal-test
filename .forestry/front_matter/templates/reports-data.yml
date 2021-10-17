@@ -63,6 +63,13 @@ fields:
     config:
       maxSize: 64
     label: Report Detail Image
+  - name: categories_to_add_the_report
+    type: field_group_list
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Categories To Add The Report
   config:
     min: 
     max: 
