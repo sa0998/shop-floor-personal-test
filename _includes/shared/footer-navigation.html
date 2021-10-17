@@ -1,7 +1,6 @@
-<ul class="nav flex-column justify-content-between h-100">
+<ul>
   {% for item in site.menus.footer %} {% if item.parent == nil %}
-  <li class="nav-item">
-    <a class="text-white d-block py-2" href="{{ item.url | relative_url }}"
+  <li><a href="{{ item.url | relative_url }}"
       >{{item.title}}</a
     >
   </li>

@@ -4,29 +4,99 @@
 </div>
 <!-- contact area END -->
     </div>
-    <footer class="bg-primary text-white">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left">
-                    {% include shared/footer-contact.html %}
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left">
-                    {% include shared/footer-navigation.html %}
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left">
-                    {% include shared/footer-mailing-list.html %}
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left text-lg-right">
-                    {% include shared/footer-social-media-accounts.html %}
+<footer class="bg-primary text-white">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left">
+                {% include shared/footer-contact.html %}
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left">
+                {% include shared/footer-navigation.html %}
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left">
+                {% include shared/footer-mailing-list.html %}
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5 text-center text-sm-left text-lg-right">
+                {% include shared/footer-social-media-accounts.html %}
+            </div>
+        </div>
+    </div>
+    <div class="bg-danger py-5">
+        <div class="container text-center text-white">
+            {% include shared/footer-sign-off.html %}
+        </div>
+    </div>
+</footer>
+        <!-- Footer -->
+        <footer class="site-footer">
+        <div class="footer-top"  style="background-image:url(images/background/bg3.png); background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-5 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+                        <div class="widget widget_services border-0">
+                            <h5 class="footer-title text-white">Company</h5>
+                            {% include shared/footer-contact.html %}
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-7 col-xl-2 col-lg-3 col-sm-6 footer-col-4">
+                        <div class="widget widget_services border-0">
+                            <h5 class="footer-title text-white">Useful Link</h5>
+                            {% include shared/footer-navigation.html %}
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4 col-lg-3 col-sm-6 footer-col-4">
+                        <div class="widget widget_getintuch">
+                            <h5 class="footer-title text-white">Contact us</h5>
+                            <ul>
+                                <li><i class="ti-location-pin"></i><strong>address</strong>{{ site.data.contact_information.address }}</li>
+                                <li><i class="ti-mobile"></i><strong>phone</strong>  {% if site.data.contact_information.phone != '' and
+                                    site.data.contact_information.phone != nil%}  <a href="tel:{{ site.data.contact_information.phone }}" class="text-white"
+                                    >{{ site.data.contact_information.phone }}</a
+                                  ></li>
+                                <li><i class="ti-email"></i><strong>email</strong>info@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-4 col-lg-4 col-sm-6 footer-col-4 ">
+                        <div class="widget">
+                            <h5 class="footer-title text-white">Subscribe To Our Newsletter</h5>
+                            <p class="text-capitalize m-b20">Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the..</p>
+                            <div class="subscribe-form m-b20">
+                                {% include shared/footer-mailing-list.html %}
+                            </div>
+                            {% include shared/footer-social-media-accounts.html %}
+                            <!-- <ul class="list-inline m-a0">
+                                <li><a href="javascript:void(0);" class="site-button facebook circle "><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="javascript:void(0);" class="site-button google-plus circle "><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="javascript:void(0);" class="site-button linkedin circle "><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="javascript:void(0);" class="site-button instagram circle "><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="javascript:void(0);" class="site-button twitter circle "><i class="fa fa-twitter"></i></a></li>
+                            </ul> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="bg-danger py-5">
-            <div class="container text-center text-white">
-                {% include shared/footer-sign-off.html %}
+        <!-- footer bottom part -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-left "> {% include shared/footer-sign-off.html %} </div>
+                    <!-- <div class="col-md-6 col-sm-6 text-right "> 
+                        <div class="widget-link "> 
+                            <ul>
+                                <li><a href="about-2.html"> About</a></li> 
+                                <li><a href="help-desk.html"> Help Desk</a></li> 
+                                <li><a href="privacy-policy.html"> Privacy Policy</a></li> 
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
             </div>
         </div>
     </footer>
+    <!-- Footer END-->
+    <button class="scroltop style1 white icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
 </div>
     {% if page.layout == "home" %}
         <script src="{{ '/assets/js/vendor/jquery.flexslider-min.js' | relative_url }}"></script>

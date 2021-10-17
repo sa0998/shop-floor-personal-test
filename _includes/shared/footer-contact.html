@@ -5,26 +5,5 @@
   height="88"
 />
 <small class="d-block">
-  {{ site.data.contact_information.name }}
-  <br />
-  {{ site.data.contact_information.address }}
-  <br />
-  {{ site.data.contact_information.city }}, {{
-  site.data.contact_information.state }} {{ site.data.contact_information.zip }}
-  <br />
-  {{ site.data.contact_information.country }}
-  <br />
-  {% if site.data.contact_information.phone != '' and
-  site.data.contact_information.phone != nil%} Phone:
-  <a href="tel:{{ site.data.contact_information.phone }}" class="text-white"
-    >{{ site.data.contact_information.phone }}</a
-  >
-  <br />
-  {% endif %} {% if site.data.contact_information.fax != '' and
-  site.data.contact_information.fax != nil%} Fax:
-  <a href="tel:{{ site.data.contact_information.fax }}" class="text-white"
-    >{{ site.data.contact_information.fax }}</a
-  >
-  <br />
-  {% endif %}
+  {{ site.data.short_description_for_company}}
 </small>
