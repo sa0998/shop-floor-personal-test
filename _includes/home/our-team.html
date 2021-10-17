@@ -1,0 +1,33 @@
+			<!-- Team -->
+			<div class="section-full text-center bg-white content-inner">
+				<div class="container">	
+					<div class="section-head text-black text-center">
+						<h2 class="title">{% if page.our_team_heading!= '' and page.our_team_heading!= nil %}{{page.our_team_heading}}{% endif %}</h2>
+						<p>{% if page.our_team_para != '' and page.our_team_para!= nil %}{{page.our_team_para}}{% endif %}</p>
+					</div>
+					<div class="row">
+                        {% if page.our_team.size > 0 %}
+                        {% assign items = page.our_team %} {% for item in items %}
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="dlab-box m-b30 dlab-team1">
+								<div class="dlab-media">
+									<a href="javascript:;">
+										<img width="358" height="460" alt="" src="{% if item.team_member_image != '' and item.team_member_image!= nil %}{{item.team_member_image}}{% endif %}">
+									</a>
+								</div>
+								<div class="dlab-info">
+									<h4 class="dlab-title"><a href="javascript:;">{% if item.team_member_name != '' and item.team_member_name!= nil %}{{item.team_member_name}}{% endif %}</a></h4>
+									<span class="dlab-position">{% if item.team_member_position != '' and item.team_member_position!= nil %}{{item.team_member_position}}{% endif %}</span>
+									<ul class="dlab-social-icon dez-border">
+										<li><a class="fa fa-facebook" href="{% if item.team_fb_url != '' and item.team_fb_url!= nil %}{{item.team_fb_url}}{% endif %}"></a></li>
+										<li><a class="fa fa-linkedin" href="{% if item.team_link_url != '' and item.team_link_url!= nil %}{{item.team_link_url}}{% endif %}"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+                        {% endfor %}	
+                        {% endif %}
+					</div>
+				</div>
+			</div>
+			<!-- Team END -->
