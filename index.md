@@ -176,7 +176,37 @@ report_heading: Production, Efficiency, and Downtime Reports
 report_para: ShopFloorConnect production monitoring software has a powerful browser-based
   reporting feature that allows you to configure and generate reports on demand, or
   to set up schedules to automatically deliver pre-configured reports.
-report_inner_data: []
+report_inner_data:
+- report_popup_category_text_red_heading: Time
+  report_main_heading: Downtime Summary
+  report_detail_button_text: View Detail
+  report_detail_button_url: "/view-details/"
+  report_detail_image: "/uploads/2021/10/17/image_2.jpg"
+- report_popup_category_text_red_heading: Reason Report
+  report_main_heading: Downtime By Reason Report
+  report_detail_button_text: View Detail
+  report_detail_button_url: "/view-details/"
+  report_detail_image: "/uploads/2021/10/17/image_1.jpg"
+- report_popup_category_text_red_heading: Log
+  report_main_heading: Event Log Report
+  report_detail_button_text: View Detail
+  report_detail_image: "/uploads/2021/10/17/image_3.jpg"
+  report_detail_button_url: "/view-detail/"
+- report_popup_category_text_red_heading: OEE
+  report_main_heading: OEE By Machine (Form)
+  report_detail_button_text: View Detail
+  report_detail_button_url: "/view-detail/"
+  report_detail_image: "/uploads/2021/10/17/image_4.jpg"
+- report_popup_category_text_red_heading: Graph
+  report_main_heading: OEE By Machine (Graph)
+  report_detail_button_text: View Detail
+  report_detail_button_url: "/view-detail/"
+  report_detail_image: "/uploads/2021/10/17/image_5.jpg"
+- report_popup_category_text_red_heading: Tabular Data
+  report_main_heading: OEE By Machine (Tabular)
+  report_detail_button_text: View Detail
+  report_detail_button_url: "/view-detail/"
+  report_detail_image: "/uploads/2021/10/17/image_6.jpg"
 report_data_main_category:
 - report_name: Time Reports
   report_icon_class: flaticon-worker
