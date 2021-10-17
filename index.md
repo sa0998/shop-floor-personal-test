@@ -172,6 +172,11 @@ feature_para: The ShopFloorConnect Machine Interface (SMI 2) automatically detec
   when your machines are running, when they are stopped, and the number of parts they
   produce. The SMIs send this information to the ShopFloorConnect OEE monitoring software
   over your existing Ethernet.
+report_heading: Production, Efficiency, and Downtime Reports
+report_para: ShopFloorConnect production monitoring software has a powerful browser-based
+  reporting feature that allows you to configure and generate reports on demand, or
+  to set up schedules to automatically deliver pre-configured reports.
+report_inner_data: []
 
 ---
 ![](/uploads/2021/03/29/sfc6-gif.gif)
