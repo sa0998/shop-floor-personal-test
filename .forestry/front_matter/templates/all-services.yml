@@ -5,6 +5,11 @@ fields:
 - name: service_details
   type: field_group_list
   fields:
+  - name: select_direction
+    type: text
+    config:
+      required: true
+    label: Select Direction(eg even or odd)
   - name: service_icon_text
     type: text
     config:
