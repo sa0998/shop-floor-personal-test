@@ -23,7 +23,7 @@ fields:
   config:
     required: false
     options:
-    - blog
+    - shop-floor-data-collection
     source:
       type: simple
       section: 
