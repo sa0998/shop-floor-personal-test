@@ -12,6 +12,11 @@ fields:
   config: {}
   template: permalink
   label: Permalink
+- name: collection_data
+  type: include
+  config: {}
+  template: shop-floor-data-collection
+  label: Collection Data
 - name: layout
   type: select
   default: blog
@@ -25,7 +30,7 @@ fields:
       file: 
       path: 
   label: Layout
-  hidden: true
+  hidden: false
 pages:
 - our-solution/my-new-design-test.md
 - resources/news-and-events.md
