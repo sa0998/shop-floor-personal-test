@@ -22,5 +22,4 @@ fields:
   label: Layout
   hidden: true
 pages:
-- our-solution/test.md
 - resources/news-and-events.md
