@@ -22,6 +22,5 @@ fields:
     required: false
   label: Test Field
 pages:
-- our-solution/alitest.md
 - resources/news-and-events.md
 - test-new.md
