@@ -135,6 +135,39 @@ fields:
       maxSize: 64
     label: Schedule Interface Image
   label: Shop Floor Connect Schedule Interface
+- name: tracking_software_features_main_heading
+  type: text
+  config:
+    required: false
+  label: Tracking Software Features Main Heading
+- name: tracking_software_features_main_para
+  type: text
+  config:
+    required: false
+  label: Tracking Software Features Main Para
+- name: production_tracking_software_features
+  type: field_group_list
+  fields:
+  - name: feature_main_heading
+    type: text
+    config:
+      required: false
+    label: Feature Main Heading
+  - name: feature_para
+    type: text
+    config:
+      required: false
+    label: Feature Para
+  - name: feature_icon_class
+    type: text
+    config:
+      required: false
+    label: Feature Icon Class
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Production Tracking Software Features
 - name: key_words
   type: include
   config: {}
