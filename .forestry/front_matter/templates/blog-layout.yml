@@ -1,7 +1,7 @@
 ---
 label: Shop Floor Data Collection Layout
 hide_body: false
-display_field: test_field
+display_field: layout
 fields:
 - name: layout
   type: select
