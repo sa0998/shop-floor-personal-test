@@ -2,6 +2,11 @@
 label: Shop Floor Data Collection Layout
 hide_body: false
 fields:
+- name: collection_data
+  type: include
+  config: {}
+  template: shop-floor-data-collection
+  label: Collection Data
 - name: layout
   type: select
   default: blog
@@ -16,11 +21,6 @@ fields:
       path: 
   label: Layout
   hidden: true
-- name: test_field
-  type: text
-  config:
-    required: false
-  label: Test Field
 pages:
 - resources/news-and-events.md
 - test-new.md
