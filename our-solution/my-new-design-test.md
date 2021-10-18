@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: shop-floor-data-collection
 title: My New Design Test
 permalink: "/about/"
 you_cant_improve_section:
