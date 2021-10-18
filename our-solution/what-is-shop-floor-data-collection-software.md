@@ -14,6 +14,9 @@ key_words:
 - shop floor software
 - shop floor data collection software
 permalink: "/shop-floor-data-collection"
+banner_bg_image: "/uploads/2021/10/17/pic8.jpg"
+you_cant_improve_section:
+- {}
 menu:
   main:
     weight: 1
