@@ -2,6 +2,11 @@
 label: Blog Layout
 hide_body: false
 fields:
+- name: shop-floor-data-collection_temp
+  type: include
+  config: {}
+  template: shop-floor-data-collection
+  label: Shop Floor Data Collection Template
 - name: title
   type: include
   config: {}
