@@ -3,7 +3,7 @@ key_words: []
 layout: blog
 title: 'Test '
 document_title: New
-permalink: testnew
+permalink: "/testnew"
 banner_bg_image: ''
 what_is_shopfloor:
   top_heading_red: ''
