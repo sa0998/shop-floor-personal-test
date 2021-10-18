@@ -20,7 +20,7 @@ fields:
       file: 
       path: 
   label: Layout
-  hidden: false
+  hidden: true
 pages:
 - resources/news-and-events.md
 - test-new.md
