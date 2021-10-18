@@ -27,5 +27,4 @@ fields:
   label: Layout
   hidden: true
 pages:
-- our-solution/my-new-design.md
 - resources/news-and-events.md
