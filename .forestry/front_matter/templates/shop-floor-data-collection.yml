@@ -168,6 +168,34 @@ fields:
     max: 
     labelField: 
   label: Production Tracking Software Features
+- name: shop_floor_connect_differ_heading
+  type: text
+  config:
+    required: false
+  label: Shop Floor Connect Differ Heading
+- name: shop_floor_connect_differ_para
+  type: text
+  config:
+    required: false
+  label: Shop Floor Connect Differ Para
+- name: shop_floor_connect_differ_image
+  type: file
+  config:
+    maxSize: 64
+  label: Shop Floor Connect Differ Image
+- name: shop_floor_connect_differ_options
+  type: field_group_list
+  fields:
+  - name: shop_floor_connect_differ_option_text
+    type: text
+    config:
+      required: false
+    label: Shop Floor Connect Differ Option Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Shop Floor Connect Differ Options
 - name: key_words
   type: include
   config: {}
