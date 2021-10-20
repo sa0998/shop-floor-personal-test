@@ -70,4 +70,24 @@
         </div>
     </div>
     <!-- Abouts END -->
+    <!-- About Us -->
+    <div class="section-full content-inner bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 m-b30 our-story-thum">
+                    <img src="{% if page.shop_floor_connect_schedule_interface.schedule_interface_image != '' and page.shop_floor_connect_schedule_interface.schedule_interface_image != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_image}}{% endif %}" class="radius-sm" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 m-b30">
+                    <div class="our-story">
+                        <h2 class="title">{% if page.shop_floor_connect_schedule_interface.schedule_interface_heading != '' and page.shop_floor_connect_schedule_interface.schedule_interface_heading != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_heading}}{% endif %} <br/><span class="text-primary">{% if page.shop_floor_connect_schedule_interface.schedule_interface_heading_italic != '' and page.shop_floor_connect_schedule_interface.schedule_interface_heading_italic != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_heading_italic}}{% endif %}</span></h2>
+                        <p>{% if page.shop_floor_connect_schedule_interface.schedule_interface_para != '' and page.shop_floor_connect_schedule_interface.schedule_interface_para != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_para}}{% endif %}</p>
+                        <p>{% if page.shop_floor_connect_schedule_interface.schedule_interface_para_2 != '' and page.shop_floor_connect_schedule_interface.schedule_interface_para_2 != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_para_2}}{% endif %}</p>
+                        <p>{% if page.shop_floor_connect_schedule_interface.schedule_interface_para_3 != '' and page.shop_floor_connect_schedule_interface.schedule_interface_para_3 != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_para_3}}{% endif %}</p>
+                        <a href="{% if page.shop_floor_connect_schedule_interface.schedule_interface_button_url != '' and page.shop_floor_connect_schedule_interface.schedule_interface_button_url != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_button_url}}{% endif %}" class="site-button">{% if page.shop_floor_connect_schedule_interface.schedule_interface_button_text != '' and page.shop_floor_connect_schedule_interface.schedule_interface_button_text != nil %}{{page.shop_floor_connect_schedule_interface.schedule_interface_button_text}}{% endif %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us End -->
 </div>
