@@ -181,6 +181,11 @@ fields:
   config:
     required: false
   label: Tracking Software Features Main Para
+- name: tracking_software_features_bg_image
+  type: text
+  config:
+    required: false
+  label: Tracking Software Features Bg Image
 - name: production_tracking_software_features
   type: field_group_list
   fields:
