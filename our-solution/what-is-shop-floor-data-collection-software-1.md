@@ -56,20 +56,73 @@ improve_sub_section_image: "/uploads/2021/10/20/pic3.jpg"
 shop_floor_connect_schedule_interface:
   schedule_interface_heading: 'Shop Floor Connect '
   schedule_interface_heading_italic: Schedule Interface
-  schedule_interface_para: ''
+  schedule_interface_para: The scheduling interface feature in ShopFloorConnect production
+    tracking software allows you to create a queue of jobs to run in each machine.
+    You can either import a schedule from your existing ERP software, or use ShopFloorConnect’s
+    web browser interface to select the appropriate jobs and the quantity of parts
+    required.
   schedule_interface_button_text: Read More
   schedule_interface_button_url: "/about/"
   schedule_interface_image: "/uploads/2021/10/20/pic6-new.jpg"
-tracking_software_features_main_heading: ''
-tracking_software_features_main_para: ''
-production_tracking_software_features: []
-shop_floor_connect_differ_heading: ''
-shop_floor_connect_differ_para: ''
-shop_floor_connect_differ_image: ''
-shop_floor_connect_differ_options: []
+  schedule_interface_para_2: Once a schedule is created, ShopFloorConnect automatically
+    sends the “next job” information to the Machine Interface When it’s time to run
+    the next job, the machine operator simply selects “Load Next Job” and the information,
+    including the good parts counter preset, is retrieved from the ShopFloorConnect
+    shop floor management system.
+  schedule_interface_para_3: ShopFloorConnect production tracking software predicts
+    the completion time/date for each job in the queue with an industry-best algorithm
+    that analyzes real-time as well as historical changeover and production data.
+tracking_software_features_main_heading: 'Production Tracking Software Features '
+tracking_software_features_main_para: If your computer has a web browser and email
+  client, you have all you need to take full advantage of ShopFloorConnect’s production
+  tracking capabilities - even from remote locations (provided you have remote access
+  to your network).
+production_tracking_software_features:
+- feature_main_heading: Real Time Display
+  feature_para: 'Displays the status of the shop floor in real-time in any web browser
+    with 100% accuracy '
+  feature_icon_class: flaticon-factory
+- feature_main_heading: Report Genrator
+  feature_para: Shop Floor Connect provide's a  powerful production report generator
+    to help understand the production
+  feature_icon_class: flaticon-engineer
+- feature_main_heading: Existing Internet
+  feature_para: 'Uses your existing Ethernet (including wireless) no need to install
+    external internet system '
+  feature_icon_class: flaticon-factory-1
+- feature_main_heading: 'Open Architecture '
+  feature_para: 'Open architecture allows for communications with external software
+    to give good result '
+  feature_icon_class: flaticon-fuel-truck
+- feature_main_heading: Production Tracking
+  feature_para: Production tracking reports are customizable according to your requirments
+  feature_icon_class: flaticon-conveyor-1
+- feature_main_heading: Highly Accessible
+  feature_para: 'True thin-client. All settings are accessible through the web browser
+    no need to have extra browser '
+  feature_icon_class: flaticon-engineer-1
+shop_floor_connect_differ_heading: How Does Shop Floor Connect Differ From Other Production
+  Tracking Software?
+shop_floor_connect_differ_para: The main difference of our production tracking software
+  from other manual softwares in the market is as follows
+shop_floor_connect_differ_image: "/uploads/2021/10/20/pic5.jpg"
+shop_floor_connect_differ_options:
+- shop_floor_connect_differ_option_text: This shop floor data collection system can
+    communicate with virtually any production machine.
+- shop_floor_connect_differ_option_text: It communicates with the machines via Ethernet
+    (wired or wireless).
+- shop_floor_connect_differ_option_text: Shop Floor Connect is built from standard
+    components that can be customized.
+- shop_floor_connect_differ_option_text: It uses the Microsoft SQL database - not
+    Access.
+- shop_floor_connect_differ_option_text: This production tracking software shows real-time
+    machine status in your web browser.
+- shop_floor_connect_differ_option_text: ShopFloorConnect will run on a virtual server
+    (such as VMWare).
 description: Reliable production tracking software, like ShopFloorConnect, improves
   manufacturing shop floor data collection, reduces downtime and increases output.
 how_to_improve_main_heading: 'You Can’t Improve What '
 how_to_improve_main_heading_line_2: You Don’t Measure
+tracking_software_features_bg_image: "/uploads/2021/10/20/bg1.jpg"
 
 ---
