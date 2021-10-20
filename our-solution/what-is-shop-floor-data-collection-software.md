@@ -18,6 +18,7 @@ banner_bg_image: "/uploads/2021/10/17/pic8.jpg"
 you_cant_improve_section:
 - {}
 test_field: Test Check New
+layout: shop-floor-data-collection
 menu:
   main:
     weight: 1
