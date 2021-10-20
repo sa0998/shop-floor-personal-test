@@ -1,12 +1,12 @@
 ---
 layout: shop-floor-data-collection
-title: My New Design Test
-permalink: "/about/"
+title: What is Shop Floor Data Collection Software?
+permalink: "/shop-floor-data-collection"
 you_cant_improve_section:
 - improve_sub_section_heading: ''
   improve_sub_section_para: ''
   improve_sub_section_icon_class: ''
-document_title: ''
+document_title: Production Tracking Software | Shop Floor Data Collection System
 banner_bg_image: ''
 what_is_shopfloor:
   top_heading_red: ''
