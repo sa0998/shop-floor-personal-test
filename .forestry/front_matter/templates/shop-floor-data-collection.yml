@@ -88,6 +88,16 @@ fields:
       maxSize: 64
     label: What Section Image
   label: What is ShopFloor Connect
+- name: how_to_improve_main_heading
+  type: text
+  config:
+    required: false
+  label: How To Improve Main Heading
+- name: improve_sub_section_image
+  type: file
+  config:
+    maxSize: 64
+  label: Improve Sub Section Image
 - name: you_cant_improve_section
   type: field_group_list
   fields:
@@ -111,11 +121,6 @@ fields:
     max: 3
     labelField: 
   label: You Can’t Improve Section
-- name: improve_sub_section_image
-  type: file
-  config:
-    maxSize: 64
-  label: Improve Sub Section Image
 - name: shop_floor_connect_schedule_interface
   type: field_group
   config: {}
