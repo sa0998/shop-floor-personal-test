@@ -115,4 +115,31 @@
         </div>
     </div>
     <!-- Why Chose Us End -->
+    <!-- About progress -->
+    <div class="section-full about-progress custom-about-sa">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 bg-white">
+                    <div class="max-w700  m-auto content-inner">
+                        <div class="section-head">
+                            <h2 class="title">{% if page.shop_floor_connect_differ_heading != '' and page.shop_floor_connect_differ_heading != nil %}{{page.shop_floor_connect_differ_heading}}{% endif %}</h2>
+                            <p>{% if page.shop_floor_connect_differ_para != '' and page.shop_floor_connect_differ_para != nil %}{{page.shop_floor_connect_differ_para}}{% endif %}</p>
+                        </div>
+                        {% assign items = page.shop_floor_connect_differ_options %} {% for item in items %}
+                        <div class="about-progress-box">
+                            <h6 class="text-primary">{% if item.shop_floor_connect_differ_option_text != '' and item.shop_floor_connect_differ_option_text != nil%}{{item.shop_floor_connect_differ_option_text}}{% endif %}</h6>
+                            <div class="about-progress-bar bgray-dark">
+                                <div class="about-progress bg-primary wow slideInLeft" data-wow-delay="0.2s" data-wow-duration="2s" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 p-a0">
+                    <img src="{% if page.shop_floor_connect_differ_image != '' and page.shop_floor_connect_differ_image != nil %}{{page.shop_floor_connect_differ_image}}{% endif %}" alt="" class="img-cover "/> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About progress END -->
 </div>
