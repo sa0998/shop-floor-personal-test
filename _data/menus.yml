@@ -1,9 +1,5 @@
 ---
 main:
-- url: "/index"
-  weight: 6
-  parent: item_DsyKHj_
-  title: Test Link
 - url: "#"
   weight: 1
   identifier: item_DsyKHj_

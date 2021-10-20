@@ -16,7 +16,7 @@ menu:
     title: SMI 2 - Machine Interface
     identifier: item_GFks2hS
   footer:
-    weight: 2
+    weight: 1
     title: Hardware
 
 ---

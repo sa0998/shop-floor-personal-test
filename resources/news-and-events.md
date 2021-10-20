@@ -15,7 +15,7 @@ menu:
     parent: item_Bs8WyLo
     identifier: item_xowiA-B
   footer:
-    weight: 3
+    weight: 2
     title: Learn
 
 ---
