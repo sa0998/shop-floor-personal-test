@@ -26,16 +26,16 @@
                 <div class="col-lg-6 col-md-12 m-b30">
                     <div class="our-story">
                         <span> {% if page.what_is_shopfloor.top_heading_red != '' and page.what_is_shopfloor.top_heading_red != nil %}{{page.what_is_shopfloor.top_heading_red}}{% endif %}</span>
-                        <h2 class="title">Test ShopFloor <br/>Connect the best<br/><span class="text-primary">management system</span></h2>
-                        <h4 class="title">You rely on information to manage your business; and better information allows you to make better decisions.</h4>
-                        <p>If you are like most manufacturers, important shop floor efficiency and machine downtime data is collected manually and entered into the production tracking system by a human operator.</p>
-                        <p>It is very likely that this manufacturing data is not as reliable as it could be. The three common problems with manual collection of shop floor data are untimeliness, inaccuracy, and bias.</p>
-                        <p>ShopFloorConnect Asset Utilization Software and hardware automatically collect shop floor production data that is timely, accurate, and unbiased. Best of all, this production tracking system does it automatically, and in real time!</p>
-                        <a href="javascript:void(0);" class="site-button">Read More</a>
+                        <h2 class="title">{% if page.what_is_shopfloor.main_heading_first_line != '' and page.what_is_shopfloor.main_heading_first_line != nil %}{{page.what_is_shopfloor.main_heading_second_line}}{% endif %} <br/>{% if page.what_is_shopfloor.main_heading_second_line != '' and page.what_is_shopfloor.main_heading_second_line != nil %}{{page.what_is_shopfloor.main_heading_second_line}}{% endif %}<br/><span class="text-primary">{% if page.what_is_shopfloor.main_heading_italic != '' and page.what_is_shopfloor.main_heading_italic != nil %}{{page.what_is_shopfloor.main_heading_italic}}{% endif %}</span></h2>
+                        <h4 class="title">{% if page.what_is_shopfloor.details_para_bold != '' and page.what_is_shopfloor.details_para_bold != nil %}{{page.what_is_shopfloor.details_para_bold}}{% endif %}</h4>
+                        <p>{% if page.what_is_shopfloor.details_para_normal_1 != '' and page.what_is_shopfloor.details_para_normal_1 != nil %}{{page.what_is_shopfloor.details_para_normal_1}}{% endif %}</p>
+                        <p>{% if page.what_is_shopfloor.details_para_normal_2 != '' and page.what_is_shopfloor.details_para_normal_2 != nil %}{{page.what_is_shopfloor.details_para_normal_2}}{% endif %}</p>
+                        <p>{% if page.what_is_shopfloor.details_para_normal_3 != '' and page.what_is_shopfloor.details_para_normal_3 != nil %}{{page.what_is_shopfloor.details_para_normal_3}}{% endif %}</p>
+                        <a href="{% if page.what_is_shopfloor.button_url != '' and page.what_is_shopfloor.button_url != nil %}{{page.what_is_shopfloor.button_url}}{% endif %}" class="site-button">{% if page.what_is_shopfloor.button_text != '' and page.what_is_shopfloor.button_text != nil %}{{page.what_is_shopfloor.button_text}}{% endif %}</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 m-b30 our-story-thum">
-                    <img src="images/about/pic6.jpg" class="radius-sm" alt="">
+                    <img src="{% if page.what_is_shopfloor.what_section_image != '' and page.what_is_shopfloor.what_section_image != nil %}{{page.what_is_shopfloor.what_section_image}}{% endif %}" class="radius-sm" alt="">
                 </div>
             </div>
         </div>
