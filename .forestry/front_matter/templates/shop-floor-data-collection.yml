@@ -182,9 +182,9 @@ fields:
     required: false
   label: Tracking Software Features Main Para
 - name: tracking_software_features_bg_image
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 64
   label: Tracking Software Features Bg Image
 - name: production_tracking_software_features
   type: field_group_list
