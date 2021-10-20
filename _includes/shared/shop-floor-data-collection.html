@@ -90,4 +90,29 @@
         </div>
     </div>
     <!-- About Us End -->
+    <!-- Why Chose Us -->
+    <div class="section-full content-inner-1 overlay-black-dark about-8-service bg-img-fix" style="background-image:url({{page.tracking_software_features_bg_image}});">
+        <div class="container">
+            <div class="section-head text-white text-center">
+                <h2 class="title-box m-tb0 max-w800 m-auto">{% if page.tracking_software_features_main_heading != '' and page.tracking_software_features_main_heading != nil %}{{page.tracking_software_features_main_heading}}{% endif %}<span class="bg-primary"></span></h2>
+                <p>{% if page.tracking_software_features_main_para != '' and page.tracking_software_features_main_para != nil %}{{page.tracking_software_features_main_para}}{% endif %}</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-white">
+                {% assign items = page.production_tracking_software_features %} {% for item in items %}
+                <div class="col-lg-4 col-md-4 m-b30">
+                    <div class="icon-bx-wraper bx-style-1 p-a30 center">
+                        <div class="icon-lg text-white m-b20"> <a href="javascript:void(0);" class="icon-cell text-white"><i class="{% if item.feature_icon_class != '' and item.feature_icon_class != nil%}{{item.feature_icon_class}}{% endif %}"></i></a> </div>
+                        <div class="icon-content">
+                            <h5 class="dlab-tilte text-uppercase">{% if item.feature_main_heading != '' and item.feature_main_heading != nil%}{{item.feature_main_heading}}{% endif %}</h5>
+                            <p>{% if item.feature_para != '' and item.feature_para != nil%}{{item.feature_para}}{% endif %} </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- Why Chose Us End -->
 </div>
