@@ -26,7 +26,7 @@
                 <div class="col-lg-6 col-md-12 m-b30">
                     <div class="our-story">
                         <span> {% if page.what_is_shopfloor.top_heading_red != '' and page.what_is_shopfloor.top_heading_red != nil %}{{page.what_is_shopfloor.top_heading_red}}{% endif %}</span>
-                        <h2 class="title">{% if page.what_is_shopfloor.main_heading_first_line != '' and page.what_is_shopfloor.main_heading_first_line != nil %}{{page.what_is_shopfloor.main_heading_second_line}}{% endif %} <br/>{% if page.what_is_shopfloor.main_heading_second_line != '' and page.what_is_shopfloor.main_heading_second_line != nil %}{{page.what_is_shopfloor.main_heading_second_line}}{% endif %}<br/><span class="text-primary">{% if page.what_is_shopfloor.main_heading_italic != '' and page.what_is_shopfloor.main_heading_italic != nil %}{{page.what_is_shopfloor.main_heading_italic}}{% endif %}</span></h2>
+                        <h2 class="title">{% if page.what_is_shopfloor.main_heading_first_line != '' and page.what_is_shopfloor.main_heading_first_line != nil %}{{page.what_is_shopfloor.main_heading_first_line}}{% endif %} <br/>{% if page.what_is_shopfloor.main_heading_second_line != '' and page.what_is_shopfloor.main_heading_second_line != nil %}{{page.what_is_shopfloor.main_heading_second_line}}{% endif %}<br/><span class="text-primary">{% if page.what_is_shopfloor.main_heading_italic != '' and page.what_is_shopfloor.main_heading_italic != nil %}{{page.what_is_shopfloor.main_heading_italic}}{% endif %}</span></h2>
                         <h4 class="title">{% if page.what_is_shopfloor.details_para_bold != '' and page.what_is_shopfloor.details_para_bold != nil %}{{page.what_is_shopfloor.details_para_bold}}{% endif %}</h4>
                         <p>{% if page.what_is_shopfloor.details_para_normal_1 != '' and page.what_is_shopfloor.details_para_normal_1 != nil %}{{page.what_is_shopfloor.details_para_normal_1}}{% endif %}</p>
                         <p>{% if page.what_is_shopfloor.details_para_normal_2 != '' and page.what_is_shopfloor.details_para_normal_2 != nil %}{{page.what_is_shopfloor.details_para_normal_2}}{% endif %}</p>
@@ -41,4 +41,33 @@
         </div>
     </div>
     <!-- About Us End -->
+    <!-- Abouts -->
+    <div class="section-full box-about-list">
+        <div class="row spno">
+            <div class="col-lg-6 col-md-12"> 
+                <img src="{% if page.improve_sub_section_image != '' and page.improve_sub_section_image != nil %}{{page.improve_sub_section_image}}{% endif %}" alt="" class="img-cover"/> 
+            </div>
+            <div class="col-lg-6 col-md-12 bg-primary">
+                <div class="max-w700 m-auto p-tb50 p-lr20">
+                    <div class="text-white">
+                        <h2>{% if page.how_to_improve_main_heading!= '' and page.how_to_improve_main_heading!= nil %}{{page.how_to_improve_main_heading}}{% endif %} <br/>{% if page.how_to_improve_main_heading_line_2!= '' and page.how_to_improve_main_heading_line_2 != nil %}{{page.how_to_improve_main_heading_line_2}}{% endif %}</h2>
+                    </div>
+                    {% assign items = page.you_cant_improve_section %} {% for item in items %}
+                    <div class="icon-bx-wraper m-b30 left">
+                        <div class="icon-md"> 
+                            <a href="javascript:void(0);" class="icon-cell text-white">
+                                <i class="{% if item.improve_sub_section_icon_class != '' and item.improve_sub_section_icon_class != nil%}{{item.improve_sub_section_icon_class}}{% endif %}"></i>
+                            </a> 
+                        </div>
+                        <div class="icon-content">
+                            <h4 class="dlab-tilte">{% if item.improve_sub_section_heading != '' and item.improve_sub_section_heading != nil%}{{item.improve_sub_section_heading}}{% endif %} </h4>
+                            <p> {% if item.improve_sub_section_para != '' and item.improve_sub_section_para != nil%}{{item.improve_sub_section_para}}{% endif %}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Abouts END -->
 </div>
