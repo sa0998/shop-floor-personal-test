@@ -57,11 +57,21 @@ fields:
     config:
       required: false
     label: Details Para Bold
-  - name: details_para_normal
+  - name: details_para_normal_1
     type: text
     config:
       required: false
-    label: Details Para Normal
+    label: Details Para Normal 1
+  - name: details_para_normal_2
+    type: text
+    config:
+      required: false
+    label: Details Para Normal 2
+  - name: details_para_normal_3
+    type: text
+    config:
+      required: false
+    label: Details Para Normal 3
   - name: button_text
     type: text
     config:
