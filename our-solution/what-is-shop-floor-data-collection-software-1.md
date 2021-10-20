@@ -1,5 +1,14 @@
 ---
-key_words: []
+key_words:
+- production tracking software
+- shop floor data collection
+- manufacturing tracking software
+- shop floor management system
+- shop floor data collection system
+- manufacturing data collection
+- production tracking systems
+- shop floor software
+- shop floor data collection software
 layout: shop-floor-data-collection
 title: What is Shop Floor Data Collection Software?
 document_title: Production Tracking Software | Shop Floor Data Collection System
