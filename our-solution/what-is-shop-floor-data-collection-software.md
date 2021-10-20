@@ -1,5 +1,5 @@
 ---
-title: What is Shop Floor Data Collection Software?
+title: What is Shop Floor Data Collection Software Old?
 document_title: Production Tracking Software | Shop Floor Data Collection System
 description: Reliable production tracking software, like ShopFloorConnect, improves
   manufacturing shop floor data collection, reduces downtime and increases output.
