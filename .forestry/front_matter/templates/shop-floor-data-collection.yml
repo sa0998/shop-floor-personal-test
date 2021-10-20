@@ -145,6 +145,16 @@ fields:
     config:
       required: false
     label: Schedule Interface Para
+  - name: schedule_interface_para_2
+    type: text
+    config:
+      required: false
+    label: Schedule Interface Para 2
+  - name: schedule_interface_para_3
+    type: text
+    config:
+      required: false
+    label: Schedule Interface Para 3
   - name: schedule_interface_button_text
     type: text
     config:
