@@ -1,7 +1,7 @@
 ---
 key_words: []
 layout: shop-floor-data-collection
-title: What is Shop Floor Data Collection Software
+title: What is Shop Floor Data Collection Software?
 document_title: Production Tracking Software | Shop Floor Data Collection System
 permalink: "/shop-floor-data-collection"
 banner_bg_image: ''
@@ -34,5 +34,7 @@ shop_floor_connect_differ_heading: ''
 shop_floor_connect_differ_para: ''
 shop_floor_connect_differ_image: ''
 shop_floor_connect_differ_options: []
+description: Reliable production tracking software, like ShopFloorConnect, improves
+  manufacturing shop floor data collection, reduces downtime and increases output.
 
 ---
