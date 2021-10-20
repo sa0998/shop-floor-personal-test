@@ -2,16 +2,6 @@
 label: Shop Floor Data Collection Layout
 hide_body: false
 fields:
-- name: title
-  type: include
-  config: {}
-  template: title
-  label: Title
-- name: permalink
-  type: include
-  config: {}
-  template: permalink
-  label: Permalink
 - name: collection_data
   type: include
   config: {}
