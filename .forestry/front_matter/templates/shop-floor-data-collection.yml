@@ -17,6 +17,12 @@ fields:
   config: {}
   template: permalink
   label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+  description: Used for Search Engines
 - name: banner_bg_image
   type: file
   config:
