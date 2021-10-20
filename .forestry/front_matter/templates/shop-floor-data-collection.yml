@@ -93,6 +93,11 @@ fields:
   config:
     required: false
   label: How To Improve Main Heading
+- name: how_to_improve_main_heading_line_2
+  type: text
+  config:
+    required: false
+  label: How To Improve Main Heading Line 2
 - name: improve_sub_section_image
   type: file
   config:
