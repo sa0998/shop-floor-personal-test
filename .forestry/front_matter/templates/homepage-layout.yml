@@ -53,11 +53,6 @@ fields:
   config: {}
   template: reports-data
   label: Report Detail Section
-- name: testimonial_data
-  type: include
-  config: {}
-  template: testimonials
-  label: Testimonial Data
 - name: our_team
   type: include
   config: {}
