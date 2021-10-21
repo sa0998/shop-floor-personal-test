@@ -38,8 +38,8 @@
 <div class="section-full content-inner" id="custom-service-tabs">
     <div class="container">
         <div class=" text-gray-dark text-center">
-            <h2 class="title">Major Features</h2>
-            <p>The ShopFloorConnect Machine interface major features are as follows</p>
+            <h2 class="title">{% if page.major_features_main_heading!= '' and page.major_features_main_heading != nil %}{{page.major_features_main_heading}}{% endif %}</h2>
+            <p>{% if page.major_features_para!= '' and page.major_features_para!= nil %}{{page.major_features_para}}{% endif %}</p>
         </div>
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-5">
@@ -87,4 +87,164 @@
             {% endfor %}
         </div>
     </div>
+</div>
+<div class="content-block">
+    <!-- About Us -->
+    <div class="section-full content-inner bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="section-head text-black">
+                        <h4 class="text-gray-dark font-weight-300 m-b10">{% if page.expertise_content.expertise_small_heading != '' and page.expertise_content.expertise_small_heading != nil %}{{page.expertise_content.expertise_small_heading}}{% endif %}</h4>
+                        <h2 class="title">{% if page.expertise_content.expertise_main_heading != '' and page.expertise_content.expertise_main_heading != nil %}{{page.expertise_content.expertise_main_heading}}{% endif %}</h2>
+                        <p>{% if page.expertise_content.expertise_details_para_1 != '' and page.expertise_content.expertise_details_para_1 != nil %}{{page.expertise_content.expertise_details_para_1}}{% endif %}</p>
+                        <p>{% if page.expertise_content.expertise_details_para_2 != '' and page.expertise_content.expertise_details_para_2 != nil %}{{page.expertise_content.expertise_details_para_2}}{% endif %}</p>
+                        <p>{% if page.expertise_content.expertise_details_para_3 != '' and page.expertise_content.expertise_details_para_3 != nil %}{{page.expertise_content.expertise_details_para_3}}{% endif %}</p>
+                        <div class=""> <a href="javascript:void(0);"><img src="{% if page.expertise_content.expertise_image != '' and page.expertise_content.expertise_image != nil %}{{page.expertise_content.expertise_image}}{% endif %}" alt=""></a> </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="sticky-top m-b30">
+                        <form class="inquiry-form inner">
+                            <h3 class="title m-t0 m-b10">Let's Convert Your Idea into Reality</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="ti-user text-primary"></i></span>
+                                            <input name="dzName" type="text" required class="form-control" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="ti-mobile text-primary"></i></span>
+                                            <input name="dzOther[Phone]" type="text" required class="form-control" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="ti-email text-primary"></i></span>
+                                            <input name="dzEmail" type="email" class="form-control" required  placeholder="Your Email Id" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="ti-check-box text-primary"></i></span>
+                                            <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Upload File">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="ti-file text-primary"></i></span>
+                                            <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Upload File">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="ti-agenda text-primary"></i></span>
+                                            <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Tell us about your project or idea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <button name="submit" type="submit" value="Submit" class="site-button button-lg"> <span>Get A Free Quote!</span> </button>
+                                </div>
+                            </div>
+                        </form>	
+                    </div>	
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services -->
+    {% include home/testimonials.html %}
+    <!-- Get in touch -->
+    <div class="section-full overlay-black-dark bg-img-fix" style="background-image:url(images/background/bg1.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 content-inner chosesus-content text-white">
+                    <h2 class="title-box font-weight-300 m-b15 wow fadeInLeft" data-wow-delay="0.2s">{% if page.get_in_touch != '' and page.get_in_touch != nil %}{{page.get_in_touch}}{% endif %} <span class="bg-primary"></span></h2>
+                    <p class="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">{% if page.get_in_touch_bold_para != '' and page.get_in_touch_bold_para != nil %}{{page.get_in_touch_bold_para}}{% endif %}</p>
+                    <h3 class="font-weight-300 m-b50 op6 wow fadeInLeft" data-wow-delay="0.6s">{% if page.get_in_touch_large_para != '' and page.get_in_touch_large_para != nil %}{{page.get_in_touch_large_para}}{% endif %}</h3>
+                    <h4 class="font-weight-300 wow fadeInLeft" data-wow-delay="0.8s">{% if page.what_you_will_get_heading != '' and page.what_you_will_get_heading != nil %}{{page.what_you_will_get_heading}}{% endif %}</h4>
+                    <ul class="list-checked primary wow fadeInLeft" data-wow-delay="1s">
+                        {% assign items = page.what_you_will_get_para %} {% for item in items %}
+                        <li><span>{% if item.what_you_will_para_details != '' and item.what_you_will_para_details != nil%}{{item.what_you_will_para_details}}{% endif %}</span></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-lg-7 col-md-12 m-b30">
+                    <form class="inquiry-form contact-project bg-white box-shadow wow fadeInUp" data-wow-delay="0.2s">
+                        <h3 class="title-box font-weight-300 m-t0 m-b10">Let's Convert Your Idea into Reality <span class="bg-primary"></span></h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-user text-primary"></i></span>
+                                        <input name="dzName" type="text" required class="form-control" placeholder="First Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-mobile text-primary"></i></span>
+                                        <input name="dzOther[Phone]" type="text" required class="form-control" placeholder="Phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="form-group">
+                                    <div class="input-group"> 
+                                        <span class="input-group-addon"><i class="ti-email text-primary"></i></span>
+                                        <input name="dzEmail" type="email" class="form-control" required  placeholder="Your Email Id" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-check-box text-primary"></i></span>
+                                        <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Upload File">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-file text-primary"></i></span>
+                                        <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Upload File">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-agenda text-primary"></i></span>
+                                        <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Tell us about your project or idea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                                <button name="submit" type="submit" value="Submit" class="site-button button-lg"> <span>Get A Free Quote!</span> </button>
+                            </div>
+                        </div>
+                    </form>	
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Get in touch -->
 </div>
