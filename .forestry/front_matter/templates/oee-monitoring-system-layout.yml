@@ -1,4 +1,9 @@
 ---
 label: OEE Monitoring System Layout
 hide_body: false
-fields: []
+fields:
+- name: monitors_oee
+  type: include
+  config: {}
+  template: oee-monitoring-system
+  label: Monitors OEE
