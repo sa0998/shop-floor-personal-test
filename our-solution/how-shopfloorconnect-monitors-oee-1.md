@@ -34,6 +34,8 @@ major_features_tabs_content:
     is operating and making parts. The Running time becomes the basis for the Availability
     portion of the OEE calculation.
   tab_content_image: "/uploads/2021/10/21/running-bg.jpg"
+  tab_content_id: runningtime
+  tab_content_status: active
 - tab_content_title: Idle State
   tab_content_heading: Idle State
   tab_content_para_details: The Idle state indicates that the machine has stopped,
@@ -41,6 +43,8 @@ major_features_tabs_content:
     or changeover when the machine operator selects a downtime reason. When OEE is
     calculated, any unconverted Idle time it treated as Unplanned Down.
   tab_content_image: "/uploads/2021/10/21/idle-bg.jpg"
+  tab_content_id: ''
+  tab_content_status: ''
 - tab_content_title: Unplanned Downtime
   tab_content_para_details: The machine is stopped, the reason for the stoppage has
     been reported to ShopFloorConnect, and the reason had been previously assigned
@@ -48,6 +52,8 @@ major_features_tabs_content:
     reduce the “Availability” percentage.
   tab_content_image: "/uploads/2021/10/21/down-bg.jpg"
   tab_content_heading: Unplanned Downtime
+  tab_content_id: ''
+  tab_content_status: ''
 - tab_content_title: Planned Downtime
   tab_content_heading: Planned Downtime
   tab_content_para_details: The machine is stopped, the reason for the stoppage has
@@ -55,6 +61,8 @@ major_features_tabs_content:
     to the Planned Downtime state. Planned downtime logged by the OEE system DOES
     NOT affect the “Availability” calculation.
   tab_content_image: "/uploads/2021/10/21/planned-bg.jpg"
+  tab_content_id: ''
+  tab_content_status: ''
 - tab_content_title: Changeover
   tab_content_heading: Changeover
   tab_content_para_details: The machine is stopped, the reason for the stoppage has
@@ -64,6 +72,8 @@ major_features_tabs_content:
     logged as unplanned downtime, the OEE software will reduce the availability percentage
     for any Changeover time logged by the system.
   tab_content_image: "/uploads/2021/10/21/changeover-bg.jpg"
+  tab_content_id: ''
+  tab_content_status: ''
 expertise_content:
   expertise_small_heading: Expertise
   expertise_main_heading: Downtime Identification for OEE
