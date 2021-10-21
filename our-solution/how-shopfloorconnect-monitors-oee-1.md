@@ -65,16 +65,38 @@ major_features_tabs_content:
     for any Changeover time logged by the system.
   tab_content_image: "/uploads/2021/10/21/changeover-bg.jpg"
 expertise_content:
-  expertise_small_heading: ''
-  expertise_main_heading: ''
-  expertise_details_para_1: ''
-  expertise_details_para_2: ''
-  expertise_details_para_3: ''
-  expertise_image: ''
-get_in_touch: ''
-get_in_touch_bold_para: ''
-get_in_touch_large_para: ''
-what_you_will_get_heading: ''
-what_you_will_get_para: []
+  expertise_small_heading: Expertise
+  expertise_main_heading: Downtime Identification for OEE
+  expertise_details_para_1: ShopFloorConnect allows you to create a list of downtime
+    reasons specific to each machine. The list is sent down to the ShopFloorConnect
+    Machine Interface (SMI) and appears as the Downtime Reason menu at the machine.
+    When a running machine stops, the SMI instantaneously detects the transition,
+    and changes the machine state from ‘Running” to “Idle”. If the operator immediately
+    restarts the machine, the brief stoppage will be recorded as Idle time, which
+    the OEE software regards as unplanned downtime. If the stoppage lasts for longer
+    than a user-selectable time period (usually one minute), the SMI will disply the
+    downtime reasonmenu and inhibit further machine operation until the operator selects
+    an appropriate downtime reason. Once the reason is selected, ShopFloorConnect
+    will ‘backfill’ the previous block of idle time with the downtime reason.
+  expertise_details_para_2: The ShopFloorConnect OEE software is unique in its ability
+    to compare actual machine performance to part-specific ideal production rates
+    to calculate the performance portion of the OEE metric. percent.
+  expertise_details_para_3: ShopFloorConnect monitors the amount of time each machine
+    spends in the various machine states, and also keeps an accurate parts count (where
+    appropriate). In addition to making the information available in real time through
+    the Factory Viewer, all of the information is available to the reporting interface
+    to create downtime, production summary, OEE, and other reports.
+  expertise_image: "/uploads/2021/10/21/software-bg-new.png"
+get_in_touch: Let's get in touch
+get_in_touch_bold_para: Give us a call or drop by anytime, we endeavour to answer
+  all enquiries within 24 hours on business days.
+get_in_touch_large_para: By 700+ customers for 3200+ Web and Mobile App development
+  projects.
+what_you_will_get_heading: "& What you will get:"
+what_you_will_get_para:
+- what_you_will_para_details: Contrary to popular belief, Lorem Ipsum is not simply
+- what_you_will_para_details: Random text. It has roots in a piece of classical Latin
+    literature
+- what_you_will_para_details: Latin professor at Hampden-Sydney College in Virginia
 
 ---
