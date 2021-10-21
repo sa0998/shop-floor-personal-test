@@ -106,5 +106,9 @@ key_words:
 - OEE monitoring
 - OEE System
 - OEE Software
+menu:
+  main:
+    weight: 2
+    parent: item_DsyKHj_
 
 ---
