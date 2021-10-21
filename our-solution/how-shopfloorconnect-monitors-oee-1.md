@@ -6,7 +6,7 @@ permalink: "/oee-monitoring-system"
 description: The ShopFloorConnect OEE monitoring software tracks machine availability
   for OEE by assigning time to specific machine states.
 banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
-monitors_oee_heading: How ShopFloorConnect Monitors OEE
+monitors_oee_heading: 'How ShopFloorConnect Monitors OEE '
 monitors_oee_details_para: The ShopFloorConnect Machine Interface (SMI 2) automatically
   detects when your machines are running, when they are stopped, and the number of
   parts they produce. The SMIs send this information to the ShopFloorConnect OEE monitoring
@@ -110,5 +110,6 @@ menu:
   main:
     weight: 2
     parent: item_DsyKHj_
+    identifier: item_yUad9TL
 
 ---
