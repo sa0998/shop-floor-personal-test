@@ -80,3 +80,38 @@ fields:
     max: 
     labelField: 
   label: Major Features Tabs Content
+- name: expertise_content
+  type: field_group
+  config: {}
+  fields:
+  - name: expertise_small_heading
+    type: text
+    config:
+      required: false
+    label: Expertise Small Heading
+  - name: expertise_main_heading
+    type: text
+    config:
+      required: false
+    label: Expertise Main Heading
+  - name: expertise_details_para_1
+    type: text
+    config:
+      required: false
+    label: Expertise Details Para 1
+  - name: expertise_details_para_2
+    type: text
+    config:
+      required: false
+    label: Expertise Details Para 2
+  - name: expertise_details_para_3
+    type: text
+    config:
+      required: false
+    label: Expertise Details Para 3
+  - name: expertise_image
+    type: file
+    config:
+      maxSize: 64
+    label: Expertise Image
+  label: Expertise Content
