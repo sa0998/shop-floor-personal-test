@@ -163,3 +163,8 @@ fields:
   config:
     maxSize: 64
   label: Get in Touch BG
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
