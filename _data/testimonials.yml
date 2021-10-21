@@ -1,0 +1,16 @@
+---
+testimonials_heading: Testimonials
+testimonial_para: Lorem Ipsum is simply dummy text of the printing and typesetting
+  industry has been the industry's standard dummy text ever since the been when an
+  unknown printer.
+testimonials:
+- testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
+    since the when an printer took a galley of type and scrambled it to make.
+  testimonial_person_name: David Matin
+  testimonial_person_designation: Student
+  testimonial_client: "/uploads/2021/10/17/pic1.jpg"
+- testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
+    since the when an printer took a galley of type and scrambled it to make.
+  testimonial_person_name: David Matin
+  testimonial_person_designation: CEO
+  testimonial_client: "/uploads/2021/10/17/pic1.jpg"

@@ -9,7 +9,6 @@ sections:
 - type: document
   path: _data/testimonials.yml
   label: Testimonials
-  match: "**/*"
 - type: document
   path: _data/contact_information_first.yml
   label: Company Description
