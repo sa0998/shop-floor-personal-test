@@ -52,6 +52,16 @@ fields:
   config:
     required: false
   label: Monitors OEE Details Para 3
+- name: major_features_main_heading
+  type: text
+  config:
+    required: false
+  label: Major Features Main Heading
+- name: major_features_para
+  type: text
+  config:
+    required: false
+  label: Major Features Para
 - name: major_features_tabs_content
   type: field_group_list
   fields:
@@ -148,3 +158,8 @@ fields:
     max: 
     labelField: 
   label: What You Will Get Para
+- name: get_in_touch_bg
+  type: file
+  config:
+    maxSize: 64
+  label: Get in Touch BG
