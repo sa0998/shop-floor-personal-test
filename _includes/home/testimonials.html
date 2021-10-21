@@ -2,12 +2,12 @@
 <div class="section-full content-inner-2 bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
     <div class="container">
         <div class="section-head text-black text-center">
-            <h2 class="title">{% if page.testimonials_heading != '' and page.testimonials_heading!= nil %}{{page.testimonials_heading}}{% endif %}</h2>
-            <p>{% if page.testimonial_para != '' and page.testimonial_para!= nil %}{{page.testimonial_para}}{% endif %}</p>
+            <h2 class="title">{% if site.data.testimonials.testimonials_heading != '' and site.data.testimonials.testimonials_heading != nil %}{{site.data.testimonials.testimonials_heading}}{% endif %}</h2>
+            <p>{% if site.data.testimonials.testimonial_para != '' and site.data.testimonials.testimonial_para != nil %}{{site.data.testimonials.testimonial_para}}{% endif %}</p>
         </div>	
         <div class="testimonial-box-carousel owl-carousel m-b5 owl-btn-center-lr owl-btn-2 radius-no owl-btn-md owl-theme primary owl-dots-none">
-            {% if page.testimonials.size > 0 %}
-            {% assign items = page.testimonials %} {% for item in items %}
+            {% if site.data.testimonials.size > 0 %}
+            {% assign items = site.data.testimonials %} {% for item in items %}
             <div class="item">
                 <div class="testimonial-11 testimonial-box">
                     <div class="testimonial-pic">
