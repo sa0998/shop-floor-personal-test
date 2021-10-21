@@ -102,5 +102,9 @@ major_features_main_heading: Major Features
 major_features_para: The ShopFloorConnect Machine interface major features are as
   follows
 get_in_touch_bg: "/uploads/2021/10/20/bg1.jpg"
+key_words:
+- OEE monitoring
+- OEE System
+- OEE Software
 
 ---
