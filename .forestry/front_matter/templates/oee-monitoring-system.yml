@@ -52,3 +52,31 @@ fields:
   config:
     required: false
   label: Monitors OEE Details Para 3
+- name: major_features_tabs_content
+  type: field_group_list
+  fields:
+  - name: tab_content_title
+    type: text
+    config:
+      required: false
+    label: Tab Content Title
+  - name: tab_content_heading
+    type: text
+    config:
+      required: false
+    label: Tab Content Heading
+  - name: tab_content_para_details
+    type: text
+    config:
+      required: false
+    label: Tab Content Para Details
+  - name: tab_content_image
+    type: file
+    config:
+      maxSize: 64
+    label: Tab Content Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Major Features Tabs Content
