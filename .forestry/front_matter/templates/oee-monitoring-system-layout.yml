@@ -7,3 +7,16 @@ fields:
   config: {}
   template: oee-monitoring-system
   label: Monitors OEE
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - oee-monitoring-system
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
