@@ -7,7 +7,9 @@ key_words:
 - OEE monitoring
 - OEE System
 - OEE Software
-permalink: "/oee-monitoring-system"
+permalink: "/oee-monitoring-system-old"
+banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
+monitors_oee_heading: How ShopFloorConnect Monitors OEE
 menu:
   main:
     weight: 2
