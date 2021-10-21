@@ -75,11 +75,6 @@ fields:
     config:
       required: false
     label: Tab Content Id
-  - name: tab_content_status
-    type: text
-    config:
-      required: false
-    label: Tab Content Status
   - name: tab_content_heading
     type: text
     config:
