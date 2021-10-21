@@ -27,3 +27,28 @@ fields:
   config:
     maxSize: 64
   label: Banner Bg Image
+- name: monitors_oee_heading
+  type: text
+  config:
+    required: false
+  label: Monitors OEE Heading
+- name: monitors_oee_details_para
+  type: text
+  config:
+    required: false
+  label: Monitors OEE Details Para
+- name: monitors_oee_details_para_1
+  type: text
+  config:
+    required: false
+  label: Monitors OEE Details Para 1
+- name: monitors_oee_details_para_2
+  type: text
+  config:
+    required: false
+  label: Monitors OEE Details Para 2
+- name: monitors_oee_details_para_3
+  type: text
+  config:
+    required: false
+  label: Monitors OEE Details Para 3
