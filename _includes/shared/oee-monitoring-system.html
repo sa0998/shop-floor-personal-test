@@ -46,7 +46,7 @@
                 <div class="widget sidebar-widget ext-sidebar-menu widget_nav_menu">
                     <ul class="menu">
                         {% assign items = page.major_features_tabs_content %} {% for item in items %}
-                        <li><a href="#{% if item.tab_content_title != '' and item.tab_content_title != nil%}{{item.tab_content_title}}{% endif %}">{% if item.tab_content_title!= '' and item.tab_content_title != nil%}{{item.tab_content_title}}{% endif %}</a>  </li>
+                        <li><a href="#{% if item.tab_content_id != '' and item.tab_content_id != nil%}{{item.tab_content_id}}{% endif %}">{% if item.tab_content_title!= '' and item.tab_content_title != nil%}{{item.tab_content_title}}{% endif %}</a>  </li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -71,7 +71,7 @@
                 </div>
             </div>
             {% assign items = page.major_features_tabs_content %} {% for item in items %}
-            <div class="col-xl-9 col-lg-8 col-md-7 m-b30" id="{% if item.tab_content_title != '' and item.tab_content_title != nil%}{{item.tab_content_title}}{% endif %}">
+            <div class="col-xl-9 col-lg-8 col-md-7 m-b30" id="{% if item.tab_content_id != '' and item.tab_content_id!= nil%}{{item.tab_content_id}}{% endif %}">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 m-b30">
                         <div class="dlab-box">
