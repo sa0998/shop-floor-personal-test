@@ -115,3 +115,36 @@ fields:
       maxSize: 64
     label: Expertise Image
   label: Expertise Content
+- name: get_in_touch
+  type: text
+  config:
+    required: false
+  label: Get In Touch Main Heading
+- name: get_in_touch_bold_para
+  type: text
+  config:
+    required: false
+  label: Get In Touch Bold Para
+- name: get_in_touch_large_para
+  type: text
+  config:
+    required: false
+  label: Get In Touch Large Para
+- name: what_you_will_get_heading
+  type: text
+  config:
+    required: false
+  label: What You Will Get Heading
+- name: what_you_will_get_para
+  type: field_group_list
+  fields:
+  - name: what_you_will_para_details
+    type: text
+    config:
+      required: false
+    label: What You Will Para Details
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: What You Will Get Para
