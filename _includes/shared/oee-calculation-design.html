@@ -79,7 +79,7 @@
                     {% if page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_details != '' and page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_details != nil %}{{page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_details}}{% endif %}
 					<h2 class="text-black font-weight-600 m-b15">{% if page.oee_calculation_improvements_last_heading != '' and page.oee_calculation_improvements_last_heading != nil %}{{page.oee_calculation_improvements_last_heading}}{% endif %}</h2>
 					<ul style="padding-left: 40px;">
-                        {% assign items = page.oee_calculation_improvements_last_heading %} {% for item in items %}
+                        {% assign items = page.oee_calculation_improvements_last_details %} {% for item in items %}
 						<li>{% if item.oee_calculation_improvements_details_list != '' and item.oee_calculation_improvements_details_list != nil%}{{item.oee_calculation_improvements_details_list}}{% endif %}</li>
                         {% endfor %}
 					</ul>
