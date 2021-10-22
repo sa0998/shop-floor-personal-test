@@ -17,3 +17,77 @@
     </div>
 </div>
 <!-- inner page banner END -->
+        <!-- contact area -->
+        <div class="content-block">
+			<!-- Portfolio Details -->
+			<div class="section-full content-inner bg-white">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 m-b30">
+							<h2 class="text-black font-weight-600 m-b15">{% if page.oee_calculation_improvements.oee_calculation_improvements_main_heading != '' and page.oee_calculation_improvements.oee_calculation_improvements_main_heading != nil %}{{page.oee_calculation_improvements.oee_calculation_improvements_main_heading}}{% endif %}</h2>
+							<p>{% if page.oee_calculation_improvements.oee_calculation_improvements_para != '' and page.oee_calculation_improvements.oee_calculation_improvements_para != nil %}{{page.oee_calculation_improvements.oee_calculation_improvements_para}}{% endif %}</p>
+							<h5>{% if page.oee_calculation_improvements.oee_calculation_improvements_bold_text != '' and page.oee_calculation_improvements.oee_calculation_improvements_bold_text != nil %}{{page.oee_calculation_improvements.oee_calculation_improvements_bold_text}}{% endif %}</h5>
+							<p>{% if page.oee_calculation_improvements.oee_calculation_improvements_para_2 != '' and page.oee_calculation_improvements.oee_calculation_improvements_para_2 != nil %}{{page.oee_calculation_improvements.oee_calculation_improvements_para_2}}{% endif %}</p>
+							<h2 class="text-black font-weight-600 m-b15">{% if page.oee_calculation_improvements.how_traditional_oee_main_heading != '' and page.oee_calculation_improvements.how_traditional_oee_main_heading != nil %}{{page.oee_calculation_improvements.how_traditional_oee_main_heading}}{% endif %}</h2>
+							<h5 style="margin-bottom: 35px;">{% if page.oee_calculation_improvements.how_traditional_oee_small_heading != '' and page.oee_calculation_improvements.how_traditional_oee_small_heading != nil %}{{page.oee_calculation_improvements.how_traditional_oee_small_heading}}{% endif %}</h5>
+							<div class="row">
+								<div class="col-lg-12">
+                                    {% assign items = page.calculation_variables %} {% for item in items %}
+									<div class="icon-bx-wraper m-b30 left">
+										<div class="icon-md"> 
+											<a href="javascript:void(0);" class="icon-cell text-primary">
+												<i class="{% if item.variables_icon_class != '' and item.variables_icon_class != nil%}{{item.variables_icon_class}}{% endif %}"></i>
+											</a> 
+										</div>
+										<div class="icon-content">
+											<h5 class="dlab-tilte">{% if item.variables_main_heading != '' and item.variables_main_heading != nil%}{{item.variables_main_heading}}{% endif %}</h5>
+											<p>{% if item.variables_para != '' and item.variables_para != nil%}{{item.variables_para}}{% endif %}</p>
+										</div>
+									</div>
+                                    {% endfor %}
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="row">
+								<div class="col-lg-12 m-b30">
+									<img alt="" src="{% if page.calculation_improvements_images.calculation_improvements_top_image != '' and page.calculation_improvements_images.calculation_improvements_top_image != nil %}{{page.calculation_improvements_images.calculation_improvements_top_image}}{% endif %}">
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+									<img alt="" src="{% if page.calculation_improvements_images.how_traditional_first_row_image_1 != '' and page.calculation_improvements_images.how_traditional_first_row_image_1 != nil %}{{page.calculation_improvements_images.how_traditional_first_row_image_1}}{% endif %}">
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+									<img alt="" src="{% if page.calculation_improvements_images.how_traditional_first_row_image_2 != '' and page.calculation_improvements_images.how_traditional_first_row_image_2 != nil %}{{page.calculation_improvements_images.how_traditional_first_row_image_2}}{% endif %}">
+								</div>
+								<div class="col-lg-12 m-b30">
+									<img alt="" src="{% if page.calculation_improvements_images.how_traditional_second_row_image_1 != '' and page.calculation_improvements_images.how_traditional_second_row_image_1 != nil %}{{page.calculation_improvements_images.how_traditional_second_row_image_1}}{% endif %}">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<h5>{% if page.the_drawbacks.the_drawbacks_main_heading != '' and page.the_drawbacks.the_drawbacks_main_heading != nil %}{{page.the_drawbacks.the_drawbacks_main_heading}}{% endif %}</h5>
+                            {% if page.the_drawbacks.the_drawbacks_details_para != '' and page.the_drawbacks.the_drawbacks_details_para != nil %}{{page.the_drawbacks.the_drawbacks_details_para}}{% endif %}
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<h5>{% if page.how_shop_floor_cal_oee.how_calculates_oee_main_heading != '' and page.how_shop_floor_cal_oee.how_calculates_oee_main_heading != nil %}{{page.how_shop_floor_cal_oee.how_calculates_oee_main_heading}}{% endif %}</h5>
+                            {% if page.how_shop_floor_cal_oee.how_calculates_oee_details_para != '' and page.how_shop_floor_cal_oee.how_calculates_oee_details_para != nil %}{{page.how_shop_floor_cal_oee.how_calculates_oee_details_para}}{% endif %}
+					<h2 class="text-black font-weight-600 m-b15">{% if page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_main_heading != '' and page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_main_heading != nil %}{{page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_main_heading}}{% endif %}</h2>
+                    {% if page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_details != '' and page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_details != nil %}{{page.shopfloorconnect_oee_example.shopfloorconnect_oee_example_details}}{% endif %}
+					<h2 class="text-black font-weight-600 m-b15">{% if page.oee_calculation_improvements_last_heading != '' and page.oee_calculation_improvements_last_heading != nil %}{{page.oee_calculation_improvements_last_heading}}{% endif %}</h2>
+					<ul style="padding-left: 40px;">
+                        {% assign items = page.oee_calculation_improvements_last_heading %} {% for item in items %}
+						<li>{% if item.oee_calculation_improvements_details_list != '' and item.oee_calculation_improvements_details_list != nil%}{{item.oee_calculation_improvements_details_list}}{% endif %}</li>
+                        {% endfor %}
+					</ul>
+					<p>{% if page.oee_calculation_improvements_contact_info != '' and page.oee_calculation_improvements_contact_info != nil %}{{page.oee_calculation_improvements_contact_info}}{% endif %}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Details End -->
+</div>
+<!-- contact area END -->
