@@ -39,6 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - oee-calculation-layout
   - oee-monitoring-system-layout
   - blog-layout
   - default-layout
