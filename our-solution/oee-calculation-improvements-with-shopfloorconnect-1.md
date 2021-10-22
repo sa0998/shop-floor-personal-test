@@ -1,5 +1,7 @@
 ---
-key_words: []
+key_words:
+- 'OEE calculation  '
+- how to calculate OEE
 layout: oee-calculation-design
 title: OEE Calculation Improvements with ShopFloorConnect
 document_title: OEE calculation software | How to calculate OEE - ShopFloorConnect
