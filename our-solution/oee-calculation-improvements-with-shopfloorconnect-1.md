@@ -48,8 +48,26 @@ the_drawbacks:
   the_drawbacks_main_heading: ''
   the_drawbacks_details_para: ''
 how_shop_floor_cal_oee:
-  how_calculates_oee_main_heading: ''
-  how_calculates_oee_details_para: ''
+  how_calculates_oee_main_heading: The Drawbacks of “Traditional” OEE Calculations
+  how_calculates_oee_details_para: "<p>OEE calculations are based on the premise that
+    all production losses on machines and processes can be measured and quantified.</p><p>But,
+    traditional OEE calculations come up short in many applications. While the Availability
+    and Quality metrics can be universally applied to all machine types, difficulty
+    arises when the traditional Performance metric is applied to discrete manufacturing
+    processes where the true “ideal production rate” is more dependent on the parts
+    being manufactured than the machine itself.</p><p>Consider the following OEE Calculation
+    example:</p><p>A machining center making ‘Part A’ produces 6 parts per hour. After
+    a job change the same machine produces ‘Part B’ at a rate of 12 parts per hour.
+    According to “traditional” OEE calculations, the “Part B’ is running at twice
+    the efficiency of “Part A’. However, let’s say that under ideal circumstances,
+    our machining center is actually capable of producing ‘Part A’ at a rate of 7
+    parts per hour, and the much simpler “Part B” at 30 parts per hour.</p><p>In actuality,
+    the machine was running at 86% efficiency while making Part A, and only 40% efficiency
+    for Part B.</p><p>The errors inherent in traditional OEE calculations can be manually
+    factored out on a job-by-job basis, but this task becomes extremely difficult
+    when trying to summarize overall equipment effectiveness over a longer period
+    of time. In addition, the calculations required to properly “weight” jobs of varying
+    length become very complex.</p>"
 shopfloorconnect_oee_example:
   shopfloorconnect_oee_example_main_heading: ''
   shopfloorconnect_oee_example_details: ''
