@@ -195,3 +195,12 @@ fields:
   config: {}
   template: key-words
   label: Keywords
+- name: test_field
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Test Field
