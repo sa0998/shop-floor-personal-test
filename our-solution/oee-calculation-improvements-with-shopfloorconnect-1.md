@@ -79,7 +79,15 @@ how_shop_floor_cal_oee:
     automatically “weights” the percentages according to job length.</p>"
 shopfloorconnect_oee_example:
   shopfloorconnect_oee_example_main_heading: 'ShopFloorConnect OEE Calculation Example:'
-  shopfloorconnect_oee_example_details: ''
+  shopfloorconnect_oee_example_details: |-
+    <p>During an 8-hour shift with 1/2 hour for lunch and two 15-minute breaks, a machine has a maximum availability of 7 hours (420 minutes). If there were 82 minutes of unplanned downtime during the shift, then the machine would’ve actually run for 338 minutes. The availability would be calculated as follows:</p><pre><code>&lt;div class="row widget widget_getintuch widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt;
+        &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-lr0"&gt;
+            &lt;div class="pro-details"&gt;
+                &lt;i class="ti ti-user"&gt;&lt;/i&gt;
+                &lt;strong&gt;Availability = 338 minutes / 420 minutes = 80%&lt;/strong&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre>
 oee_calculation_improvements_last_heading: ''
 oee_calculation_improvements_last_details: []
 oee_calculation_improvements_contact_info: ''
