@@ -85,3 +85,28 @@ fields:
     max: 
     labelField: 
   label: Calculation Variables
+- name: calculation_improvements_images
+  type: field_group
+  config: {}
+  fields:
+  - name: calculation_improvements_top_image
+    type: file
+    config:
+      maxSize: 64
+    label: Calculation Improvements Top Image
+  - name: how_traditional_first_row_image_1
+    type: file
+    config:
+      maxSize: 64
+    label: How Traditional First Row Image 1
+  - name: how_traditional_first_row_image_2
+    type: file
+    config:
+      maxSize: 64
+    label: How Traditional First Row Image 2
+  - name: how_traditional_second_row_image_1
+    type: file
+    config:
+      maxSize: 64
+    label: How Traditional Second Row Image 1
+  label: Calculation Improvements Images
