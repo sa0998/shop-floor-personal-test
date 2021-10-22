@@ -45,12 +45,9 @@ calculation_improvements_images:
   how_traditional_first_row_image_2: "/uploads/2021/10/22/pic3.jpg"
   how_traditional_second_row_image_1: "/uploads/2021/10/22/about2.jpg"
 the_drawbacks:
-  the_drawbacks_main_heading: ''
-  the_drawbacks_details_para: ''
-how_shop_floor_cal_oee:
-  how_calculates_oee_main_heading: The Drawbacks of “Traditional” OEE Calculations
-  how_calculates_oee_details_para: "<p>OEE calculations are based on the premise that
-    all production losses on machines and processes can be measured and quantified.</p><p>But,
+  the_drawbacks_main_heading: The Drawbacks of “Traditional” OEE Calculations
+  the_drawbacks_details_para: "<p>OEE calculations are based on the premise that all
+    production losses on machines and processes can be measured and quantified.</p><p>But,
     traditional OEE calculations come up short in many applications. While the Availability
     and Quality metrics can be universally applied to all machine types, difficulty
     arises when the traditional Performance metric is applied to discrete manufacturing
@@ -68,8 +65,20 @@ how_shop_floor_cal_oee:
     when trying to summarize overall equipment effectiveness over a longer period
     of time. In addition, the calculations required to properly “weight” jobs of varying
     length become very complex.</p>"
+how_shop_floor_cal_oee:
+  how_calculates_oee_main_heading: How Shop Floor Connect Calculates OEE
+  how_calculates_oee_details_para: "<p>Instead of using a single ideal performance
+    rating for each machine, software calculates OEE by applying a specific ideal
+    rate for each job segment/machine combination.</p><p>In applications where a machine
+    must make more than one cycle to produce a part, ShopFloorConnect automatically
+    divides the ideal rate by the number of cycles required to make the part.</p><p>The
+    ShopFloorConnect system keeps a running total of the actual parts produced by
+    the machine, as well as the number of parts that could have been produced according
+    to the ideal rates and multipliers. This allows LETS to accurately summarize performance
+    over time, regardless of the lengths of the jobs that ran in the machine. LETS
+    automatically “weights” the percentages according to job length.</p>"
 shopfloorconnect_oee_example:
-  shopfloorconnect_oee_example_main_heading: ''
+  shopfloorconnect_oee_example_main_heading: 'ShopFloorConnect OEE Calculation Example:'
   shopfloorconnect_oee_example_details: ''
 oee_calculation_improvements_last_heading: ''
 oee_calculation_improvements_last_details: []
