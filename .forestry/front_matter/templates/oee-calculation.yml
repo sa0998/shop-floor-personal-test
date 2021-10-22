@@ -158,9 +158,13 @@ fields:
       required: false
     label: ShopFloorConnect OEE Example Main Heading
   - name: shopfloorconnect_oee_example_details
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: ShopFloorConnect OEE Example Details
   label: ShopFloorConnect OEE Example
 - name: oee_calculation_improvements_last_heading
