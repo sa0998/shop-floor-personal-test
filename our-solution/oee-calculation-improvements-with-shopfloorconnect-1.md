@@ -145,6 +145,11 @@ oee_calculation_improvements_last_details:
     to fiscal reporting
 oee_calculation_improvements_contact_info: Learn more about improving overall equipment
   effectiveness by scheduling a demo of ShopFloorConnect or call 1-800-586-TECH (8324).
+test_block:
+- template: jumbotron
+  jumbotrons:
+  - jumbotron_subhead: ''
+text_block_last: ''
 menu:
   main:
     weight: 3
