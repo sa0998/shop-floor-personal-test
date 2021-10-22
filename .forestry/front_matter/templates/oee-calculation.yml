@@ -163,3 +163,21 @@ fields:
       required: false
     label: ShopFloorConnect OEE Example Details
   label: ShopFloorConnect OEE Example
+- name: oee_calculation_improvements_last_heading
+  type: text
+  config:
+    required: false
+  label: OEE Calculation Improvements Last Heading
+- name: oee_calculation_improvements_last_details
+  type: field_group_list
+  fields:
+  - name: oee_calculation_improvements_details_list
+    type: text
+    config:
+      required: false
+    label: OEE Calculation Improvements Details List
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: OEE Calculation Improvements Last Details
