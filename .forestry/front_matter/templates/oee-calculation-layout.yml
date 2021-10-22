@@ -1,4 +1,22 @@
 ---
 label: OEE Calculation Layout
 hide_body: false
-fields: []
+fields:
+- name: oee_calculation_design
+  type: include
+  config: {}
+  template: oee-calculation
+  label: OEE Calculation Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - oee-calculation-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
