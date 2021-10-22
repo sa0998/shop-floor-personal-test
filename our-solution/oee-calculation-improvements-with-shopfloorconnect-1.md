@@ -79,15 +79,15 @@ how_shop_floor_cal_oee:
     automatically “weights” the percentages according to job length.</p>"
 shopfloorconnect_oee_example:
   shopfloorconnect_oee_example_main_heading: 'ShopFloorConnect OEE Calculation Example:'
-  shopfloorconnect_oee_example_details: "<p>During an 8-hour shift with 1/2 hour for
+  shopfloorconnect_oee_example_details: <p>During an 8-hour shift with 1/2 hour for
     lunch and two 15-minute breaks, a machine has a maximum availability of 7 hours
     (420 minutes). If there were 82 minutes of unplanned downtime during the shift,
     then the machine would’ve actually run for 338 minutes. The availability would
-    be calculated as follows:</p><p>&lt;div class=\"row widget widget_getintuch widget_getintuch-pro-details
-    m-lr0 custom-oee-sa\"&gt;\r\n    &lt;div class=\"col-xl-12 col-lg-12 col-md-12
-    col-sm-12 p-lr0\"&gt;\r\n        &lt;div class=\"pro-details\"&gt;\r\n            &lt;i
-    class=\"ti ti-user\"&gt;&lt;/i&gt;\r\n            &lt;strong&gt;Availability =
-    338 minutes / 420 minutes = 80%&lt;/strong&gt;\r\n        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;</p><p>Running
+    be calculated as follows:</p><pre><code>&lt;div class="row widget widget_getintuch
+    widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt; &lt;div class="col-xl-12
+    col-lg-12 col-md-12 col-sm-12 p-lr0"&gt; &lt;div class="pro-details"&gt; &lt;i
+    class="ti ti-user"&gt;&lt;/i&gt; &lt;strong&gt;Availability = 338 minutes / 420
+    minutes = 80%&lt;/strong&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code></pre><p></p><p>Running
     at full speed, the machine is capable of producing 6000 parts/hour (or 100 parts
     per minute). However, the three jobs that ran during this shift were not designed
     to run at the machine’s maximum speed. The first job (which ran for 2 hours and
@@ -104,29 +104,26 @@ shopfloorconnect_oee_example:
     our example, the machine could have theoretically made a total of 48,800 parts
     for all jobs combined, but produced an actual total of 45,515. The performance
     percentage is calculated by dividing the actual number of parts by the theoretical
-    maximum:</p><p>&lt;div class=\"row widget widget_getintuch widget_getintuch-pro-details
-    m-lr0 custom-oee-sa\"&gt;\r\n    &lt;div class=\"col-xl-12 col-lg-12 col-md-12
-    col-sm-12 p-lr0\"&gt;\r\n        &lt;div class=\"pro-details\"&gt;\r\n            &lt;i
-    class=\"ti ti-user\"&gt;&lt;/i&gt;\r\n            &lt;strong&gt;Performance =
-    45,515 actual parts / 48, 800 possible parts = 93%&lt;/strong&gt;\r\n        &lt;/div&gt;\r\n
-    \   &lt;/div&gt;\r\n&lt;/div&gt;</p><p>Out of the 45,515 parts produced, 830 had
-    to be later scrapped. The quality percentage is the ratio of good parts to total
-    parts, and is calculated as follows:</p><p>&lt;div class=\"row widget widget_getintuch
-    widget_getintuch-pro-details m-lr0 custom-oee-sa\"&gt;\r\n    &lt;div class=\"col-xl-12
-    col-lg-12 col-md-12 col-sm-12 p-lr0\"&gt;\r\n        &lt;div class=\"pro-details\"&gt;\r\n
-    \           &lt;i class=\"ti ti-user\"&gt;&lt;/i&gt;\r\n            &lt;strong&gt;Quality
-    = 44,685 Good Parts / 45,515 Total Parts = 98%&lt;/strong&gt;\r\n        &lt;/div&gt;\r\n
-    \   &lt;/div&gt;\r\n&lt;/div&gt;</p><p>The ShopFloorConnect OEE calculation for
-    this example is:</p><p>&lt;div class=\"row widget widget_getintuch widget_getintuch-pro-details
-    m-lr0 custom-oee-sa\"&gt;\r\n    &lt;div class=\"col-xl-12 col-lg-12 col-md-12
-    col-sm-12 p-lr0\"&gt;\r\n        &lt;div class=\"pro-details\"&gt;\r\n            &lt;i
-    class=\"ti ti-user\"&gt;&lt;/i&gt;\r\n            &lt;strong&gt;Availability (80%)
-    x Performance (93%) x Quality (98%) = 73%&lt;/strong&gt;\r\n        &lt;/div&gt;\r\n
-    \   &lt;/div&gt;\r\n&lt;/div&gt;</p><p>You can see that although the component
-    measurements - 80% uptime at 93% of maximum throughput with 98% quality - indicate
-    a super-efficient process, when taken together as OEE, the process is really only
-    73% effective. ShopFloorConnect software provides a more realistic OEE calculation
-    that reveals there is still room for improvement.</p>"
+    maximum:</p><pre><code>&lt;div class="row widget widget_getintuch widget_getintuch-pro-details
+    m-lr0 custom-oee-sa"&gt; &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12
+    p-lr0"&gt; &lt;div class="pro-details"&gt; &lt;i class="ti ti-user"&gt;&lt;/i&gt;
+    &lt;strong&gt;Performance = 45,515 actual parts / 48, 800 possible parts = 93%&lt;/strong&gt;
+    &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code></pre><p></p><p>Out of the 45,515
+    parts produced, 830 had to be later scrapped. The quality percentage is the ratio
+    of good parts to total parts, and is calculated as follows:</p><pre><code>&lt;div
+    class="row widget widget_getintuch widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt;
+    &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-lr0"&gt; &lt;div class="pro-details"&gt;
+    &lt;i class="ti ti-user"&gt;&lt;/i&gt; &lt;strong&gt;Quality = 44,685 Good Parts
+    / 45,515 Total Parts = 98%&lt;/strong&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code></pre><p>The
+    ShopFloorConnect OEE calculation for this example is:</p><pre><code>&lt;div class="row
+    widget widget_getintuch widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt;
+    &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-lr0"&gt; &lt;div class="pro-details"&gt;
+    &lt;i class="ti ti-user"&gt;&lt;/i&gt; &lt;strong&gt;Availability (80%) x Performance
+    (93%) x Quality (98%) = 73%&lt;/strong&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code></pre><p></p><p>You
+    can see that although the component measurements - 80% uptime at 93% of maximum
+    throughput with 98% quality - indicate a super-efficient process, when taken together
+    as OEE, the process is really only 73% effective. ShopFloorConnect software provides
+    a more realistic OEE calculation that reveals there is still room for improvement.</p>
 oee_calculation_improvements_last_heading: OEE Calculation Improvements with Shop
   Floor Connect
 oee_calculation_improvements_last_details:
