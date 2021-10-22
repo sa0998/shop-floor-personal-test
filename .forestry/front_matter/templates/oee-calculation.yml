@@ -181,3 +181,8 @@ fields:
     max: 
     labelField: 
   label: OEE Calculation Improvements Last Details
+- name: oee_calculation_improvements_contact_info
+  type: text
+  config:
+    required: false
+  label: OEE Calculation Improvements Contact Info
