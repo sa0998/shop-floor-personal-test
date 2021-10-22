@@ -195,12 +195,11 @@ fields:
   config: {}
   template: key-words
   label: Keywords
-- name: test_field
-  type: textarea
-  default: ''
+- name: test_block
+  type: blocks
+  label: Test Block
+  template_types:
+  - jumbotron
   config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Test Field
+    min: 
+    max: 
