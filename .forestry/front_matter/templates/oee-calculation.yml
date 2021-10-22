@@ -110,3 +110,41 @@ fields:
       maxSize: 64
     label: How Traditional Second Row Image 1
   label: Calculation Improvements Images
+- name: the_drawbacks
+  type: field_group
+  config: {}
+  fields:
+  - name: the_drawbacks_main_heading
+    type: text
+    config:
+      required: false
+    label: The Drawbacks Main Heading
+  - name: the_drawbacks_details_para
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: The Drawbacks Details Para
+  label: The Drawbacks
+- name: how_shop_floor_cal_oee
+  type: field_group
+  config: {}
+  fields:
+  - name: how_calculates_oee_main_heading
+    type: text
+    config:
+      required: false
+    label: How Calculates OEE Main Heading
+  - name: how_calculates_oee_details_para
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: How Calculates OEE Details Para
+  label: How Shop Floor Connect Calculates OEE
