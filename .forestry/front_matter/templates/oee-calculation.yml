@@ -186,3 +186,8 @@ fields:
   config:
     required: false
   label: OEE Calculation Improvements Contact Info
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
