@@ -20,9 +20,7 @@ oee_calculation_improvements:
   oee_calculation_improvements_para_2: It factors in those three variables and displays
     a simple percentage that shows the ratio of actual machine output to its theoretical
     maximum.
-  how_traditional_oee_main_heading: It factors in those three variables and displays
-    a simple percentage that shows the ratio of actual machine output to its theoretical
-    maximum.
+  how_traditional_oee_main_heading: How Traditional OEE is Calculated
   how_traditional_oee_small_heading: Traditional OEE Calculation Variables
 calculation_variables:
 - variables_main_heading: Availability
