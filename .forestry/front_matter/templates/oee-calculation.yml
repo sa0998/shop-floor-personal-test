@@ -148,3 +148,18 @@ fields:
         format: html-blocks
     label: How Calculates OEE Details Para
   label: How Shop Floor Connect Calculates OEE
+- name: shopfloorconnect_oee_example
+  type: field_group
+  config: {}
+  fields:
+  - name: shopfloorconnect_oee_example_main_heading
+    type: text
+    config:
+      required: false
+    label: ShopFloorConnect OEE Example Main Heading
+  - name: shopfloorconnect_oee_example_details
+    type: text
+    config:
+      required: false
+    label: ShopFloorConnect OEE Example Details
+  label: ShopFloorConnect OEE Example
