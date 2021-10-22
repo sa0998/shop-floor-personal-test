@@ -132,5 +132,10 @@ oee_calculation_improvements_last_details:
     to fiscal reporting
 oee_calculation_improvements_contact_info: Learn more about improving overall equipment
   effectiveness by scheduling a demo of ShopFloorConnect or call 1-800-586-TECH (8324).
+menu:
+  main:
+    weight: 3
+    parent: item_DsyKHj_
+    title: How We Calculate OEE
 
 ---
