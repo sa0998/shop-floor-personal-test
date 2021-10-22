@@ -157,15 +157,6 @@ fields:
     config:
       required: false
     label: ShopFloorConnect OEE Example Main Heading
-  - name: shopfloorconnect_oee_example_details
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: ShopFloorConnect OEE Example Details
   label: ShopFloorConnect OEE Example
 - name: oee_calculation_improvements_last_heading
   type: text
