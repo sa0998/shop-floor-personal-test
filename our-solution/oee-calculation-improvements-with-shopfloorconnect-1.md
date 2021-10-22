@@ -1,6 +1,6 @@
 ---
 key_words: []
-layout: ''
+layout: oee-calculation-design
 title: OEE Calculation Improvements with ShopFloorConnect
 document_title: OEE calculation software | How to calculate OEE - ShopFloorConnect
 permalink: "/oee-calculation"
@@ -87,9 +87,48 @@ shopfloorconnect_oee_example:
                 &lt;strong&gt;Availability = 338 minutes / 420 minutes = 80%&lt;/strong&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-    &lt;/div&gt;</code></pre>
-oee_calculation_improvements_last_heading: ''
-oee_calculation_improvements_last_details: []
-oee_calculation_improvements_contact_info: ''
+    &lt;/div&gt;</code></pre><p>Running at full speed, the machine is capable of producing 6000 parts/hour (or 100 parts per minute). However, the three jobs that ran during this shift were not designed to run at the machine’s maximum speed. The first job (which ran for 2 hours and 18 minutes) produced 4 parts per cycle. This job’s Ideal Rate is 75 cycles per minute. The theoretical maximum number of parts that could have been produced by this job was 41,400. The machine actually made 38,665.</p><p>The second job (which ran for two hours) produced a part every 6 cycles of the machine. The Ideal Rate for this job was 50 cycles per minute. The theoretical maximum number of parts that could have been produced by this job was 1000; the machine produced 950.</p><p>The final job (which ran for one hour and 20 minutes) produced one part per cycle, with an ideal rate of 80 cycles per minute. The theoretical maximum number of parts that could have been produced by this job was 6400; the actual number of parts made was 5900.</p><p>During the 338 minutes of running time in our example, the machine could have theoretically made a total of 48,800 parts for all jobs combined, but produced an actual total of 45,515. The performance percentage is calculated by dividing the actual number of parts by the theoretical maximum:</p><pre><code>&lt;div class="row widget widget_getintuch widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt;
+        &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-lr0"&gt;
+            &lt;div class="pro-details"&gt;
+                &lt;i class="ti ti-user"&gt;&lt;/i&gt;
+                &lt;strong&gt;Performance = 45,515 actual parts / 48, 800 possible parts = 93%&lt;/strong&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre><p>Out of the 45,515 parts produced, 830 had to be later scrapped. The quality percentage is the ratio of good parts to total parts, and is calculated as follows:</p><pre><code>&lt;div class="row widget widget_getintuch widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt;
+        &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-lr0"&gt;
+            &lt;div class="pro-details"&gt;
+                &lt;i class="ti ti-user"&gt;&lt;/i&gt;
+                &lt;strong&gt;Quality = 44,685 Good Parts / 45,515 Total Parts = 98%&lt;/strong&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre><p>The ShopFloorConnect OEE calculation for this example is:</p><pre><code>&lt;div class="row widget widget_getintuch widget_getintuch-pro-details m-lr0 custom-oee-sa"&gt;
+        &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-lr0"&gt;
+            &lt;div class="pro-details"&gt;
+                &lt;i class="ti ti-user"&gt;&lt;/i&gt;
+                &lt;strong&gt;Availability (80%) x Performance (93%) x Quality (98%) = 73%&lt;/strong&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre><p>You can see that although the component measurements - 80% uptime at 93% of maximum throughput with 98% quality - indicate a super-efficient process, when taken together as OEE, the process is really only 73% effective. ShopFloorConnect software provides a more realistic OEE calculation that reveals there is still room for improvement.</p>
+oee_calculation_improvements_last_heading: OEE Calculation Improvements with Shop
+  Floor Connect
+oee_calculation_improvements_last_details:
+- oee_calculation_improvements_details_list: Make the most out of a limited amount
+    of investment capital
+- oee_calculation_improvements_details_list: Avoid making inappropriate equipment
+    purchases
+- oee_calculation_improvements_details_list: Free up capacity to better compete for
+    new business
+- oee_calculation_improvements_details_list: Quickly highlight the greatest areas
+    of improvement to provide the greatest return on asset
+- oee_calculation_improvements_details_list: Prioritize Lean initiatives
+- oee_calculation_improvements_details_list: Decrease costs through waste elimination
+- oee_calculation_improvements_details_list: Shorten equipment ROI through increased
+    utilization
+- oee_calculation_improvements_details_list: Reduce investigation time for root cause
+    analysis
+- oee_calculation_improvements_details_list: Directly tie production efficiencies
+    to fiscal reporting
+oee_calculation_improvements_contact_info: Learn more about improving overall equipment
+  effectiveness by scheduling a demo of ShopFloorConnect or call 1-800-586-TECH (8324).
 
 ---
