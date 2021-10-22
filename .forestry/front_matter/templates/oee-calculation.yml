@@ -22,8 +22,66 @@ fields:
   config: {}
   template: description
   label: Description
-- name: keywords
-  type: include
+- name: banner_bg_image
+  type: file
+  config:
+    maxSize: 64
+  label: Banner Bg Image
+- name: oee_calculation_improvements
+  type: field_group
   config: {}
-  template: key-words
-  label: Keywords
+  fields:
+  - name: oee_calculation_improvements_main_heading
+    type: text
+    config:
+      required: false
+    label: OEE Calculation Improvements Main Heading
+  - name: oee_calculation_improvements_para
+    type: text
+    config:
+      required: false
+    label: OEE Calculation Improvements Para
+  - name: oee_calculation_improvements_bold_text
+    type: text
+    config:
+      required: false
+    label: OEE Calculation Improvements Bold Text
+  - name: oee_calculation_improvements_para_2
+    type: text
+    config:
+      required: false
+    label: OEE Calculation Improvements Para 2
+  - name: how_traditional_oee_main_heading
+    type: text
+    config:
+      required: false
+    label: How Traditional OEE Main Heading
+  - name: how_traditional_oee_small_heading
+    type: text
+    config:
+      required: false
+    label: How Traditional OEE Small Heading
+  label: OEE Calculation Improvements Section
+- name: calculation_variables
+  type: field_group_list
+  fields:
+  - name: variables_main_heading
+    type: text
+    config:
+      required: false
+    label: Variables Main Heading
+  - name: variables_icon_class
+    type: text
+    config:
+      required: false
+    label: Variables Icon Class
+  - name: variables_para
+    type: text
+    config:
+      required: false
+    label: Variables Para
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Calculation Variables
