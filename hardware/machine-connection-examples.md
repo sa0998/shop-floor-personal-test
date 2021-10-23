@@ -3,7 +3,7 @@ key_words:
 - OEE
 title: Machine Connection Examples
 document_title: ''
-permalink: "/machine connections"
+permalink: "/machine connections-2"
 description: SMI2 to machine connection
 menu:
   main:
