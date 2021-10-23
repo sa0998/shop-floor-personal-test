@@ -41,17 +41,49 @@ machine_interface_slider_images:
 - machine_interface_slider_image: "/uploads/2021/10/23/sm3-new.png"
 - machine_interface_slider_image: "/uploads/2021/10/23/sm2-new.png"
 - machine_interface_slider_image: "/uploads/2021/10/23/sm1-new.png"
-our_features_main_heading: ''
-our_features_details_para: ''
-our_features_design_section: []
+our_features_main_heading: 'Our Features:'
+our_features_details_para: Shop Floor Connect provides alot of features some of them
+  are as follows
+our_features_design_section:
+- our_features_design_icon_no: '01'
+  our_features_design_heading: Quickly Connection
+  our_features_design_para: Quickly connects any machine to ShopFloorConnect
+- our_features_design_icon_no: '02'
+  our_features_design_para: 'User-friendly 6.5” color touch screen interface '
+  our_features_design_heading: User Friendly
+- our_features_design_icon_no: '03'
+  our_features_design_heading: Availablility
+  our_features_design_para: 'Available in 2 versions: enclosure or panel-mount '
+- our_features_design_heading: Lower Cost
+  our_features_design_para: 'Significantly lower cost than comparable devices '
+  our_features_design_icon_no: '04'
+- our_features_design_icon_no: '05'
+  our_features_design_heading: Ethernet Ready
+  our_features_design_para: 'Ethernet Ready, simply plug it in to your existing network '
+- our_features_design_icon_no: '06'
+  our_features_design_heading: Fully Customizable
+  our_features_design_para: '32 downtime codes that are fully customizable  '
 specifications_section:
-  specifications_main_heading: ''
-  specifications_section_para: ''
-  specifications_link_text_1: ''
-  specifications_link_text_1_url: ''
-  specifications_link_text_2: ''
-  specifications_link_text_2_url: ''
-  specifications_image: ''
+  specifications_main_heading: 'Specifications:'
+  specifications_section_para: <h4 class="font-weight-300 m-b10">Input Power:</h4><ul><li><p>90-264VAC
+    50-60 Hz, 1A</p></li><li><p>24 VDC version is also available as an option</p></li></ul><h4
+    class=" font-weight-300 m-b10">Inputs:</h4><ul><li><p>*Input for cycle/parts count</p></li><li><p>*Input
+    for machine running/stopped signal</p></li><li><p>*Input for scrap count (optional)</p></li><li><p>*Input
+    for setup mode (optional) This mode allows the machine to be cycled during setup
+    and troubleshooting while maintaining the current downtime reason and without
+    incrementing the parts count</p></li><li><p>*Four inputs to automatically set
+    the downtime to predefined reasons (optional)</p></li><li><p>Two on-board USB
+    inputs for bar code or other scanners.</p></li></ul><p>* These inputs can be configured
+    - as a group - to either PNP (24V “on”) or NPN (0V “On”). The factory default
+    is PNP.</p><h4 class=" font-weight-300 m-b10">Outputs:</h4><ul><li><p>Stop circuit
+    – Dry Contact - 30VDC, 240VAC, 4 Amp max. Used to inhibit machine restart until
+    a downtime code is selected, and optionally to stop the machine when the part
+    counter preset is reached</p></li></ul>
+  specifications_link_text_1: Click here for a drawing of the SMI 2 enclosure (PDF)
+  specifications_link_text_1_url: https://wintriss.com/sfc/sfcdocs/SMI-2_enclosure.pdf
+  specifications_link_text_2: Click here for a drawing of the SMI 2 panel-mount (PDF)
+  specifications_link_text_2_url: https://wintriss.com/sfc/sfcdocs/SMI-2_panel_mount.pdf
+  specifications_image: "/uploads/2021/10/23/software-bg-new-new.png"
 menu:
   main:
     weight: 1
