@@ -163,6 +163,38 @@ sfc_reports_section:
   sfc_reports_button_url: "/uploads/2020/04/15/State_Charts.jpg"
   sfc_reports_image: "/uploads/2020/04/15/State_Charts.jpg"
   sfc_reports_direction: reports-right
+- sfc_reports_main_heading: Event Log Report
+  sfc_reports_para: "<p>The Event Log Report is a table that shows a time stamped
+    list of every event that occurs at the machine, along with the operator number,
+    primary item, and duration for each event.</p><p>The Downtime Summary has report
+    filters that allow you to include only specified machine states, as well as the
+    standard ShopFloorConnect report filters. This machine downtime tracking report
+    can be set up to display one machine/graph per page, or to consolidate multiple
+    machines into a single report.</p>"
+  sfc_reports_button_text: Sample Reports
+  sfc_reports_button_url: "/uploads/2020/04/15/Event_Log.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/Event_Log.jpg"
+  sfc_reports_direction: reports-left
+- sfc_reports_main_heading: Track Cycles Report
+  sfc_reports_para: "<p>ShopFloorConnect has the ability to track the number of cycles
+    on maintenance items that are used in the machine(s), but that do not necessarily
+    cycle 1-to-1 with any single machine; such as when you have a series of metal
+    forming dies each of which can run in any one of 5 machines depending on demand
+    for parts. ShopFloorConnect can separately keep track of the number of cycles
+    on each forming die, regardless of which machine runs it. ShopFloorConnect also
+    allows you to set a maintenance preset for each tracked item.</p><p>The Track
+    Cycles report features the standard ShopFloorConnect delivery filters, as well
+    as a filter that allows you to select whether to include only the tracked items
+    that have exceeded their cycles preset, or those that have either exceeded or
+    are within a specified percentage of the preset. machine states and status messages.
+    There is also a filter to specify how the report is sorted (by item number, description,
+    or percent of preset).</p><p>The Track Cycles Report is typically automatically
+    delivered on a set schedule to the personnel responsible for maintaining the tracked
+    items.</p>"
+  sfc_reports_button_url: "/uploads/2020/04/15/Track_Cycles_Status.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/Track_Cycles_Status.jpg"
+  sfc_reports_direction: reports-right
+  sfc_reports_button_text: Sample Report
 menu:
   main:
     weight: 4
