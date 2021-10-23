@@ -36,6 +36,16 @@ sfc_reports_section:
   sfc_reports_button_url: "/uploads/2020/04/15/Downtime_Summary.jpg"
   sfc_reports_image: "/uploads/2020/04/15/Downtime_Summary.jpg"
   sfc_reports_direction: report-left
+- sfc_reports_main_heading: Downtime By Reason Report
+  sfc_reports_para: "<p>The production monitoring software’s Downtime By Reason Report
+    contains a bar chart that shows the amount of machine downtime for selected downtime
+    reasons across your machines. In addition to the standard report filters, the
+    Downtime By Reason report has a multi-select filter to choose which machine downtime
+    reasons appear in the graph.</p>"
+  sfc_reports_button_text: Sample Report
+  sfc_reports_button_url: "/uploads/2020/04/15/Downtime_Reasons.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/Downtime_Reasons.jpg"
+  sfc_reports_direction: reports-right
 menu:
   main:
     weight: 4
