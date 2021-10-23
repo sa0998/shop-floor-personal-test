@@ -3,7 +3,7 @@ title: Production, Efficiency, and Downtime Reports
 description: 'ShopFloorConnect production monitoring software provides important machine
   performance data, including downtime tracking and OEE reports. '
 document_title: 'Machine Downtime, OEE Reports | Production Monitoring Software '
-permalink: "/sfcreports"
+permalink: "/sfcreports-2"
 key_words:
 - production monitoring software
 - machine monitoring
