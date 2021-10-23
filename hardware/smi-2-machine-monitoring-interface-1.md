@@ -34,7 +34,13 @@ machine_interface_section:
     log any time spent doing troubleshooting and setup even if the machine is cycled.</p>"
   machine_interface_button_text: Buy Now
   machine_interface_button_url: https://wintriss.com/store/smi-2-shopfloorconnect-machine-interface.html
-machine_interface_slider_images: []
+machine_interface_slider_images:
+- machine_interface_slider_image: "/uploads/2021/10/23/sm6-new.png"
+- machine_interface_slider_image: "/uploads/2021/10/23/sm5-new.png"
+- machine_interface_slider_image: "/uploads/2021/10/23/sm4-new.png"
+- machine_interface_slider_image: "/uploads/2021/10/23/sm3-new.png"
+- machine_interface_slider_image: "/uploads/2021/10/23/sm2-new.png"
+- machine_interface_slider_image: "/uploads/2021/10/23/sm1-new.png"
 our_features_main_heading: ''
 our_features_details_para: ''
 our_features_design_section: []
