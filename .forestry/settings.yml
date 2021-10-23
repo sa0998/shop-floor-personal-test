@@ -39,6 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - machine-monitoring-interface-layout
   - sfc-reports
   - oee-calculation-layout
   - oee-monitoring-system-layout
