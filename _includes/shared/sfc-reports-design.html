@@ -1,0 +1,69 @@
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+    <div class="container">
+        <div class="dlab-bnr-inr-entry">
+            <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <ul class="list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    {% if page.dir != nil and page.dir != "/" %}
+                    <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+        </div>
+    </div>
+</div>
+<!-- inner page banner END -->
+<div class="section-full content-inner-2 bg-img-fix  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s" style="">
+    <div class="container">
+        <div class=" text-gray-dark">
+            <h2 class="title">{% if page.reports_main_heading!= '' and page.reports_main_heading != nil %}{{page.reports_main_heading}}{% endif %}</h2>
+            <p>{% if page.reports_details_para!= '' and page.reports_details_para != nil %}{{page.reports_details_para}}{% endif %}</p>
+        </div>
+    </div>
+</div>
+<!-- About Me -->
+<div class="section-full content-inner exhibition-bx">
+    <div class="container">
+        {% assign items = page.sfc_reports_section %} {% for item in items %}
+        {% if item.sfc_reports_direction == 'report-left'%}
+        <div class="row align-items-center">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                <div class="exhibition-carousel owl-carousel owl-none m-b30">
+                    <div class="item"><img src="{% if item.sfc_reports_image != '' and item.sfc_reports_image!= nil%}{{item.sfc_reports_image}}{% endif %}" alt=""></div>
+                </div>
+            </div>
+            <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+                <div class="content-bx1">
+                    <div class="section-head">
+                        <h2 class="title">{% if item.sfc_reports_main_heading != '' and item.sfc_reports_main_heading != nil%}{{item.sfc_reports_main_heading}}{% endif %}</h2>
+                        <p>{% if item.sfc_reports_para != '' and item. sfc_reports_para != nil%}{{item. sfc_reports_para}}{% endif %}</p>
+                    </div>
+                    <a href="{% if item.sfc_reports_button_url != '' and item.sfc_reports_button_url != nil%}{{item.sfc_reports_button_url}}{% endif %}" class="site-button btnhover21 black m-r10 m-b10">{% if item.sfc_reports_button_text != '' and item.sfc_reports_button_text != nil%}{{item.sfc_reports_button_text}}{% endif %}</a>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="row align-items-center">
+            <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+                <div class="content-bx1">
+                    <div class="section-head">
+                        <h2 class="title">{% if item.sfc_reports_main_heading != '' and item.sfc_reports_main_heading != nil%}{{item.sfc_reports_main_heading}}{% endif %}</h2>
+                        <p>{% if item.sfc_reports_para != '' and item. sfc_reports_para != nil%}{{item. sfc_reports_para}}{% endif %}</p>
+                    </div>
+                    <a href="{% if item.sfc_reports_button_url != '' and item.sfc_reports_button_url != nil%}{{item.sfc_reports_button_url}}{% endif %}" class="site-button btnhover21 black m-r10 m-b10">{% if item.sfc_reports_button_text != '' and item.sfc_reports_button_text != nil%}{{item.sfc_reports_button_text}}{% endif %}</a>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                <div class="exhibition-carousel owl-carousel owl-none m-b30">
+                    <div class="item"><img src="{% if item.sfc_reports_image != '' and item.sfc_reports_image!= nil%}{{item.sfc_reports_image}}{% endif %}" alt=""></div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
