@@ -13,7 +13,7 @@ menu:
     parent: item_JffZUWK
     identifier: item_JEcfgcp
   footer:
-    weight: 3
+    weight: 2
     title: Support
 
 ---

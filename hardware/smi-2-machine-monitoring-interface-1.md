@@ -30,5 +30,10 @@ specifications_section:
   specifications_link_text_2: ''
   specifications_link_text_2_url: ''
   specifications_image: ''
+menu:
+  main:
+    weight: 1
+    parent: item_ArHfxBm
+    title: SMI 2 - Machine Interface
 
 ---
