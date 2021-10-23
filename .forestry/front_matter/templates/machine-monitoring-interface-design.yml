@@ -121,3 +121,22 @@ fields:
     max: 
     labelField: 
   label: Our Features Design Section
+- name: specifications_section
+  type: field_group
+  config: {}
+  fields:
+  - name: specifications_main_heading
+    type: text
+    config:
+      required: false
+    label: Specifications Main Heading
+  - name: specifications_section_para
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Specifications Section Para
+  label: Specifications Section
