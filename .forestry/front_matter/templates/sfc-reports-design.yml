@@ -37,15 +37,10 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Reports Details Para
-- name: keywords
-  type: include
-  config: {}
-  template: key-words
-  label: Keywords
 - name: sfc_reports_section
   type: field_group_list
   fields:
@@ -59,9 +54,9 @@ fields:
     default: ''
     config:
       required: false
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: SFC Reports Para
   - name: sfc_reports_button_text
     type: text
@@ -88,3 +83,8 @@ fields:
     max: 
     labelField: 
   label: SFC Reports Section
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
