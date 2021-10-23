@@ -4,7 +4,7 @@ key_words:
 - machine monitoring software
 - machine monitoring
 - downtime tracking software
-layout: machine-monitoring-design
+layout: machine-monitoring-interface-design
 title: SMI 2 - Machine Monitoring Interface
 document_title: SMI 2 Machine Monitoring System Interface | ShopFloorConnect
 permalink: "/machine-monitoring-interface"
