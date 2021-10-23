@@ -104,9 +104,65 @@ sfc_reports_section:
     which allows you to specify a separate ideal performance rate for each part number
     (or other primary item) for each machine.</p>"
   sfc_reports_button_text: Sample Reports
-  sfc_reports_button_url: https://www.shopfloorconnect.com/uploads/2020/04/15/OEE_Machine_Graph.jpg
-  sfc_reports_image: ''
-  sfc_reports_direction: ''
+  sfc_reports_button_url: "/uploads/2020/04/15/OEE_Machine_Graph.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/OEE_Machine_Graph.jpg"
+  sfc_reports_direction: reports-right
+- sfc_reports_main_heading: OEE By Machine (Tabular)
+  sfc_reports_para: "<p>In addition to tracking information by machine, ShopFloorConnect
+    production monitoring software allows you to specify an optional “Primary” item
+    at run time. The Primary item might be the part number that the machine is making
+    for that run, or the tool or mold number (for stamping presses or injection molding
+    machines), that is being used by the machine for that job. The Primary item for
+    each machine type must be predefined when ShopFloorConnect is initially configured.
+    You can use the same primary item for all or many machine types (for example “Part
+    Number”), or you can specify a different Primary item for each machine type.</p><p>The
+    OEE by Primary Report allows you to create a report for the selected primary item
+    only - regardless of which machine made or used it. This report calculates OEE
+    based on each Primary item’s Ideal rate (rather than the machine Ideal Rate).</p><p>This
+    report features the standard ShopFloorConnect delivery, and date range filters,
+    a filter to allow you to select the Primary Item, as well as filters to allow
+    you to include offline and or changeover time as either planned or unplanned downtime.</p>"
+  sfc_reports_button_text: Sample Report
+  sfc_reports_button_url: "/uploads/2020/04/15/OEE_Machine_Tabular.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/OEE_Machine_Tabular.jpg"
+  sfc_reports_direction: reports-left
+- sfc_reports_main_heading: OEE By Primary
+  sfc_reports_para: "<p>This machine monitoring software also features a report that
+    shows machine OEE broken down by job in a tabular form. The report summarizes
+    OEE by machine, and provides a total OEE for all machines in the report over the
+    specified time period.</p><p>This report features the standard ShopFloorConnect
+    machine, delivery, and date range filters, as well as filters to allow you to
+    include offline and or changeover time as either planned or unplanned downtime.
+    There is a filter that allows you to include a summary either for the machines
+    or for each shift.</p><p>This report can use OEE calculations based on a single
+    “machine” ideal rate (the way that OEE is traditionally calculated), or by using
+    ShopFloorConnect’s ability to apply different ideal performance rates by job (“OEE
+    by Primary”).</p>"
+  sfc_reports_button_text: Sample Report
+  sfc_reports_button_url: "/uploads/2020/04/15/OEE_Primary.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/OEE_Primary.jpg"
+  sfc_reports_direction: reports-right
+- sfc_reports_main_heading: Operator Summary Report
+  sfc_reports_para: "<p>The Operator Summary Report combines an Overall Equipment
+    Effectiveness (OEE) report, a State Summary Report, and a Downtime Summary Report
+    for the selected operator(s) over the selected time period.</p><p>The report features
+    the standard ShopFloorConnect delivery, machine, and date range filters, as well
+    as a filter to specify which operator(s) to include in the report.</p>"
+  sfc_reports_button_text: Sample Report
+  sfc_reports_button_url: "/uploads/2020/04/15/OperatorSummary.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/OperatorSummary.jpg"
+  sfc_reports_direction: reports-left
+- sfc_reports_main_heading: State Summary Report
+  sfc_reports_para: "<p>The production monitoring software also provides a State Summary
+    Report that generates pie charts and a table that shows the amount of time the
+    selected machines have spent in each of the five machine states (running, idle,
+    unplanned downtime, planned downtime, and changeover) over the selected time period.</p><p>The
+    report features the standard ShopFloorConnect delivery, machine, and date range
+    filters, as well as a filter to specify which shift(s) to include in the report.</p>"
+  sfc_reports_button_text: Sample Reports
+  sfc_reports_button_url: "/uploads/2020/04/15/State_Charts.jpg"
+  sfc_reports_image: "/uploads/2020/04/15/State_Charts.jpg"
+  sfc_reports_direction: reports-right
 menu:
   main:
     weight: 4
