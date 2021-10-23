@@ -13779,6 +13779,20 @@ ol.commentlist li .star-rating {
 }
 
 /* Sohaib Changes */
+
+.specification h4 {
+    margin-top: 20px;
+}
+.specification ul {
+    padding-left: 40px;
+}
+.specification ul li {
+    color: #9a9a9a;
+}
+.specification ul li p {
+    color: #9a9a9a;
+    margin-bottom: 0;
+}
 .logo-header svg {
     width: 210px;
 }
