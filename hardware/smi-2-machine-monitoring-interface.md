@@ -3,7 +3,7 @@ title: SMI 2 - Machine Monitoring Interface
 description: SMI 2 is a machine interface that can connect virtually any machine to
   the ShopFloor Connect machine monitoring system.
 document_title: SMI 2 Machine Monitoring System Interface | ShopFloorConnect
-permalink: "/machine-monitoring-interface"
+permalink: "/machine-monitoring-interface-2"
 key_words:
 - machine monitoring system
 - machine monitoring software
