@@ -1,4 +1,14 @@
 ---
 label: Machine Connections Design
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
