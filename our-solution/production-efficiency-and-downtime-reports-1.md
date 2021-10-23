@@ -36,5 +36,10 @@ sfc_reports_section:
   sfc_reports_button_url: "/uploads/2020/04/15/Downtime_Summary.jpg"
   sfc_reports_image: "/uploads/2020/04/15/Downtime_Summary.jpg"
   sfc_reports_direction: report-left
+menu:
+  main:
+    weight: 4
+    parent: item_DsyKHj_
+    title: SFC Reports
 
 ---
