@@ -41,11 +41,6 @@ fields:
     schema:
       format: html-blocks
   label: Machine Monitoring Details Para
-- name: keywords
-  type: include
-  config: {}
-  template: key-words
-  label: Keywords
 - name: machine_interface_section
   type: field_group
   config: {}
@@ -139,4 +134,34 @@ fields:
       schema:
         format: html-blocks
     label: Specifications Section Para
+  - name: specifications_link_text_1
+    type: text
+    config:
+      required: false
+    label: Specifications Link Text 1
+  - name: specifications_link_text_1_url
+    type: text
+    config:
+      required: false
+    label: Specifications Link Text 1 URL
+  - name: specifications_link_text_2
+    type: text
+    config:
+      required: false
+    label: Specifications Link Text 2
+  - name: specifications_link_text_2_url
+    type: text
+    config:
+      required: false
+    label: Specifications Link Text 2 URL
+  - name: specifications_image
+    type: file
+    config:
+      maxSize: 64
+    label: Specifications Image
   label: Specifications Section
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
