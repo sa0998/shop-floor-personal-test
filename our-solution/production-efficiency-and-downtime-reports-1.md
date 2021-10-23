@@ -58,7 +58,7 @@ sfc_reports_section:
   sfc_reports_button_text: Sample Report
   sfc_reports_button_url: "/uploads/2020/04/15/UptimeEfficiencyTabular.jpg"
   sfc_reports_image: "/uploads/2020/04/15/UptimeEfficiencyTabular.jpg"
-  sfc_reports_direction: reports-left
+  sfc_reports_direction: report-left
 - sfc_reports_main_heading: Production Summary Report
   sfc_reports_para: "<p>This tabular production efficiency report shows a line for
     each job run in each of the selected machines. There are fields for job start
@@ -89,7 +89,7 @@ sfc_reports_section:
   sfc_reports_button_text: Sample Report
   sfc_reports_button_url: "/uploads/2020/04/15/OEE_Machine_Form.jpg"
   sfc_reports_image: "/uploads/2020/04/15/OEE_Machine_Form.jpg"
-  sfc_reports_direction: reports-left
+  sfc_reports_direction: report-left
 - sfc_reports_main_heading: OEE By Machine (Graph)
   sfc_reports_para: "<p>This machine monitoring and downtime tracking software also
     provides a report that shows a bar chart with the Overall Equipment Effectiveness
@@ -141,7 +141,7 @@ sfc_reports_section:
   sfc_reports_button_text: Sample Report
   sfc_reports_button_url: "/uploads/2020/04/15/OEE_Primary.jpg"
   sfc_reports_image: "/uploads/2020/04/15/OEE_Primary.jpg"
-  sfc_reports_direction: reports-right
+  sfc_reports_direction: report-right
 - sfc_reports_main_heading: Operator Summary Report
   sfc_reports_para: "<p>The Operator Summary Report combines an Overall Equipment
     Effectiveness (OEE) report, a State Summary Report, and a Downtime Summary Report
@@ -151,7 +151,7 @@ sfc_reports_section:
   sfc_reports_button_text: Sample Report
   sfc_reports_button_url: "/uploads/2020/04/15/OperatorSummary.jpg"
   sfc_reports_image: "/uploads/2020/04/15/OperatorSummary.jpg"
-  sfc_reports_direction: reports-left
+  sfc_reports_direction: report-left
 - sfc_reports_main_heading: State Summary Report
   sfc_reports_para: "<p>The production monitoring software also provides a State Summary
     Report that generates pie charts and a table that shows the amount of time the
@@ -162,7 +162,7 @@ sfc_reports_section:
   sfc_reports_button_text: Sample Reports
   sfc_reports_button_url: "/uploads/2020/04/15/State_Charts.jpg"
   sfc_reports_image: "/uploads/2020/04/15/State_Charts.jpg"
-  sfc_reports_direction: reports-right
+  sfc_reports_direction: report-right
 - sfc_reports_main_heading: Event Log Report
   sfc_reports_para: "<p>The Event Log Report is a table that shows a time stamped
     list of every event that occurs at the machine, along with the operator number,
@@ -174,7 +174,7 @@ sfc_reports_section:
   sfc_reports_button_text: Sample Reports
   sfc_reports_button_url: "/uploads/2020/04/15/Event_Log.jpg"
   sfc_reports_image: "/uploads/2020/04/15/Event_Log.jpg"
-  sfc_reports_direction: reports-left
+  sfc_reports_direction: report-left
 - sfc_reports_main_heading: Track Cycles Report
   sfc_reports_para: "<p>ShopFloorConnect has the ability to track the number of cycles
     on maintenance items that are used in the machine(s), but that do not necessarily
@@ -193,7 +193,7 @@ sfc_reports_section:
     items.</p>"
   sfc_reports_button_url: "/uploads/2020/04/15/Track_Cycles_Status.jpg"
   sfc_reports_image: "/uploads/2020/04/15/Track_Cycles_Status.jpg"
-  sfc_reports_direction: reports-right
+  sfc_reports_direction: report-right
   sfc_reports_button_text: Sample Report
 menu:
   main:
