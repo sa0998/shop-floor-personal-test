@@ -20,3 +20,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- hardware/machine-connection-examples-1.md
