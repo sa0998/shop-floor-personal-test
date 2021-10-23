@@ -1,4 +1,21 @@
 ---
 label: Machine Monitoring Interface Layout
 hide_body: false
-fields: []
+fields:
+- name: machine_monitoring_interface_design
+  type: include
+  config: {}
+  template: machine-monitoring-interface-design
+  label: Machine Monitoring Interface Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
