@@ -1,4 +1,22 @@
 ---
 label: SFC Reports Layout
 hide_body: false
-fields: []
+fields:
+- name: sfc_reports_design
+  type: include
+  config: {}
+  template: sfc-reports-design
+  label: SFC Reports Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - sfc-reports-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
