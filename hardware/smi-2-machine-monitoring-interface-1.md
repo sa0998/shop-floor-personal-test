@@ -89,5 +89,6 @@ menu:
     weight: 1
     parent: item_ArHfxBm
     title: SMI 2 - Machine Interface
+    identifier: item_p4HxkdK
 
 ---
