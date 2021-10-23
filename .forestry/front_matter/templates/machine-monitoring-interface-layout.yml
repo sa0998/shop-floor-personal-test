@@ -19,3 +19,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- hardware/smi-2-machine-monitoring-interface-1.md
