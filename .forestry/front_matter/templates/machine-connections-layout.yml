@@ -1,4 +1,22 @@
 ---
 label: Machine Connections Layout
 hide_body: false
-fields: []
+fields:
+- name: machine_connections_design
+  type: include
+  config: {}
+  template: machine-connections-design
+  label: Machine Connections Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - machine-connections-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
