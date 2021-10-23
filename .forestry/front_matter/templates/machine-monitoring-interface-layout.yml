@@ -12,7 +12,8 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - machine-monitoring-design
     source:
       type: simple
       section: 
