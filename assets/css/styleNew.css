@@ -13787,7 +13787,7 @@ ol.commentlist li .star-rating {
     z-index: 1;
 }
 
-..roi-calculation .calculate-shipping.ps-container {
+.roi-calculation .calculate-shipping.ps-container {
     background: #eaebef none repeat scroll 0 0;
     float: left;
     padding: 70px 40px;
