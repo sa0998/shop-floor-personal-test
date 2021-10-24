@@ -2,7 +2,7 @@
 title: A ShopFloorConnect Success Story
 description: OEE calculation, how to calculate OEE
 document_title: ''
-permalink: "/success_impulse"
+permalink: "/success_impulse-2"
 key_words:
 - OEE calculation
 - how to calculate OEE

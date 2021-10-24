@@ -20,3 +20,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- resources/a-shopfloorconnect-success-story.md
