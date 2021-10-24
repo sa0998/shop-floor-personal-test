@@ -12,7 +12,7 @@ success_story_section:
 - success_story_main_title: " Fabrication"
   success_story_internal_main_title: Impulse Manufacturing
   success_story_internal_category: Fabrication
-  success_story_internal_url: "/success_impulse"
+  success_story_internal_url: "/success-impulse"
   success_story_internal_category_selector: fabrication
   success_story_internal_image: "/uploads/2021/10/24/image_1.jpg"
   success_story_active_status: active
