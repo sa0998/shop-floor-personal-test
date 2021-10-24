@@ -3,7 +3,7 @@ title: A ShopFloorConnect Success Story
 description: An auto parts manufacturer was able to improve OEE and cut downtime in
   half with ShopFloorConnect
 document_title: Success at an Automotive Parts Manufacturer - ShopFloorConnect
-permalink: "/success_automotive"
+permalink: "/success_automotive-2"
 key_words:
 - OEE calculation
 

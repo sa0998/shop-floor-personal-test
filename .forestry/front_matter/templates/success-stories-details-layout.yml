@@ -21,4 +21,5 @@ fields:
       path: 
   label: Layout
 pages:
+- resources/a-shopfloorconnect-success-story-1.md
 - resources/a-shopfloorconnect-success-story.md
