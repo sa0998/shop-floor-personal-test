@@ -30,5 +30,6 @@ success_stories_details_image_1: "/uploads/2021/10/24/image_2.jpg"
 success_stories_details_image_2: "/uploads/2021/10/22/pic2.jpg"
 success_stories_details_video_image: "/uploads/2021/10/22/about2.jpg"
 success_stories_details_image_url: ''
+banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
 
 ---
