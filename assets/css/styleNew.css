@@ -13804,6 +13804,8 @@ ol.commentlist li .star-rating {
     height: 40px;
     font-size: 13px;
     color: #999;
+    display: block!important;
+    max-width: 100%;
 }
 
 .roi-calculation select#effort {
@@ -13812,6 +13814,8 @@ ol.commentlist li .star-rating {
     height: 40px;
     font-size: 13px;
     color: #999;
+    display: block!important;
+    max-width: 100%;
 }
 
 .roi-calculation button.btn.dropdown-toggle.btn-default {

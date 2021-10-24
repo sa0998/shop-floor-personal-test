@@ -80,7 +80,7 @@
                             title="Select the number of 8-hour shifts you run per day"
                             placeholder="Number of 8-hour Shifts per Day"
                           >
-                            <option selected="" disabled="" hidden="" value=""></option>
+                            <option selected="" disabled=""  value="">Number of 8-hour Shifts per Day:</option>
                             <option value="20.80">1</option>
                             <option value="41.60">2</option>
                             <option value="62.40">3</option>
@@ -88,7 +88,7 @@
                           </div>
                           <div class="col-md-6">
                             <select name="effort" id="effort" placeholder="Anticipated Downtime Reduction Effort:">
-                              <option selected="" disabled="" hidden="" value=""></option>
+                              <option selected="" disabled=""  value="">Anticipated Downtime Reduction Effort:</option>
                               <option value=".05">Minimal</option>
                               <option value=".10">Moderate</option>
                               <option value=".15">Focused</option>
@@ -109,11 +109,12 @@
                  </div>
               </div>
               <!-- Calculate Shipping -->
+              <span id="spanTest"></span>
            </div>
            <!-- Cargo Shipment -->
         </div>
      </div>
   </div>
 </section>
-<span id="spanTest"></span>
+
 <script src="{{ "assets/js/sfcscripts.js" | relative_url }}"></script>
