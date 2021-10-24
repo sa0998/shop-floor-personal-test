@@ -39,6 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - success-stories-details-layout
   - success-stories-layout
   - roi-calculator-layout
   - machine-connections-layout
