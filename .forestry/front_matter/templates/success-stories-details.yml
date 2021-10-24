@@ -22,6 +22,54 @@ fields:
   config: {}
   template: description
   label: Description
+- name: success_stories_details_heading
+  type: text
+  config:
+    required: false
+  label: Success Stories Details Heading
+- name: success_stories_details_para
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Success Stories Details Para
+- name: success_stories_details_heading_2
+  type: text
+  config:
+    required: false
+  label: Success Stories Details Heading 2
+- name: success_stories_details_para_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Success Stories Details Para 2
+- name: success_stories_details_image_1
+  type: file
+  config:
+    maxSize: 64
+  label: Success Stories Details Image 1
+- name: success_stories_details_image_2
+  type: file
+  config:
+    maxSize: 64
+  label: Success Stories Details Image 2
+- name: success_stories_details_video_image
+  type: file
+  config:
+    maxSize: 64
+  label: Success Stories Details Video Image
+- name: success_stories_details_image_url
+  type: text
+  config:
+    required: false
+  label: Success Stories Details Image URL
 - name: keywords
   type: include
   config: {}
