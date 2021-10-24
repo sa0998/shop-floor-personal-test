@@ -1,0 +1,111 @@
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+    <div class="container">
+        <div class="dlab-bnr-inr-entry">
+            <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <ul class="list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    {% if page.dir != nil and page.dir != "/" %}
+                    <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+        </div>
+    </div>
+</div>
+<!-- inner page banner END -->
+<div class="section-full content-inner-2 bg-img-fix  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s" style="">
+    <div class="container">
+        <div class="">
+            <h2 class="title">{% if page.roi_calculator_heading != '' and page.roi_calculator_heading != nil %}{{page.roi_calculator_heading}}{% endif %}</h2>
+            {% if page.roi_calculator_para != '' and page.roi_calculator_para != nil %}{{page.roi_calculator_para }}{% endif %}
+        </div>
+    </div>
+</div>
+{% include snippets/roi.html %}
+<div class="content-block">
+<!-- About Us -->
+<div class="section-full content-inner bg-gray specification">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class="section-head text-black">
+                    <h2 class="title">{% if page.anticipated_machine_downtime_section.anticipated_machine_downtime_heading != '' and page.anticipated_machine_downtime_section.anticipated_machine_downtime_heading!= nil %}{{page.anticipated_machine_downtime_section.anticipated_machine_downtime_heading}}{% endif %}</h2>
+                    {% if page.anticipated_machine_downtime_section.anticipated_machine_downtime_para != '' and page.anticipated_machine_downtime_section.anticipated_machine_downtime_para != nil %}{{page.anticipated_machine_downtime_section.anticipated_machine_downtime_para}}{% endif %}
+                    {% assign items = page.anticipated_machine_downtime_details %} {% for item in items %}
+                    <div>
+                    <h4 class="title">{% if item.anticipated_machine_details_heading != '' and item.anticipated_machine_details_heading != nil%}{{item.anticipated_machine_details_heading}}{% endif %}</h4>
+                    {% if item.anticipated_machine_downtime_details_para != '' and item.anticipated_machine_downtime_details_para != nil%}{{item.anticipated_machine_downtime_details_para}}{% endif %}
+                    </div>
+                    {% endfor %}
+                    <div class=""> <a href="javascript:void(0);"><img src="{% if page.specifications_section.specifications_image != '' and page.specifications_section.specifications_image != nil %}{{page.specifications_section.specifications_image}}{% endif %}" alt=""></a> </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="sticky-top m-b30">
+                    <form class="inquiry-form inner">
+                        <h3 class="title m-t0 m-b10">Let's Convert Your Idea into Reality</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-user text-primary"></i></span>
+                                        <input name="dzName" type="text" required class="form-control" placeholder="First Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-mobile text-primary"></i></span>
+                                        <input name="dzOther[Phone]" type="text" required class="form-control" placeholder="Phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <div class="input-group"> 
+                                        <span class="input-group-addon"><i class="ti-email text-primary"></i></span>
+                                        <input name="dzEmail" type="email" class="form-control" required  placeholder="Your Email Id" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-check-box text-primary"></i></span>
+                                        <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Upload File">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-file text-primary"></i></span>
+                                        <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Upload File">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="ti-agenda text-primary"></i></span>
+                                        <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Tell us about your project or idea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <button name="submit" type="submit" value="Submit" class="site-button button-lg"> <span>Get A Free Quote!</span> </button>
+                            </div>
+                        </div>
+                    </form>	
+                </div>	
+            </div>
+        </div>
+    </div>
+</div>
+</div>
