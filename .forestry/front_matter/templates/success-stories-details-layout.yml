@@ -1,4 +1,22 @@
 ---
 label: Success Stories Details Layout
 hide_body: false
-fields: []
+fields:
+- name: success_stories_details_design
+  type: include
+  config: {}
+  template: success-stories-details
+  label: Success Stories Details Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - success-stories-details-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
