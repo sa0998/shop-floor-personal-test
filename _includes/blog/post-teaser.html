@@ -1,3 +1,53 @@
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+  <div class="container">
+      <div class="dlab-bnr-inr-entry">
+          <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+          <!-- Breadcrumb row -->
+          <div class="breadcrumb-row">
+              <ul class="list-inline">
+                  <li><a href="index.html">Home</a></li>
+                  {% if page.dir != nil and page.dir != "/" %}
+                  <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                  {% endif %}
+              </ul>
+          </div>
+          <!-- Breadcrumb row END -->
+      </div>
+  </div>
+</div>
+<!-- inner page banner END -->
+<div class="content-area">
+  <div class="container">
+    <!-- Blog half image -->
+    <div class="blog-post blog-md clearfix">
+      {% if post.featured_image != '' and post.featured_image != nil %}
+      <div class="dlab-post-media dlab-img-effect zoom-slow"> 
+        <a href="{{ post.url | relative_url }}"><img src="{{ post.featured_image | relative_url }}" alt=""></a> 
+      </div>
+      {% endif %}
+      <div class="dlab-post-info">
+        <div class="dlab-post-meta">
+          <ul>
+            <li class="post-date"> <strong>{{post.date | date_to_string: "ordinal", "US" }}</strong> </li>
+            <li class="post-author"> By <a href="javascript:void(0);">Oliver</a> </li>
+          </ul>
+        </div>
+        <div class="dlab-post-title">
+          <h4 class="post-title"><a href="{{post.title}}">{{post.title}}</a></h4>
+        </div>
+        <div class="dlab-post-text">
+          <p>{{ post.excerpt | mardownify }</p>
+        </div>
+        <div class="dlab-post-readmore"> 
+          <a href="{{ post.url | relative_url }}" title="READ MORE" rel="bookmark" class="site-button">READ MORE
+            <i class="ti-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <article class="shadow-sm p-3 mb-5 rounded-sm d-sm-flex align-items-start">
   {% if post.featured_image != '' and post.featured_image != nil %}
   <div class="text-center text-md-left mb-3 mb-sm-0 mr-sm-3">
