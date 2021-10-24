@@ -4,7 +4,7 @@ key_words:
 - how to calculate OEE
 layout: success-stories-details-design
 title: A ShopFloorConnect Success Story
-document_title: ''
+document_title: Success at Impulse Manufacturing - ShopFloorConnect
 permalink: "/success-impulse"
 description: OEE calculation, how to calculate OEE
 success_stories_details_heading: Fabricator Realizes Huge Cost Savings
