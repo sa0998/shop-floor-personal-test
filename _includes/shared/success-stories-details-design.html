@@ -1,0 +1,118 @@
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+    <div class="container">
+        <div class="dlab-bnr-inr-entry">
+            <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <ul class="list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    {% if page.dir != nil and page.dir != "/" %}
+                    <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+        </div>
+    </div>
+</div>
+<!-- inner page banner END -->
+<!-- contact area -->
+<div class="content-block">
+    <!-- Portfolio Details -->
+    <div class="section-full content-inner bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-b30">
+                    <h2 class="text-black font-weight-600 m-b15">{% if page.success_stories_details_heading!= '' and page.success_stories_details_heading != nil %}{{page.success_stories_details_heading}}{% endif %}</h2>
+                    {% if page.success_stories_details_para!= '' and page.success_stories_details_para != nil %}{{page.success_stories_details_para}}{% endif %}
+                    <div class="row widget widget_getintuch widget_getintuch-pro-details m-lr0">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-lr0">
+                            <div class="pro-details">
+                                <i class="ti ti-user"></i>
+                                <strong>CLIENT</strong> Martin Stewart
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-lr0">
+                            <div class="pro-details">
+                                <i class="ti ti-location-pin"></i>
+                                <strong>LOCATION</strong>London, UK
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-lr0">
+                            <div class="pro-details">
+                                <i class="ti ti-ruler-alt-2"></i>
+                                <strong>SIZE</strong>1,200m<sup>2</sup>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-lr0">
+                            <div class="pro-details">
+                                <i class="ti ti-home"></i>
+                                <strong>TYPE</strong>Residential Project
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="text-black font-weight-600 m-b15">{% if page.success_stories_details_heading_2!= '' and page.success_stories_details_heading_2 != nil %}{{page.success_stories_details_heading_2}}{% endif %}</h2>
+                    {% if page.success_stories_details_para_2:!= '' and page.success_stories_details_para_2: != nil %}{{page.success_stories_details_para_2:}}{% endif %}
+                    <!-- <div class="row">
+                        <div class="col-lg-12">
+                            <div class="icon-bx-wraper m-b30 left">
+                                <div class="icon-md"> 
+                                    <a href="javascript:void(0);" class="icon-cell text-primary">
+                                        <i class="flaticon-factory"></i>
+                                    </a> 
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="dlab-tilte">Material Engineering</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                                </div>
+                            </div>
+                            <div class="icon-bx-wraper m-b30 left">
+                                <div class="icon-md"> 
+                                    <a href="javascript:void(0);" class="icon-cell text-primary">
+                                        <i class="flaticon-settings"></i>
+                                    </a> 
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="dlab-tilte">Chemical Research</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                                </div>
+                            </div>
+                            <div class="icon-bx-wraper left">
+                                <div class="icon-md"> 
+                                    <a href="javascript:void(0);" class="icon-cell text-primary">
+                                        <i class="flaticon-worker"></i>
+                                    </a> 
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="dlab-tilte">Petroleum Engineering</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12 m-b30">
+                            <img alt="" src="{% if page.success_stories_details_image_1!= '' and page.success_stories_details_image_1 != nil %}{{page.success_stories_details_image_1}}{% endif %}">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+                            <div class="video-bx radius-no h100">
+                                <img src="{% if page.success_stories_details_video_image!= '' and page.success_stories_details_video_image != nil %}{{page.success_stories_details_video_image}}{% endif %}" alt="Signature" class="img-cover">
+                                <div class="video-play-icon">
+                                    <a href="{% if page.success_stories_details_image_url != '' and page.success_stories_details_image_url != nil %}{{page.success_stories_details_image_url}}{% endif %}" class="popup-youtube video bg-primary"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+                            <img alt="" src="{% if page.success_stories_details_image_2!= '' and page.success_stories_details_image_2 != nil %}{{page.success_stories_details_image_2}}{% endif %}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Details End -->
+</div>
+<!-- contact area END -->
