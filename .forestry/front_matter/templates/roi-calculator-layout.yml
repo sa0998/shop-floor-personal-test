@@ -1,4 +1,21 @@
 ---
 label: ROI Calculator Layout
 hide_body: false
-fields: []
+fields:
+- name: roi_calculator_design
+  type: include
+  config: {}
+  template: roi-calculator-design
+  label: ROI Calculator Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
