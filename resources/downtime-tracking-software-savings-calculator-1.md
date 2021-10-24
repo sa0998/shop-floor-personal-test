@@ -51,5 +51,6 @@ anticipated_machine_downtime_details:
     of ShopFloorConnect’s downtime tracking and reporting functions, real time displays,
     and the Alert feature to immediately notify the appropriate personnel each time
     a machine stops for a prolonged period of time.</p>"
+banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
 
 ---
