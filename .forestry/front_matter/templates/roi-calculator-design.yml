@@ -48,7 +48,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: Anticipated Machine Downtime Para
   label: Anticipated Machine Downtime Section
 - name: anticipated_machine_downtime_details
@@ -64,9 +64,9 @@ fields:
     default: ''
     config:
       required: false
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: Anticipated Machine Downtime Details Para
   config:
     min: 
