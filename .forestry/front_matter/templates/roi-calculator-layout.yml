@@ -19,3 +19,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- resources/downtime-tracking-software-savings-calculator-1.md
