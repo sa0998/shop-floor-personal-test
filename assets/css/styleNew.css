@@ -13818,6 +13818,15 @@ ol.commentlist li .star-rating {
     max-width: 100%;
 }
 
+#spanTest table {
+    margin-top: 29px;
+}
+
+.specification .section-head.text-black,
+.specification .sticky-top {
+    margin-top: 50px;
+}
+
 .roi-calculation button.btn.dropdown-toggle.btn-default {
     display: none;
 }
