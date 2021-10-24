@@ -39,6 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - roi-calculator-layout
   - machine-connections-layout
   - machine-monitoring-interface-layout
   - sfc-reports
