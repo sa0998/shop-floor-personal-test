@@ -13798,6 +13798,26 @@ ol.commentlist li .star-rating {
     position: relative;
 }
 
+.roi-calculation select#shifts {
+    border: 1px solid #e7ecf1 !important;
+    background-color: #fff !important;
+    height: 40px;
+    font-size: 13px;
+    color: #999;
+}
+
+.roi-calculation select#effort {
+    border: 1px solid #e7ecf1 !important;
+    background-color: #fff !important;
+    height: 40px;
+    font-size: 13px;
+    color: #999;
+}
+
+.roi-calculation button.btn.dropdown-toggle.btn-default {
+    display: none;
+}
+
 .roi-calculation .fixed-img2 {
     height: 100%;
     left: 0;

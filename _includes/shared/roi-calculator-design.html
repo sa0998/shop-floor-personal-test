@@ -38,7 +38,7 @@
                     {% assign items = page.anticipated_machine_downtime_details %} {% for item in items %}
                     <div>
                     <h4 class="title">{% if item.anticipated_machine_details_heading != '' and item.anticipated_machine_details_heading != nil%}{{item.anticipated_machine_details_heading}}{% endif %}</h4>
-                    <p>{% if item.anticipated_machine_downtime_details_para != '' and item.anticipated_machine_downtime_details_para != nil%}{{item.anticipated_machine_downtime_details_para}}{% endif %}</p>
+                    {% if item.anticipated_machine_downtime_details_para != '' and item.anticipated_machine_downtime_details_para != nil%}{{item.anticipated_machine_downtime_details_para}}{% endif %}
                     </div>
                     {% endfor %}
                     <div class=""> <a href="javascript:void(0);"><img src="{% if page.specifications_section.specifications_image != '' and page.specifications_section.specifications_image != nil %}{{page.specifications_section.specifications_image}}{% endif %}" alt=""></a> </div>
