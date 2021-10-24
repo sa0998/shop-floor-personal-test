@@ -15,16 +15,19 @@ success_story_section:
   success_story_internal_url: "/success_impulse"
   success_story_internal_category_selector: fabrication
   success_story_internal_image: "/uploads/2021/10/24/image_1.jpg"
+  success_story_active_status: active
 - success_story_main_title: Trades
   success_story_internal_main_title: 'Manufacturer Trades Labor '
   success_story_internal_category: Trades
   success_story_internal_url: "/success-automotive"
   success_story_internal_category_selector: trades
   success_story_internal_image: "/uploads/2021/10/24/image_2.jpg"
+  success_story_active_status: ''
 menu:
   main:
     weight: 3
     parent: item_Bs8WyLo
     title: Success Stories
+    identifier: item_WNnuowb
 
 ---
