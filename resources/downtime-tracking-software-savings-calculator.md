@@ -3,7 +3,7 @@ title: Downtime Tracking Software Savings Calculator
 description: ShopFloorConnect Machine Downtime Tracking Software provides significant
   return on investment.  Use our handy calculator to see how much you can benefit.
 document_title: Machine Downtime Tracking Software - ROI | ShopfloorConnect
-permalink: "/downtime-tracking-software-ROI"
+permalink: "/downtime-tracking-software-ROI-2"
 key_words:
 - machine downtime tracking
 - downtime
