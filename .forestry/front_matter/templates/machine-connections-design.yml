@@ -27,6 +27,34 @@ fields:
   config:
     maxSize: 64
   label: Banner Bg Image
+- name: machine_connection_example_heading
+  type: text
+  config:
+    required: false
+  label: Machine Connection Example Heading
+- name: machine_connection_example_para
+  type: text
+  config:
+    required: false
+  label: Machine Connection Example Para
+- name: machine_connection_example_files
+  type: field_group_list
+  fields:
+  - name: machine_connection_example_title
+    type: text
+    config:
+      required: false
+    label: Machine Connection Example Title
+  - name: machine_connection_example_file_url
+    type: text
+    config:
+      required: false
+    label: Machine Connection Example File URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Machine Connection Example Files
 - name: keywords
   type: include
   config: {}
