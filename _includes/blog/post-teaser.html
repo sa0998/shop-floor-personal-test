@@ -1,25 +1,4 @@
-<!-- inner page banner -->
-<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
-  <div class="container">
-      <div class="dlab-bnr-inr-entry">
-          <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
-          <!-- Breadcrumb row -->
-          <div class="breadcrumb-row">
-              <ul class="list-inline">
-                  <li><a href="index.html">Home</a></li>
-                  {% if page.dir != nil and page.dir != "/" %}
-                  <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
-                  {% endif %}
-              </ul>
-          </div>
-          <!-- Breadcrumb row END -->
-      </div>
-  </div>
-</div>
-<!-- inner page banner END -->
-<div class="content-area">
-  <div class="container">
-    <!-- Blog half image -->
+<!-- Blog half image -->
     <div class="blog-post blog-md clearfix">
       {% if post.featured_image != '' and post.featured_image != nil %}
       <div class="dlab-post-media dlab-img-effect zoom-slow"> 
@@ -46,40 +25,3 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
-<article class="shadow-sm p-3 mb-5 rounded-sm d-sm-flex align-items-start">
-  {% if post.featured_image != '' and post.featured_image != nil %}
-  <div class="text-center text-md-left mb-3 mb-sm-0 mr-sm-3">
-    <img
-      src="{{ post.featured_image | relative_url }}"
-      class="w-100"
-      style="max-width: 320px;"
-    />
-  </div>
-  {% endif %}
-  {% if post.featured_image != '' and post.featured_image != nil %}
-  <div class="flex-1">
-  {% else %}
-  <div class="w-100">
-  {% endif %}
-  <div class="flex-1">
-    <h3 class="mt-0">
-      {% if post.external_link != '' and post.external_link != nil %}
-      <a href="{{ post.external_link }}" target="_blank">{{post.title}}</a>
-      {% else %}
-      <a href="{{ post.url | relative_url }}">{{post.title}}</a>
-      {% endif %}
-    </h3>
-    <p class="text-muted">
-      <small>{{post.date | date_to_string: "ordinal", "US" }}</small>
-    </p>
-    {% if post.external_link != '' and post.external_link != nil %} {{
-    post.content | mardownify }} {% else %} {{ post.excerpt | mardownify }} {%
-    endif %} {% if post.external_link != '' and post.external_link != nil %}
-    <a href="{{ post.external_link }}" target="_blank">Read More</a>
-    {% else %}
-    <a href="{{ post.url | relative_url }}">Read More</a>
-    {% endif %}
-  </div>
-</article>
