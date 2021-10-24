@@ -1,4 +1,72 @@
 ---
 label: Success Stories
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
+- name: permalink
+  type: include
+  config: {}
+  template: permalink
+  label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+- name: banner_bg_image
+  type: file
+  config:
+    maxSize: 64
+  label: Banner Bg Image
+- name: success_story_section
+  type: field_group_list
+  fields:
+  - name: success_story_main_title
+    type: text
+    config:
+      required: false
+    label: Success Story Main Title
+  - name: success_story_internal_main_title
+    type: text
+    config:
+      required: false
+    label: Success Story Internal Main Title
+  - name: success_story_internal_category
+    type: text
+    config:
+      required: false
+    label: Success Story Internal Category
+  - name: success_story_internal_url
+    type: text
+    config:
+      required: false
+    label: Success Story Internal URL
+  - name: success_story_internal_category_selector
+    type: text
+    config:
+      required: false
+    label: Success Story Internal Category Selector
+  - name: success_story_internal_image
+    type: file
+    config:
+      maxSize: 64
+    label: Success Story Internal Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Success Story Section
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
