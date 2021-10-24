@@ -52,5 +52,10 @@ anticipated_machine_downtime_details:
     and the Alert feature to immediately notify the appropriate personnel each time
     a machine stops for a prolonged period of time.</p>"
 banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
+menu:
+  main:
+    weight: 2
+    parent: item_Bs8WyLo
+    title: ShopFloorConnect ROI Calculator
 
 ---
