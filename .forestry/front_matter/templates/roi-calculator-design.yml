@@ -22,6 +22,57 @@ fields:
   config: {}
   template: description
   label: Description
+- name: roi_calculator_heading
+  type: text
+  config:
+    required: false
+  label: ROI Calculator Heading
+- name: roi_calculator_para
+  type: text
+  config:
+    required: false
+  label: ROI Calculator Para
+- name: anticipated_machine_downtime_section
+  type: field_group
+  config: {}
+  fields:
+  - name: anticipated_machine_downtime_heading
+    type: text
+    config:
+      required: false
+    label: Anticipated Machine Downtime Heading
+  - name: anticipated_machine_downtime_para
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Anticipated Machine Downtime Para
+  label: Anticipated Machine Downtime Section
+- name: anticipated_machine_downtime_details
+  type: field_group_list
+  fields:
+  - name: anticipated_machine_details_heading
+    type: text
+    config:
+      required: false
+    label: Anticipated Machine Details Heading
+  - name: anticipated_machine_downtime_details_para
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Anticipated Machine Downtime Details Para
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Anticipated Machine Downtime Details
 - name: keywords
   type: include
   config: {}
