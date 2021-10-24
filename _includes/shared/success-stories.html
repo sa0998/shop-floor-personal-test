@@ -24,6 +24,10 @@
 				<div class="container">
 					<div class="site-filters clearfix center m-b40">
 						<ul class="filters" data-toggle="buttons">
+                            <li data-filter="fabrication trades" class="btn">
+								<input type="radio">
+								<a href="javascript:void(0);" class="site-button-secondry button-sm radius-xl"><span>All</span></a> 
+							</li>
                             {% assign items = page.success_story_section %} {% for item in items %}
 							<li data-filter="{% if item.success_story_internal_category_selector != '' and item.success_story_internal_category_selector != nil%}{{item.success_story_internal_category_selector}}{% endif %}" class="btn {% if item.success_story_active_status != '' and item.success_story_active_status != nil%}{{item.success_story_active_status}}{% endif %}">
 								<input type="radio">
