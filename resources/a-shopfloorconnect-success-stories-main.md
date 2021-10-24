@@ -21,5 +21,10 @@ success_story_section:
   success_story_internal_url: "/success-automotive"
   success_story_internal_category_selector: trades
   success_story_internal_image: "/uploads/2021/10/24/image_2.jpg"
+menu:
+  main:
+    weight: 3
+    parent: item_Bs8WyLo
+    title: Success Stories
 
 ---

@@ -6,12 +6,6 @@ permalink: "/success_impulse"
 key_words:
 - OEE calculation
 - how to calculate OEE
-menu:
-  main:
-    weight: 3
-    parent: item_Bs8WyLo
-    title: Success Stories
-    identifier: item_VoSj2pz
 
 ---
 ##### Fabricator Realizes Huge Cost Savings
