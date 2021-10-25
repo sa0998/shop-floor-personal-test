@@ -1,41 +1,37 @@
 <form name="{{form_name}}" method="POST" data-netlify="true" action="/thanks">
   <div class="form-row form-group">
-    <div class="col">
-      <label for="name">Name<sup class="text-danger">*</sup></label>
-      <input type="text" class="form-control" name="name" id="name" required />
+    <div class="form-group">
+      <input type="text" class="form-control" name="name" id="name" required  placeholder="Your Name*"/>
     </div>
-    <div class="col">
-      <label for="email">Email<sup class="text-danger">*</sup></label>
+    <div class="form-group">
       <input
         type="email"
         class="form-control"
         name="email"
         id="email"
         required
+        placeholder="Your Email*"
       />
     </div>
-    <div class="col">
-      <label for="company">Company<sup class="text-danger">*</sup></label>
+    <div class="form-group">
       <input
         type="text"
         class="form-control"
         name="company"
         id="company"
         required
+        placeholder="Company*"
       />
     </div>
   </div>
   <div class="form-row form-group">
     <div class="col">
-      <label for="phone">Phone<sup class="text-danger">*</sup></label>
-      <input type="tel" class="form-control" name="phone" id="phone" required />
+      <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Phone*"/>
     </div>
     <div class="col">
-      <label for="city">City<sup class="text-danger">*</sup></label>
-      <input type="text" class="form-control" name="city" id="city" required />
+      <input type="text" class="form-control" name="city" id="city" required  placeholder="City*"/>
     </div>
     <div class="col">
-      <label for="state">State<sup class="text-danger">*</sup></label>
       <select class="form-control" name="state" id="state" required>
         <option value="">--State--</option>
         <option value="AL">Alabama</option>
@@ -94,16 +90,14 @@
   </div>
   <div class="form-row form-group">
     <div class="col">
-      <label for="message"
-        >What can we do for you?<sup class="text-danger">*</sup></label
-      >
       <textarea
         class="form-control"
         id="message"
         rows="3"
         name="message"
+        placeholder="What can we do for you?"
       ></textarea>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="site-button"><span>Submit</span></button>
 </form>
