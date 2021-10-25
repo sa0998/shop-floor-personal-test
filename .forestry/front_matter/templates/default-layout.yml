@@ -32,7 +32,6 @@ fields:
 pages:
 - contact/ask-us-a-question.md
 - contact/request-support.md
-- contact/schedule-a-demo.md
 - contact/server-recommendations.md
 - hardware/data-collection-examples.md
 - hardware/smi-2-machine-interface.md
