@@ -38,5 +38,9 @@ support_documentation_section:
   support_documentation_link: https://wintriss.com/sfc/sfcdocs/SMI2_24VDC_Wiring.pdf
 - support_documentation_title: Wiring Diagram (B-Size) - SMI-2 Stamping Press
   support_documentation_link: https://wintriss.com/sfc/sfcdocs/SMI2_Press_Wiring.pdf
+menu:
+  main:
+    weight: 4
+    parent: item_Bs8WyLo
 
 ---
