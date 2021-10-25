@@ -1,4 +1,75 @@
 ---
 label: Downloads Design
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
+- name: permalink
+  type: include
+  config: {}
+  template: permalink
+  label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+- name: sale_brochures_main_heading
+  type: text
+  config:
+    required: false
+  label: Sale Brochures Main Heading
+- name: sale_brochures
+  type: field_group_list
+  fields:
+  - name: sale_brochures_title
+    type: text
+    config:
+      required: false
+    label: Sale Brochures Title
+  - name: sale_brochures_link
+    type: text
+    config:
+      required: false
+    label: Sale Brochures Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sale Brochures Section
+- name: support_documentation_heading
+  type: text
+  config:
+    required: false
+  label: Support Documentation Heading
+- name: support_documentation_section
+  type: field_group_list
+  fields:
+  - name: support_documentation_title
+    type: text
+    config:
+      required: false
+    label: Support Documentation Title
+  - name: support_documentation_link
+    type: text
+    config:
+      required: false
+    label: Support Documentation Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Support Documentation Section
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
