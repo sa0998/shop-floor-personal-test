@@ -13779,6 +13779,19 @@ ol.commentlist li .star-rating {
 }
 
 /* Sohaib Changes */
+
+.dropdown-toggle:after{
+border-top: 0;
+}
+
+
+.contact-form #state {
+    display: block!important;
+    height: 50px;
+}
+.contact-form .bootstrap-select {
+    display: none!important;
+}
 .roi-calculation{
     float: left;
     padding: 90px 0;
@@ -13861,7 +13874,7 @@ ol.commentlist li .star-rating {
 }
 
 .logo-header{
-    padding: 18px 0px 18px 0px;
+    padding: 22px 0px 22px 0px;
 }
 
 .custom-about-sa h6.text-primary {
