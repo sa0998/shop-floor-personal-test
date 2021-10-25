@@ -3,7 +3,7 @@ title: Schedule a Demo
 description: 'Use this form to schedule a demo or to get more information about ShopFloorConnect
   OEE Monitoring Software. '
 document_title: Contact Us - ShopFloorConnect
-permalink: "/contact"
+permalink: "/contact-2"
 key_words: []
 menu:
   main:
