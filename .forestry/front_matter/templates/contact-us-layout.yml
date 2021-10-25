@@ -1,4 +1,22 @@
 ---
 label: Contact Us Layout
 hide_body: false
-fields: []
+fields:
+- name: contact_us_design
+  type: include
+  config: {}
+  template: contact-us-design
+  label: Contact Us Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - contact-us-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
