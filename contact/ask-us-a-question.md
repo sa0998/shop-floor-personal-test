@@ -4,7 +4,7 @@ description: ShopFloorConnect software leverages the OEE calculation formula for
   equipment to provide improved OEE measurement that factors in performance for specific
   parts.
 document_title: Contact Us - ShopFloorConnect
-permalink: "/shop-floor-software_question"
+permalink: "/shop-floor-software_question-2"
 key_words:
 - " how to calculate OEE"
 - OEE calculation
