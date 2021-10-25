@@ -2,7 +2,7 @@
 title: Downloads
 description: These ShopFloorConnect documents are available for download.
 document_title: ShopFloorConnect Downloads
-permalink: "/downloads"
+permalink: "/downloads-2"
 key_words:
 - OEE calculation
 - ShopFloorConnect Documents
