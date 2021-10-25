@@ -39,6 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - contact-us-layout
   - downloads-layout
   - success-stories-details-layout
   - success-stories-layout
