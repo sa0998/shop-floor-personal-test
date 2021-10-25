@@ -11,5 +11,9 @@ description: ShopFloorConnect software leverages the OEE calculation formula for
   parts.
 banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
 contac_us_main_title: Ask Us a Question
+menu:
+  main:
+    weight: 2
+    parent: item_JffZUWK
 
 ---

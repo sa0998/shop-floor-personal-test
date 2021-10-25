@@ -85,6 +85,9 @@ specifications_section:
   specifications_link_text_2_url: https://wintriss.com/sfc/sfcdocs/SMI-2_panel_mount.pdf
   specifications_image: "/uploads/2021/10/23/software-bg-new-new.png"
 menu:
+  footer:
+    weight: 2
+    title: Hardware
   main:
     weight: 1
     parent: item_ArHfxBm

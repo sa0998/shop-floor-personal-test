@@ -11,5 +11,12 @@ description: Use this form to contact us to schedule a demo or to get more infor
   about ShopFloorConnect OEE Monitoring Software.
 banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
 contac_us_main_title: Request Support
+menu:
+  main:
+    weight: 3
+    parent: item_JffZUWK
+  footer:
+    weight: 4
+    title: Support
 
 ---
