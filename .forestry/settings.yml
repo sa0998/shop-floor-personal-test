@@ -39,7 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
-  - downloads-design
+  - downloads-layout
   - success-stories-details-layout
   - success-stories-layout
   - roi-calculator-layout
