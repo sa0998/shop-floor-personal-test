@@ -6,7 +6,7 @@ key_words:
 layout: contact-us-design
 title: Request Support
 document_title: Support Center - ShopFloorConnect
-permalink: "/tech-support"
+permalink: "/tech_support"
 description: Use this form to contact us to schedule a demo or to get more information
   about ShopFloorConnect OEE Monitoring Software.
 banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
