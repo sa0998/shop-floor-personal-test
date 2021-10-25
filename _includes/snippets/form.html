@@ -1,8 +1,11 @@
 <form name="{{form_name}}" method="POST" data-netlify="true" action="/thanks">
-  <div class="form-row form-group">
+  <div class="row">
+    <div class="col-md-6">
     <div class="form-group">
       <input type="text" class="form-control" name="name" id="name" required  placeholder="Your Name*"/>
     </div>
+  </div>
+  <div class="col-md-6">
     <div class="form-group">
       <input
         type="email"
@@ -13,6 +16,8 @@
         placeholder="Your Email*"
       />
     </div>
+  </div>
+  <div class="col-md-6">
     <div class="form-group">
       <input
         type="text"
@@ -24,14 +29,18 @@
       />
     </div>
   </div>
-  <div class="form-row form-group">
-    <div class="col">
-      <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Phone*"/>
-    </div>
-    <div class="col">
+  <div class="col-md-6">
+    <div class="form-group">
+    <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Phone*"/>
+  </div>
+  </div>
+  <div class="col-md-6">
+    <div class="form-group">
       <input type="text" class="form-control" name="city" id="city" required  placeholder="City*"/>
     </div>
-    <div class="col">
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
       <select class="form-control" name="state" id="state" required>
         <option value="">--State--</option>
         <option value="AL">Alabama</option>
@@ -87,9 +96,9 @@
         <option value="WY">Wyoming</option>
       </select>
     </div>
-  </div>
-  <div class="form-row form-group">
-    <div class="col">
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
       <textarea
         class="form-control"
         id="message"
@@ -98,6 +107,10 @@
         placeholder="What can we do for you?"
       ></textarea>
     </div>
-  </div>
+    </div>
+  
+  <div class="col-md-12">
   <button type="submit" class="site-button"><span>Submit</span></button>
+</div>
+</div>
 </form>
