@@ -1,4 +1,22 @@
 ---
 label: Downloads Layout
 hide_body: false
-fields: []
+fields:
+- name: downloads_design
+  type: include
+  config: {}
+  template: downloads-design
+  label: Downloads Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - downloads-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
