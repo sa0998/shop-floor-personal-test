@@ -5,15 +5,15 @@
   <div class="blog-post blog-single">
       <div class="dlab-post-meta m-b20">
           <ul>
-              <li class="post-date"> <strong>{{post.date | date_to_string: "ordinal", "US" }}</strong>> </li>
+              <li class="post-date"> <strong>{{page.date | date_to_string: "ordinal", "US" }}</strong>> </li>
               <li class="post-author"> By <a href="c">Harry</a> </li>
           </ul>
       </div>
       <div class="dlab-post-title">
-          <h4 class="post-title m-t0"><a href="{{ post.url | relative_url }}">{{post.title}}</a></h4>
+          <h4 class="post-title m-t0"><a href="{{ page.url | relative_url }}">{{page.title}}</a></h4>
       </div>
       <div class="dlab-post-media dlab-img-effect zoom-slow"> 
-        <a href="{{ post.url | relative_url }}"><img src="{{ page.featured_image | relative_url }}" alt=""></a> 
+        <a href="{{ page.url | relative_url }}"><img src="{{ page.featured_image | relative_url }}" alt=""></a> 
       </div>
     </div> 
   </div>
