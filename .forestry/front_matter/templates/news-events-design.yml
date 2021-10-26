@@ -1,4 +1,34 @@
 ---
 label: News & Events Design
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
+- name: permalink
+  type: include
+  config: {}
+  template: permalink
+  label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+- name: banner_bg_image
+  type: file
+  config:
+    maxSize: 64
+  label: Banner Bg Image
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
