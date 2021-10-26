@@ -20,3 +20,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- contact/server-recommendations-1.md
