@@ -9,7 +9,6 @@ sections:
 - type: document
   path: _data/footer-form.yml
   label: Footer Form Text Data
-  match: "**/*"
 - type: document
   path: _data/testimonials.yml
   label: Testimonials
