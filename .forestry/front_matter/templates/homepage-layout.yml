@@ -53,11 +53,6 @@ fields:
   config: {}
   template: reports-data
   label: Report Detail Section
-- name: our_team
-  type: include
-  config: {}
-  template: our-team
-  label: Our Team
 - name: news
   type: include
   config: {}
