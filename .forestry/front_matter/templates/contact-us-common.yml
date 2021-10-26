@@ -25,3 +25,5 @@ fields:
     schema:
       format: html-blocks
   label: Company Phone
+pages:
+- _data/contact-us-common.yml
