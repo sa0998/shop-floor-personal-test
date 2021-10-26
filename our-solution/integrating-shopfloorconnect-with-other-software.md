@@ -3,7 +3,7 @@ title: Integrating ShopFloorConnect with Other Software
 description: ShopFloorConnect features an Application Program Interface (API) that
   enables it to quickly and easily integrate with your other software.
 document_title: Integrating ShopFloorConnect with Other Software | ShopFloorConnect
-permalink: "/api"
+permalink: "/api-2"
 key_words:
 - integration
 - API
