@@ -3,7 +3,7 @@ title: ShopFloorConnect Alerts
 description: ShopFloorConnect software features configurable alerts that will automatically
   message appropriate personnel when preset conditions are detected.
 document_title: Programmable Production Alerts - ShopFloorConnect
-permalink: "/sfcalerts"
+permalink: "/sfcalerts-2"
 key_words:
 - production alerts
 - status messages
