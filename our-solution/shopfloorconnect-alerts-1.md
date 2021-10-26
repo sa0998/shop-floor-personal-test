@@ -1,5 +1,8 @@
 ---
-key_words: []
+key_words:
+- production alerts
+- status messages
+- job alerts
 layout: sfc-alerts-design
 title: ShopFloorConnect Alerts
 document_title: Programmable Production Alerts - ShopFloorConnect
