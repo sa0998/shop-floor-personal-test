@@ -39,6 +39,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - news-events-layout
   - server-recommendations-layout
   - integration-sfc-layout
   - sfc-alerts-layout
