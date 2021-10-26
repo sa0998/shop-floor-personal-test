@@ -5,9 +5,11 @@ title: What to look for in Production Tracking Software
 document_title: What to look for in Production Tracking Software
 description: With so many options in data collection software, how does a company
   choose the best one for their business? Start by asking these questions.
-date: 2021-08-30 00:00:00 -0400
-featured_image: ''
+date: 2021-08-30T00:00:00.000-04:00
+featured_image: "/uploads/2021/10/26/thum1-new.jpg"
 external_link: ''
+banner_bg_image: "/uploads/2021/10/21/bnr2.jpg"
+featured_image_small: "/uploads/2021/10/26/pic1-new.jpg"
 
 ---
 With so many data collection software companies offering products for industrial businesses, how does a business decide the best production tracking software for their needs? Here are a list of questions and considerations to help compare product offerings.
