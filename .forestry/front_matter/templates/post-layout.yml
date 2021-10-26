@@ -33,11 +33,21 @@ fields:
   config: {}
   template: date
   label: Date
+- name: banner_bg_image
+  type: file
+  config:
+    maxSize: 64
+  label: Banner Bg Image
 - name: featured_image
   type: include
   config: {}
   template: featured-image
   label: Featured Image
+- name: featured_image_small
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image Small
 - name: external_link
   type: include
   config: {}
