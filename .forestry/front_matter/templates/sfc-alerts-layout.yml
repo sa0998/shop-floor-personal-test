@@ -20,3 +20,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- our-solution/shopfloorconnect-alerts-1.md
