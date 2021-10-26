@@ -15,6 +15,9 @@
       <div class="dlab-post-media dlab-img-effect zoom-slow"> 
         <a href="{{ page.url | relative_url }}"><img src="{{ page.featured_image | relative_url }}" alt=""></a> 
       </div>
+    </div>
+    <div class="dlab-post-text">
+      {{page.content}}
     </div> 
   </div>
 {% include blog/post-banner-end.html %}
