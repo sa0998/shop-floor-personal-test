@@ -1,4 +1,77 @@
 ---
 label: Integration SFC Design
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: include
+  config: {}
+  template: title
+  label: Title
+- name: document_title
+  type: include
+  config: {}
+  template: document-title
+  label: Document Title
+- name: permalink
+  type: include
+  config: {}
+  template: permalink
+  label: Permalink
+- name: description
+  type: include
+  config: {}
+  template: description
+  label: Description
+- name: banner_bg_image
+  type: file
+  config:
+    maxSize: 64
+  label: Banner Bg Image
+- name: integration_sfc_main_heading
+  type: text
+  config:
+    required: false
+  label: Integration SFC Main Heading
+- name: integration_sfc_details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Integration SFC Details
+- name: sfc_api_section_heading
+  type: text
+  config:
+    required: false
+  label: SFC API Section Heading
+- name: sfc_api_section_details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: SFC API Section Details
+- name: sfc_api_section_button_text
+  type: text
+  config:
+    required: false
+  label: SFC API Section Button Text
+- name: sfc_api_section_button_url
+  type: text
+  config:
+    required: false
+  label: SFC API Section Button URL
+- name: sfc_api_section_image
+  type: file
+  config:
+    maxSize: 64
+  label: SFC API Section Image
+- name: keywords
+  type: include
+  config: {}
+  template: key-words
+  label: Keywords
