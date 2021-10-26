@@ -1,4 +1,22 @@
 ---
 label: News & Events Layout
 hide_body: false
-fields: []
+fields:
+- name: news_and_events_design
+  type: include
+  config: {}
+  template: news-events-design
+  label: News & Events Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - news-and-events-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
