@@ -3,7 +3,7 @@ title: Server Recommendations
 description: This page outlines the minimum server requirements for a ShopFloorConnect
   installation.
 document_title: Server recommendations | ShopFloorConnect
-permalink: "/hardware"
+permalink: "/hardware-2"
 key_words:
 - ShopFloorConnect server requirements
 menu:
