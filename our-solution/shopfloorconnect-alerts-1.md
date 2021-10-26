@@ -34,5 +34,6 @@ menu:
     weight: 5
     parent: item_DsyKHj_
     title: Alert Messages
+    identifier: item_D24VC8v
 
 ---
