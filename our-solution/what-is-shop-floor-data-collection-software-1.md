@@ -125,13 +125,13 @@ how_to_improve_main_heading: 'You Can’t Improve What '
 how_to_improve_main_heading_line_2: You Don’t Measure
 tracking_software_features_bg_image: "/uploads/2021/10/20/bg1.jpg"
 menu:
-  footer:
-    weight: 1
-    title: Our Solution
   main:
     weight: 1
     parent: item_DsyKHj_
     title: What is SFC
     identifier: item_fsJTR_7
+  footer:
+    weight: 1
+    title: Our Solution
 
 ---

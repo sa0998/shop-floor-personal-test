@@ -29,5 +29,10 @@ alert_main_details: "<p>Each alert is a custom text or email message that is sen
 alert_main_image: "/uploads/2021/10/26/alert-message-new.png"
 alert_main_button_text: Read More
 alert_main_button_url: "/test-r"
+menu:
+  main:
+    weight: 5
+    parent: item_DsyKHj_
+    title: Alert Messages
 
 ---
