@@ -1,19 +1,21 @@
 {% include shared/header.html %}
-{% include blog/post-banner.html %} 
-<article class="clearfix">
-  {% if page.featured_image != '' and page.featured_image != nil %}
-  <img
-    src="{{ page.featured_image | relative_url }}"
-    class="mb-3 mr-3 float-left"
-    style="max-width: 320px;"
-  />
-  {% endif %}
-  <div>
-    {{ page.content | mardownify }} {% if page.external_link != '' and
-    page.external_link != nil %}
-    <a href="{{ page.external_link }}" target="_blank">Read More</a>
-    {% endif %}
+{% include blog/post-banner.html %}
+<div class="container max-w900">
+  <!-- blog start -->
+  <div class="blog-post blog-single">
+      <div class="dlab-post-meta m-b20">
+          <ul>
+              <li class="post-date"> <strong>{{post.date | date_to_string: "ordinal", "US" }}</strong>> </li>
+              <li class="post-author"> By <a href="c">Harry</a> </li>
+          </ul>
+      </div>
+      <div class="dlab-post-title">
+          <h4 class="post-title m-t0"><a href="{{ post.url | relative_url }}">{{post.title}}</a></h4>
+      </div>
+      <div class="dlab-post-media dlab-img-effect zoom-slow"> 
+        <a href="{{ post.url | relative_url }}"><img src="{{ page.featured_image | relative_url }}" alt=""></a> 
+      </div>
+    </div> 
   </div>
-</article>
 {% include blog/post-banner-end.html %}
 {% include shared/footer.html %}
