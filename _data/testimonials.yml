@@ -4,13 +4,15 @@ testimonial_para: Lorem Ipsum is simply dummy text of the printing and typesetti
   industry has been the industry's standard dummy text ever since the been when an
   unknown printer.
 testimonials:
-- testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
-    since the when an printer took a galley of type and scrambled it to make.
-  testimonial_person_name: David Matin
-  testimonial_person_designation: Student
-  testimonial_client: "/uploads/2021/10/17/pic1.jpg"
-- testimonial_details: Lorem Ipsum has been the industry's standard dummy text ever
-    since the when an printer took a galley of type and scrambled it to make.
-  testimonial_person_name: David Matin
+- testimonial_details: 'As we installed ShopFloorConnect, we can track why a particular
+    machine was down”,After the initial installation, we saw an instantaneous 10%
+    increase in productivity on our shop floor '
+  testimonial_person_name: Clay Reiser
+  testimonial_person_designation: Director of Business Development
+  testimonial_client: "/uploads/2021/10/26/testimonial-1.jpg"
+- testimonial_details: After installing ShopFloor Connect  our downtime reduced to
+    66%. The manufacturer traded 40 hours of labor at $25/hour for 40 hours of uptime
+    worth $200/hour.
+  testimonial_person_name: Automotive Parts Manufacturer
   testimonial_person_designation: CEO
-  testimonial_client: "/uploads/2021/10/17/pic1.jpg"
+  testimonial_client: "/uploads/2021/10/26/testimonial-3.jpg"
