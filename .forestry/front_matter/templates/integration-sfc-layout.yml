@@ -1,4 +1,22 @@
 ---
 label: Integration SFC Layout
 hide_body: false
-fields: []
+fields:
+- name: integration_sfc_design
+  type: include
+  config: {}
+  template: integration-sfc-design
+  label: Integration SFC Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - integration-sfc-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
