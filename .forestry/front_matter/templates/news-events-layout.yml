@@ -20,3 +20,5 @@ fields:
       file: 
       path: 
   label: Layout
+pages:
+- resources/news-and-events-1.md
