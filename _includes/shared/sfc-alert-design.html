@@ -1,0 +1,40 @@
+
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+    <div class="container">
+        <div class="dlab-bnr-inr-entry">
+            <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <ul class="list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    {% if page.dir != nil and page.dir != "/" %}
+                    <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+        </div>
+    </div>
+</div>
+<!-- inner page banner END -->
+<div class="content-block">
+    <!-- About Us -->
+    <div class="section-full content-inner bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 m-b30">
+                    <div class="our-story">
+                        <h2 class="title">{% if page.alert_main_heading != '' and page.alert_main_heading != nil %}{{page.alert_main_heading}}{% endif %}<br/><span class="text-primary">{% if page.alert_main_heading_italic != '' and page.alert_main_heading_italic != nil %}{{page.alert_main_heading_italic}}{% endif %}</span></h2>
+                        <h4 class="title">{% if page.alert_main_heading_bold != '' and page.alert_main_heading_bold != nil %}{{page.alert_main_heading_bold}}{% endif %}</h4>
+                        {% if page.alert_main_detail != '' and page.alert_main_detail != nil %}{{page.alert_main_detail}}{% endif %}
+                        <a href="{% if page.alert_main_button_url != '' and page.alert_main_button_url != nil %}{{page.alert_main_button_url}}{% endif %}" class="site-button">{% if page.alert_main_button_text != '' and page.alert_main_button_text != nil %}{{page.alert_main_button_text}}{% endif %}</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 m-b30 our-story-thum">
+                    <img src="{% if page.alert_main_image != '' and page.alert_main_image != nil %}{{page.alert_main_image}}{% endif %}" class="radius-sm" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us End -->
