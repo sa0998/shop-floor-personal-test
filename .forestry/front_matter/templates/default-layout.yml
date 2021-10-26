@@ -30,7 +30,6 @@ fields:
   template: key-words
   label: Key Words
 pages:
-- contact/server-recommendations.md
 - hardware/data-collection-examples.md
 - hardware/smi-2-machine-interface.md
 - our-solution/shopfloorconnect-report-filters.md
