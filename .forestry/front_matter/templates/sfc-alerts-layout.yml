@@ -1,4 +1,22 @@
 ---
 label: SFC Alerts Layout
 hide_body: false
-fields: []
+fields:
+- name: sfc_alerts_design
+  type: include
+  config: {}
+  template: sfc-alerts-design
+  label: SFC Alerts Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - sfc-alerts-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
