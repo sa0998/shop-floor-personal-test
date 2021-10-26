@@ -1,4 +1,5 @@
 {% include shared/header.html %}
+{% include blog/post-banner.html %} 
 <article class="clearfix">
   {% if page.featured_image != '' and page.featured_image != nil %}
   <img
@@ -14,4 +15,5 @@
     {% endif %}
   </div>
 </article>
+{% include blog/post-banner-end.html %}
 {% include shared/footer.html %}
