@@ -1,0 +1,6 @@
+{% assign posts = site.posts %} 
+{% include blog/post-banner.html %} 
+{% for post in posts %} 
+{% include blog/post-teaser.html %} 
+{% endfor %}
+{% include blog/post-banner-end.html %}

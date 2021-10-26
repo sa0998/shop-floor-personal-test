@@ -13,7 +13,7 @@
           </ul>
         </div>
         <div class="dlab-post-title">
-          <h4 class="post-title"><a href="{{post.title}}">{{post.title}}</a></h4>
+          <h4 class="post-title"><a href="{{ post.url | relative_url }}">{{post.title}}</a></h4>
         </div>
         <div class="dlab-post-text">
           <p>{{ post.excerpt | mardownify }}</p>
