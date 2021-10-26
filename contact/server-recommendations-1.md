@@ -28,5 +28,9 @@ server_recommendations_inner_details: "<h4>OS</h4><p>Windows 2016 Server (64-bit
   250 GB - High Speed (7200 RPM or greater) or solid state drive</p><h4>Network Adapter</h4><p>Minimum
   1 Gbps</p>"
 server_recommendations_inner_image: "/uploads/2021/10/26/server-recommendation-new.png"
+menu:
+  main:
+    weight: 4
+    parent: item_JffZUWK
 
 ---
