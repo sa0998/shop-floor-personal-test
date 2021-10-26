@@ -17,7 +17,7 @@ menu:
     parent: item_JffZUWK
     identifier: item_5TyTwh-
   footer:
-    weight: 4
+    weight: 3
     title: Support
 
 ---
