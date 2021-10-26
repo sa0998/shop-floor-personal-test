@@ -25,7 +25,7 @@ sfc_api_section_details: <p>ShopFloorConnect has an Application Program Interfac
   is a web service-based two-way communication protocol that enables ShopFloorConnect
   to receive manufacturing job schedule information (such as job and part numbers,
   quantity of parts required, due dates, etc) from your ERP or MES software.</p><p><a
-  href="https://www.shopfloorconnect.com/uploads/2020/04/15/API_Summary.pdf" target="_blank">ShopFloorConnect
+  href="/uploads/2020/04/15/API_Summary.pdf" target="_blank">ShopFloorConnect
   API Overview (White Paper - .PDF - 157K)</a></p><p>As jobs are run and completed,
   ShopFloorConnect has an Event Notification Service that reports the results back
   to the ERP/MES software - including data such as job end time, number of good and
@@ -33,7 +33,7 @@ sfc_api_section_details: <p>ShopFloorConnect has an Application Program Interfac
   update job requirements, cancel jobs, or move jobs from one work center to another.
   The manufacturing schedule can be updated or even completely replaced by your ERP/MES
   software at any time, in real time.</p><p>We also feature CSV-to-API translator
-  that enables you to update the ShopFloorConnect production schedule using <a href="https://www.shopfloorconnect.com/uploads/2020/04/15/CSV_API.pdf"
+  that enables you to update the ShopFloorConnect production schedule using <a href="/uploads/2020/04/15/CSV_API.pdf"
   target="_blank">formatted .CSV files</a>.</p>
 sfc_api_section_button_text: Buy Now
 sfc_api_section_button_url: "/buy-now"

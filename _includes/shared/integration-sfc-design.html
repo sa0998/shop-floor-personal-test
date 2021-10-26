@@ -1,0 +1,55 @@
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+    <div class="container">
+        <div class="dlab-bnr-inr-entry">
+            <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <ul class="list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    {% if page.dir != nil and page.dir != "/" %}
+                    <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+        </div>
+    </div>
+</div>
+<!-- inner page banner END -->
+<div class="section-full content-inner-2 bg-img-fix  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s" style="">
+    <div class="container">
+        <div class="">
+            <h2 class="title">{% if page.integration_sfc_main_heading != '' and page.integration_sfc_main_heading!= nil %}{{page.integration_sfc_main_heading}}{% endif %}</h2>
+            {% if page.integration_sfc_details != '' and page.integration_sfc_details != nil %}{{page.integration_sfc_details}}{% endif %}
+        </div>
+    </div>
+</div>
+<!-- About Us -->
+<div class="section-full bg-white content-inner-2 project-slider" style="background-image:url(images/background/bg11.jpg); background-repeat:no-repeat;
+background-position:right bottom;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 p-lr0">
+                <div class="project-carousel-2 owl-carousel owl-btn-center-lr owl-btn-1 black  wow fadeInLeft custom-soft-sa" data-wow-delay="0.2s"  data-wow-duration="2s">
+                    <div class="item">
+                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect zoom">
+                            <img src="{% if page.sfc_api_section_image != '' and page.sfc_api_section_image != nil %}{{page.sfc_api_section_image}}{% endif %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="about-content wow fadeIn" data-wow-delay="0.2s"  data-wow-duration="2s">
+                    <div class="section-head style2">
+                        <h2 class="title">{% if page.sfc_api_section_heading != '' and page.sfc_api_section_heading != nil %}{{page.sfc_api_section_heading}}{% endif %}</h2>
+                        {% if page.sfc_api_section_details != '' and page.sfc_api_section_details != nil %}{{page.sfc_api_section_details}}{% endif %}
+                    </div>
+                    <div class="">
+                        <a href="{% if page.sfc_api_section_button_url != '' and page.sfc_api_section_button_url != nil %}{{page.sfc_api_section_button_url}}{% endif %}" class="site-button btnhover20">{% if page.sfc_api_section_button_text != '' and page.sfc_api_section_button_text != nil %}{{page.sfc_api_section_button_text}}{% endif %}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
