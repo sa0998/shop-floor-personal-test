@@ -1,4 +1,27 @@
 ---
 label: Contact Us Common
 hide_body: false
-fields: []
+fields:
+- name: company_address
+  type: text
+  config:
+    required: false
+  label: Company Address
+- name: company_emails
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Company Emails
+- name: company_phone
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Company Phone
