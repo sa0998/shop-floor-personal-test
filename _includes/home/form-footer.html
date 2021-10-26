@@ -1,0 +1,9 @@
+<h2 class="title-box font-weight-300 m-b15 wow fadeInLeft" data-wow-delay="0.2s">{% if site.get_in_touch != '' and site.get_in_touch != nil %}{{site.get_in_touch}}{% endif %} <span class="bg-primary"></span></h2>
+<p class="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">{% if site.get_in_touch_bold_para != '' and site.get_in_touch_bold_para != nil %}{{site.get_in_touch_bold_para}}{% endif %}</p>
+<h3 class="font-weight-300 m-b50 op6 wow fadeInLeft" data-wow-delay="0.6s">{% if site.get_in_touch_large_para != '' and site.get_in_touch_large_para != nil %}{{site.get_in_touch_large_para}}{% endif %}</h3>
+<h4 class="font-weight-300 wow fadeInLeft" data-wow-delay="0.8s">{% if site.what_you_will_get_heading != '' and site.what_you_will_get_heading != nil %}{{site.what_you_will_get_heading}}{% endif %}</h4>
+<ul class="list-checked primary wow fadeInLeft" data-wow-delay="1s">
+    {% assign items = site.what_you_will_get_para %} {% for item in items %}
+    <li><span>{% if item.what_you_will_para_details != '' and item.what_you_will_para_details != nil%}{{item.what_you_will_para_details}}{% endif %}</span></li>
+    {% endfor %}
+</ul>
