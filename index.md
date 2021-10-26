@@ -41,8 +41,10 @@ news:
     Industry 4.0 technology, with impressive results to show for it....
   news_url: "/uploads/2020/04/15/Metalforming-NOV-2016.pdf"
 meta_tags: []
-document_title: ''
-key_words: []
+document_title: ShopFloor Connect Best Production Tracking Software
+key_words:
+- home
+- shopfloor-connect
 jumbotrons:
 - jumbotron_head_line1: Real-Time
   jumbotron_head_line2: Displays The Stats
