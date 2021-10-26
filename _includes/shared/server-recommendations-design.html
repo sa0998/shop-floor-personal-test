@@ -1,0 +1,44 @@
+<!-- inner page banner -->
+<div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url({{page.banner_bg_image}});">
+    <div class="container">
+        <div class="dlab-bnr-inr-entry">
+            <h1 class="text-white">{% if page.title!= '' and page.title!= nil %}{{page.title}}{% endif %}</h1>
+            <!-- Breadcrumb row -->
+            <div class="breadcrumb-row">
+                <ul class="list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    {% if page.dir != nil and page.dir != "/" %}
+                    <li>{{page.dir | replace: "/", "" | replace: "-", " " }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Breadcrumb row END -->
+        </div>
+    </div>
+</div>
+<!-- inner page banner END -->
+<div class="section-full content-inner-2 bg-img-fix  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s" style="">
+    <div class="container">
+        <div class="">
+            <h2 class="title">{% if page.server_recommendations != '' and page.server_recommendations != nil %}{{page.server_recommendations}}{% endif %}</h2>
+            {% if page.server_recommendations_details != '' and page.server_recommendations_details != nil %}{{page.server_recommendations_details}}{% endif %}
+        </div>
+    </div>
+</div>
+<div class="content-block">
+    <!-- About Us -->
+<div class="section-full content-inner bg-gray specification">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="section-head text-black">
+                    <h2 class="title">{% if page.server_recommendations_inner_heading != '' and page.server_recommendations_inner_heading != nil %}{{page.server_recommendations_inner_heading}}{% endif %}</h2>
+                    {% if page.server_recommendations_inner_details != '' and page.server_recommendations_inner_details != nil %}{{page.server_recommendations_inner_details}}{% endif %}
+                    <div class=""> <a href="javascript:void(0);"><img src="{% if page.server_recommendations_inner_image != '' and page.server_recommendations_inner_image != nil %}{{page.server_recommendations_inner_image}}{% endif %}" alt=""></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Services -->
+</div>

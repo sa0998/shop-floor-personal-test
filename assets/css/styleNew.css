@@ -13780,6 +13780,11 @@ ol.commentlist li .star-rating {
 
 /* Sohaib Changes */
 
+.custom-integration-sa .item .dlab-media {
+    background-color: transparent;
+    z-index: 99;
+}
+
 .dropdown-toggle:after{
 border-top: 0;
 }
