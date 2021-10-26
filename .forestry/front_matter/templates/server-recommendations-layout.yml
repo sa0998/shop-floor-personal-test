@@ -1,4 +1,22 @@
 ---
 label: Server Recommendations Layout
 hide_body: false
-fields: []
+fields:
+- name: server_recommendations_design
+  type: include
+  config: {}
+  template: server-recommendations-design
+  label: Server Recommendations Design
+- name: layout
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - server-recommendations-design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
